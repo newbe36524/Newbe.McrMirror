@@ -3,12 +3,13 @@ name: push image [FILE_NAME]
 on:
   push:
     branches: 
-      - develop
+      - master
 
 env:
   SOURCE_IMAGE_NAME: [SOURCE_IMAGE_NAME]
   TARGET_IMAGE_NAME: [TARGET_IMAGE_NAME]
   DOCKERHUB_USERNAME: [DOCKERHUB_USERNAME]
+  ALIYUN_USERNAME: [ALIYUN_USERNAME]
 jobs:
   build:
 
@@ -22,3 +23,7 @@ jobs:
         docker pull $SOURCE_IMAGE_NAME
         docker tag $SOURCE_IMAGE_NAME $TARGET_IMAGE_NAME
         docker push $TARGET_IMAGE_NAME
+        echo "${{ secrets.ALIYUN_TOKEN }}" | docker login -u $ALIYUN_USERNAME --password-stdin registry.cn-hangzhou.aliyuncs.com
+        docker pull $SOURCE_IMAGE_NAME
+        docker tag $SOURCE_IMAGE_NAME registry.cn-hangzhou.aliyuncs.com/$TARGET_IMAGE_NAME
+        docker push registry.cn-hangzhou.aliyuncs.com/$TARGET_IMAGE_NAME
