@@ -1,0 +1,24 @@
+name: push image newbe36524_sdk_3.1-buster
+
+on:
+  push:
+    branches: 
+      - develop
+
+env:
+  SOURCE_IMAGE_NAME: mcr.microsoft.com/dotnet/core/sdk:3.1-buster
+  TARGET_IMAGE_NAME: newbe36524/sdk:3.1-buster
+  DOCKERHUB_USERNAME: newbe36524
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Pull and push image
+      run: |
+        echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
+        docker pull $SOURCE_IMAGE_NAME
+        docker tag $SOURCE_IMAGE_NAME $TARGET_IMAGE_NAME
+        docker push $TARGET_IMAGE_NAME
