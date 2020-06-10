@@ -9,6 +9,7 @@ env:
   SOURCE_IMAGE_NAME: mcr.microsoft.com/dotnet/core/sdk:3.1-buster
   TARGET_IMAGE_NAME: newbe36524/sdk:3.1-buster
   DOCKERHUB_USERNAME: newbe36524
+  ALIYUN_USERNAME: pianzide1117
 jobs:
   build:
 
@@ -19,6 +20,10 @@ jobs:
     - name: Pull and push image
       run: |
         echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
+        docker pull $SOURCE_IMAGE_NAME
+        docker tag $SOURCE_IMAGE_NAME $TARGET_IMAGE_NAME
+        docker push $TARGET_IMAGE_NAME
+        echo "${{ secrets.ALIYUN_TOKEN }}" | docker login -u $ALIYUN_USERNAME --password-stdin
         docker pull $SOURCE_IMAGE_NAME
         docker tag $SOURCE_IMAGE_NAME $TARGET_IMAGE_NAME
         docker push $TARGET_IMAGE_NAME
