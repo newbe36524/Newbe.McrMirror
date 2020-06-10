@@ -3,7 +3,7 @@ name: push image newbe36524_aspnet_3.1-buster-slim
 on:
   push:
     branches: 
-      - develop
+      - master
 
 env:
   SOURCE_IMAGE_NAME: mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim

@@ -3,7 +3,7 @@ name: push image [FILE_NAME]
 on:
   push:
     branches: 
-      - develop
+      - master
 
 env:
   SOURCE_IMAGE_NAME: [SOURCE_IMAGE_NAME]
