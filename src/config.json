@@ -1,0 +1,17 @@
+{
+    "dockerhub_name": "newbe36524",
+    "images": [
+        [
+            "mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim",
+            "newbe36524/aspnet:3.1-buster-slim"
+        ],
+        [
+            "mcr.microsoft.com/dotnet/core/sdk:3.1-buster",
+            "newbe36524/sdk:3.1-buster"
+        ],
+        [
+            "mcr.microsoft.com/dotnet/core/runtime:3.1-buster-slim ",
+            "newbe36524/runtime:3.1-buster-slim"
+        ]
+    ]
+}
