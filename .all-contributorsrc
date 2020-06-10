@@ -15,6 +15,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "LiangZugeng",
+      "name": "James Liang",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20870130?v=4",
+      "profile": "https://github.com/LiangZugeng",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
