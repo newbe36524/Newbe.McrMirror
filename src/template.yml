@@ -26,4 +26,4 @@ jobs:
         echo "${{ secrets.ALIYUN_TOKEN }}" | docker login -u $ALIYUN_USERNAME --password-stdin registry.cn-hangzhou.aliyuncs.com
         docker pull $SOURCE_IMAGE_NAME
         docker tag $SOURCE_IMAGE_NAME registry.cn-hangzhou.aliyuncs.com/$TARGET_IMAGE_NAME
-        docker push registry.cn-hangzhou.aliyuncs.com//$TARGET_IMAGE_NAME
+        docker push registry.cn-hangzhou.aliyuncs.com/$TARGET_IMAGE_NAME
