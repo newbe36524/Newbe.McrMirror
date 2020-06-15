@@ -1,0 +1,27 @@
+<Project>
+    <PropertyGroup>
+        <Authors>newbe36524</Authors>
+        <Company>newbe36524</Company>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://www.newbe.pro</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/newbe36524/Newbe.McrMirror</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <NoWarn>1701;1702;1705;1591</NoWarn>
+        <PackageReleaseNotes>
+        </PackageReleaseNotes>
+        <LangVersion>latest</LangVersion>
+        <Description>Newbe.McrMirror is a tool to make it faster to pull docker images which are hosted in MCR(miscrosoft Container Registry). e.g. [ASP.NET Core 2.1/3.1 Runtime](https://hub.docker.com/_/microsoft-dotnet-core-aspnet/), [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-core-sdk/) and more.
+            Now, it is mainly for developers in China mainland.
+            You can check [this issue](https://github.com/microsoft/containerregistry/issues/7) for details about this project 
+        </Description>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup Condition=" '$(IsPackable)' != 'false' ">
+        <PackageReference Include="Fody" Version="6.1.1">
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Visualize.Fody" Version="1.2.0">
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+</Project>
