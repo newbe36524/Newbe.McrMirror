@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using CommandLine;
+using CommandLine.Text;
 
 namespace Newbe.McrMirror
 {
@@ -43,7 +44,8 @@ namespace Newbe.McrMirror
         [Option('i', "image",
             Required = true,
             HelpText =
-                "需要下载的镜像地址。可以指定多个地址同时下载多个镜像，例如： -i mcr.microsoft.com/dotnet/core/sdk:3.1 -i mcr.microsoft.com/dotnet/core/runtime:3.1")]
+                "需要下载的镜像地址。可以指定多个地址同时下载多个镜像。",
+            Separator = ',')]
         public IEnumerable<string> Images { get; set; }
 
         /// <summary>
@@ -63,5 +65,49 @@ namespace Newbe.McrMirror
             HelpText = "镜像服务器使用的名称空间, 如果是内置的 aliyun, tencentyun 则会选择作者的名称空间。当然你也可以改变它。",
             Required = false)]
         public string Namespace { get; set; }
+
+        [Usage(ApplicationAlias = "docker-mcr")]
+        public static IEnumerable<Example> Examples
+        {
+            get
+            {
+                yield return new Example("下载单个镜像。", new FlowOptions
+                {
+                    Images = new[] {"mcr.microsoft.com/dotnet/core/sdk:3.1"}
+                });
+                yield return new Example("下载多个镜像。", new FlowOptions
+                {
+                    Images = new[]
+                    {
+                        "mcr.microsoft.com/dotnet/core/sdk:3.1",
+                        "mcr.microsoft.com/dotnet/core/runtime:3.1"
+                    }
+                });
+                yield return new Example("从腾讯云下载", new FlowOptions
+                {
+                    Images = new[] {"mcr.microsoft.com/dotnet/core/sdk:3.1"},
+                    MirrorHost = "tencentyun"
+                });
+                yield return new Example("关闭并行下载", new FlowOptions
+                {
+                    DownloadParallel = false,
+                    Images = new[]
+                    {
+                        "mcr.microsoft.com/dotnet/core/sdk:3.1",
+                        "mcr.microsoft.com/dotnet/core/runtime:3.1"
+                    }
+                });
+                yield return new Example("从自定义的服务器下载", new FlowOptions
+                {
+                    DownloadParallel = false,
+                    Images = new[]
+                    {
+                        "mcr.microsoft.com/dotnet/core/sdk:3.1"
+                    },
+                    MirrorHost = "registry.cn-hangzhou.aliyuncs.com",
+                    Namespace = "newbe36524"
+                });
+            }
+        }
     }
 }
