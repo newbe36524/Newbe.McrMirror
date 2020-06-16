@@ -15,7 +15,11 @@ namespace Newbe.McrMirror
                 .WithParsedAsync(o =>
                 {
                     var services = new ServiceCollection();
-                    services.AddLogging(logging => { logging.AddConsole(); });
+                    services.AddLogging(logging =>
+                    {
+                        logging.SetMinimumLevel(LogLevel.Trace);
+                        logging.AddConsole();
+                    });
                     services.AddTransient<IImageDownloader, ImageDownloader>();
                     services.AddSingleton<IDownloadFlow, DownloadFlow>();
                     var provider = services.BuildServiceProvider();
