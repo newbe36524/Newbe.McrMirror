@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -59,7 +60,7 @@ namespace Newbe.McrMirror
             // check config for supporting images or show errors
             foreach (var image in flowOptions.Images)
             {
-                var item = config.Images.FirstOrDefault(x => x.McrTag == image);
+                var item = config.Images.FirstOrDefault(x => x.Source == image);
                 if (item == null)
                 {
                     _logger.LogError(
@@ -72,6 +73,24 @@ namespace Newbe.McrMirror
                 }
             }
 
+            var mirrorHost = flowOptions.MirrorHost.ToLowerInvariant() switch
+            {
+                "aliyun" => "registry.cn-hangzhou.aliyuncs.com",
+                "tencentyun" => "ccr.ccs.tencentyun.com",
+                _ => flowOptions.MirrorHost
+            };
+
+            var @namespace = "newbe36524";
+            if (string.IsNullOrEmpty(flowOptions.Namespace))
+            {
+                @namespace = flowOptions.MirrorHost.ToLowerInvariant() switch
+                {
+                    "aliyun" => config.AliyunNamespace,
+                    "tencentyun" => config.TencentyunNamespace,
+                    _ => @namespace
+                };
+            }
+
             // start to download 
             var removeSourceTag = !flowOptions.RemoveSourceTag.HasValue || flowOptions.RemoveSourceTag == true;
             if (!flowOptions.DownloadParallel.HasValue && flowOptions.DownloadParallel == true)
@@ -79,8 +98,8 @@ namespace Newbe.McrMirror
                 await Task.WhenAll(waitingDownloadItems
                     .Select(item => _imageDownloader.Download(new DownloadInfo
                     {
-                        SourceUrl = $"registry.cn-hangzhou.aliyuncs.com/{item.AliyunTag}",
-                        TargetTag = item.McrTag,
+                        SourceUrl = $"{mirrorHost}/{@namespace}/{item.Tag}",
+                        TargetTag = item.Source,
                         RemoveSourceTag = removeSourceTag
                     })));
             }
@@ -90,8 +109,8 @@ namespace Newbe.McrMirror
                 {
                     await _imageDownloader.Download(new DownloadInfo
                     {
-                        SourceUrl = $"registry.cn-hangzhou.aliyuncs.com/{item.AliyunTag}",
-                        TargetTag = item.McrTag,
+                        SourceUrl = $"{mirrorHost}/{@namespace}/{item.Tag}",
+                        TargetTag = item.Source,
                         RemoveSourceTag = removeSourceTag
                     });
                 }
