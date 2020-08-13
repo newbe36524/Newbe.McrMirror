@@ -3,7 +3,7 @@ name: push image server_2019-CU3-ubuntu-16.04
 on:
   push:
     branches: 
-      - feature/mssql
+      - publish
 
 env:
   SOURCE_IMAGE_NAME: mcr.microsoft.com/mssql/server:2019-CU3-ubuntu-16.04

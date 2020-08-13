@@ -1,0 +1,39 @@
+name: push image runtime-deps_3.1.7
+
+on:
+  push:
+    branches: 
+      - publish
+
+env:
+  SOURCE_IMAGE_NAME: mcr.microsoft.com/dotnet/core/runtime-deps:3.1.7
+  TARGET_IMAGE_NAME: runtime-deps:3.1.7
+  DOCKERHUB_USERNAME: newbe36524
+  DOCKERHUB_NAMESPACE: newbe36524
+  ALIYUN_USERNAME: pianzide1117
+  ALIYUN_NAMESPACE: newbe36524
+  TENCENTYUN_USERNAME: 472158246
+  TENCENTYUN_NAMESPACE: mcr_newbe36524
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Pull and push image dockerhub
+      run: |
+        echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
+        docker pull $SOURCE_IMAGE_NAME
+        docker tag $SOURCE_IMAGE_NAME $DOCKERHUB_NAMESPACE/$TARGET_IMAGE_NAME
+        docker push $DOCKERHUB_NAMESPACE/$TARGET_IMAGE_NAME
+    - name: Pull and push image aliyun
+      run: |
+        echo "${{ secrets.ALIYUN_TOKEN }}" | docker login -u $ALIYUN_USERNAME --password-stdin registry.cn-hangzhou.aliyuncs.com
+        docker tag $SOURCE_IMAGE_NAME registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
+        docker push registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
+    - name: Pull and push image tencent yun
+      run: |
+        echo "${{ secrets.TENCENTYUN_TOKEN }}" | docker login -u $TENCENTYUN_USERNAME --password-stdin ccr.ccs.tencentyun.com
+        docker tag $SOURCE_IMAGE_NAME ccr.ccs.tencentyun.com/$TENCENTYUN_NAMESPACE/$TARGET_IMAGE_NAME
+        docker push ccr.ccs.tencentyun.com/$TENCENTYUN_NAMESPACE/$TARGET_IMAGE_NAME

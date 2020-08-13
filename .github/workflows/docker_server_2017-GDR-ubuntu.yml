@@ -3,7 +3,7 @@ name: push image server_2017-GDR-ubuntu
 on:
   push:
     branches: 
-      - feature/mssql
+      - publish
 
 env:
   SOURCE_IMAGE_NAME: mcr.microsoft.com/mssql/server:2017-GDR-ubuntu
