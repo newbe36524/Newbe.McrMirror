@@ -29,12 +29,15 @@ jobs:
     #     docker push $DOCKERHUB_NAMESPACE/$TARGET_IMAGE_NAME
     - name: Pull and push image aliyun
       run: |
-        docker login -u $ALIYUN_USERNAME -p "${{ secrets.ALIYUN_TOKEN }}" registry.cn-hangzhou.aliyuncs.com
+        echo "${{ secrets.ALIYUN_TOKEN }}" | docker login -u $ALIYUN_USERNAME --password-stdin registry.cn-hangzhou.aliyuncs.com
+        docker pull $SOURCE_IMAGE_NAME
         docker tag $SOURCE_IMAGE_NAME registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
         docker push registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
       shell: bash
-    # - name: Pull and push image tencent yun
-    #   run: |
-    #     echo "${{ secrets.TENCENTYUN_TOKEN }}" | docker login -u $TENCENTYUN_USERNAME --password-stdin ccr.ccs.tencentyun.com
-    #     docker tag $SOURCE_IMAGE_NAME ccr.ccs.tencentyun.com/$TENCENTYUN_NAMESPACE/$TARGET_IMAGE_NAME
-    #     docker push ccr.ccs.tencentyun.com/$TENCENTYUN_NAMESPACE/$TARGET_IMAGE_NAME
+    - name: Pull and push image tencent yun
+      run: |
+        echo "${{ secrets.TENCENTYUN_TOKEN }}" | docker login -u $TENCENTYUN_USERNAME --password-stdin ccr.ccs.tencentyun.com
+        docker tag $SOURCE_IMAGE_NAME ccr.ccs.tencentyun.com/$TENCENTYUN_NAMESPACE/$TARGET_IMAGE_NAME
+        docker push ccr.ccs.tencentyun.com/$TENCENTYUN_NAMESPACE/$TARGET_IMAGE_NAME
+      shell: bash
+      
