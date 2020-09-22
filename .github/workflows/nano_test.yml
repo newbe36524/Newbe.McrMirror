@@ -29,7 +29,7 @@ jobs:
     #     docker push $DOCKERHUB_NAMESPACE/$TARGET_IMAGE_NAME
     - name: Pull and push image aliyun
       run: |
-        echo "${{ secrets.ALIYUN_TOKEN }}" | winpty docker login -u $ALIYUN_USERNAME --password-stdin registry.cn-hangzhou.aliyuncs.com
+        winpty docker login -u $ALIYUN_USERNAME -p "${{ secrets.ALIYUN_TOKEN }}" registry.cn-hangzhou.aliyuncs.com
         winpty docker tag $SOURCE_IMAGE_NAME registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
         winpty docker push registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
     # - name: Pull and push image tencent yun
