@@ -1,0 +1,34 @@
+name: push image and push to dockerhub
+
+on:
+  push:
+    branches: 
+      - matrix
+
+env:
+  DOCKERHUB_USERNAME: [DOCKERHUB_USERNAME]
+  DOCKERHUB_NAMESPACE: [DOCKERHUB_NAMESPACE]
+  ALIYUN_USERNAME: [ALIYUN_USERNAME]
+  ALIYUN_NAMESPACE: [ALIYUN_NAMESPACE]
+  TENCENTYUN_USERNAME: [TENCENTYUN_USERNAME]
+  TENCENTYUN_NAMESPACE: [TENCENTYUN_NAMESPACE]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        image: 
+[ALL_IMAGE]
+    steps:
+    - uses: actions/checkout@v2
+    - name: pull and sync
+      run: |
+        $string = "${{ matrix.image }}"
+        $array=(${string//,/ }) 
+        $SOURCE_IMAGE_NAME = $array[0]
+        $TARGET_IMAGE_NAME = $array[1]
+        docker pull $SOURCE_IMAGE_NAME
+        echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
+        docker tag $SOURCE_IMAGE_NAME $DOCKERHUB_NAMESPACE/$TARGET_IMAGE_NAME
+        docker push $DOCKERHUB_NAMESPACE/$TARGET_IMAGE_NAMEF
