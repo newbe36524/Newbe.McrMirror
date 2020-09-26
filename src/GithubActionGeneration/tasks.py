@@ -11,7 +11,9 @@ def info(c):
 def pull_image(c, data):
     data.split(',')
     source_image_name = data[0]
-    c.run(f"docker pull {source_image_name}")
+    cmd = f"docker pull {source_image_name}"
+    print(cmd)
+    c.run(cmd)
 
 
 @task
