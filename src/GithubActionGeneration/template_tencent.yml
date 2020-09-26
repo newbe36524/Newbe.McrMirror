@@ -1,0 +1,39 @@
+name: push image and push to tencent
+
+on:
+  push:
+    branches: 
+      - publish_tencent
+
+env:
+  DOCKERHUB_USERNAME: [DOCKERHUB_USERNAME]
+  DOCKERHUB_NAMESPACE: [DOCKERHUB_NAMESPACE]
+  ALIYUN_USERNAME: [ALIYUN_USERNAME]
+  ALIYUN_NAMESPACE: [ALIYUN_NAMESPACE]
+  TENCENTYUN_USERNAME: [TENCENTYUN_USERNAME]
+  TENCENTYUN_NAMESPACE: [TENCENTYUN_NAMESPACE]
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        image: 
+[ALL_IMAGE]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: pull and sync
+      run: |
+        cd src/GithubActionGeneration
+        pip install pipenv
+        pipenv install
+        pipenv run inv pull-image --data "${{ matrix.image }}"
+        echo "${{ secrets.TENCENTYUN_TOKEN }}" | docker login -u $TENCENTYUN_USERNAME --password-stdin ccr.ccs.tencentyun.com
+        pipenv run inv docker-sync-tencent --data "${{ matrix.image }}"
