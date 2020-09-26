@@ -22,13 +22,17 @@ jobs:
 [ALL_IMAGE]
     steps:
     - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        cd src/GithubActionGeneration
+        pip install pipenv
+        pipenv install
     - name: pull and sync
       run: |
-        strings="${{ matrix.image }}"
-        IFS=',' read -ra image <<< "$strings"
-        $SOURCE_IMAGE_NAME=${image[0]}
-        $TARGET_IMAGE_NAME=${image[1]}
-        docker pull $SOURCE_IMAGE_NAME
         echo "${{ secrets.ALIYUN_TOKEN }}" | docker login -u $ALIYUN_USERNAME --password-stdin registry.cn-hangzhou.aliyuncs.com
-        docker tag $SOURCE_IMAGE_NAME registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
-        docker push registry.cn-hangzhou.aliyuncs.com/$ALIYUN_NAMESPACE/$TARGET_IMAGE_NAME
+        pipenv run inv docker_sync_aliyun --data "${{ matrix.image }}"
