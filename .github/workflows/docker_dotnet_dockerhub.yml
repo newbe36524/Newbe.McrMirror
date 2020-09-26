@@ -3,7 +3,7 @@ name: push image and push to dockerhub
 on:
   push:
     branches: 
-      - matrix
+      - publish
 
 env:
   DOCKERHUB_USERNAME: newbe36524

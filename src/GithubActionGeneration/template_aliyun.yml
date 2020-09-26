@@ -3,7 +3,7 @@ name: push image and push to aliyun
 on:
   push:
     branches: 
-      - publish
+      - matrix
 
 env:
   DOCKERHUB_USERNAME: [DOCKERHUB_USERNAME]
