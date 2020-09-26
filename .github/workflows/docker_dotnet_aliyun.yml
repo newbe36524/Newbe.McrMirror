@@ -279,4 +279,4 @@ jobs:
         pipenv install
         pipenv run inv pull-image --data "${{ matrix.image }}"
         echo "${{ secrets.ALIYUN_TOKEN }}" | docker login -u $ALIYUN_USERNAME --password-stdin registry.cn-hangzhou.aliyuncs.com
-        pipenv run inv docker-sync-dockerhub --data "${{ matrix.image }}"
+        pipenv run inv docker-sync-aliyun --data "${{ matrix.image }}"

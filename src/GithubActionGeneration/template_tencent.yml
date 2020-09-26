@@ -36,4 +36,4 @@ jobs:
         pipenv install
         pipenv run inv pull-image --data "${{ matrix.image }}"
         echo "${{ secrets.TENCENTYUN_TOKEN }}" | docker login -u $TENCENTYUN_USERNAME --password-stdin ccr.ccs.tencentyun.com
-        pipenv run inv docker-sync-dockerhub --data "${{ matrix.image }}"
+        pipenv run inv docker-sync-tencent --data "${{ matrix.image }}"
