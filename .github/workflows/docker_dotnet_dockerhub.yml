@@ -30,10 +30,10 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        cd src/GithubActionGeneration
-        pip install pipenv
-        pipenv install
     - name: pull and sync
       run: |
         echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
+        cd src/GithubActionGeneration
+        pip install pipenv
+        pipenv install
         pipenv run inv docker_sync_dockerhub --data "${{ matrix.image }}"
