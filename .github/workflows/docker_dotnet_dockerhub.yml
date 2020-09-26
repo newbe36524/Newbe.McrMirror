@@ -32,8 +32,9 @@ jobs:
         python -m pip install --upgrade pip
     - name: pull and sync
       run: |
-        echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
         cd src/GithubActionGeneration
         pip install pipenv
         pipenv install
+        pipenv run inv pull-image --data "${{ matrix.image }}"
+        echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
         pipenv run inv docker-sync-dockerhub --data "${{ matrix.image }}"
