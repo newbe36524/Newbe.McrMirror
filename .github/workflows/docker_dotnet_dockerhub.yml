@@ -36,4 +36,4 @@ jobs:
         cd src/GithubActionGeneration
         pip install pipenv
         pipenv install
-        pipenv run inv docker_sync_dockerhub --data "${{ matrix.image }}"
+        pipenv run inv docker-sync-dockerhub --data "${{ matrix.image }}"
