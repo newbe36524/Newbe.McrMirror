@@ -264,7 +264,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: pull and sync
       run: |
-        $string="${{ matrix.image }}"
+        string="${{ matrix.image }}"
         IFS=';' read -ra image <<< "$string"
         $SOURCE_IMAGE_NAME=${image[0]}
         $TARGET_IMAGE_NAME=${image[1]}
