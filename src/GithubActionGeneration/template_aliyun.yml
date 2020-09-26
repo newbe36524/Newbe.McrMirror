@@ -24,8 +24,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: pull and sync
       run: |
-        source="${{ matrix.image }}"
-        IFS=',' read -ra image <<< "$source"
+        IFS=',' read -ra image <<< "${{ matrix.image }}"
         $SOURCE_IMAGE_NAME=${image[0]}
         $TARGET_IMAGE_NAME=${image[1]}
         docker pull $SOURCE_IMAGE_NAME
