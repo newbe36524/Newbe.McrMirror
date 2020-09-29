@@ -1,0 +1,41 @@
+name: push image and push to tencent
+
+on:
+  push:
+    branches: 
+      - publish_tencent
+
+env:
+  DOCKERHUB_USERNAME: newbe36524
+  DOCKERHUB_NAMESPACE: newbe36524
+  ALIYUN_USERNAME: pianzide1117
+  ALIYUN_NAMESPACE: newbe36524
+  TENCENTYUN_USERNAME: 472158246
+  TENCENTYUN_NAMESPACE: mcr_newbe36524
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        image: 
+          - mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14,vscode_javascript_node:0-14
+          - mcr.microsoft.com/vscode/devcontainers/javascript-node:0-12,vscode_javascript_node:0-12
+          - mcr.microsoft.com/vscode/devcontainers/javascript-node:0-10,vscode_javascript_node:0-10
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: pull and sync
+      run: |
+        cd src/GithubActionGeneration
+        pip install pipenv
+        pipenv install
+        pipenv run inv pull-image --data "${{ matrix.image }}"
+        echo "${{ secrets.TENCENTYUN_TOKEN }}" | docker login -u $TENCENTYUN_USERNAME --password-stdin ccr.ccs.tencentyun.com
+        pipenv run inv docker-sync-tencent --data "${{ matrix.image }}"

@@ -1,242 +1,304 @@
-tag | status
- --- | ---
- sdk:2.1 |[![push image sdk_2.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1%22)
- sdk:2.1.809 |[![push image sdk_2.1.809](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809%22)
- sdk:2.1.809-alpine |[![push image sdk_2.1.809-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-alpine%22)
- sdk:2.1.809-alpine3.11 |[![push image sdk_2.1.809-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-alpine3.11%22)
- sdk:2.1.809-alpine3.12 |[![push image sdk_2.1.809-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-alpine3.12%22)
- sdk:2.1.809-bionic |[![push image sdk_2.1.809-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-bionic%22)
- sdk:2.1.809-bionic-arm32v7 |[![push image sdk_2.1.809-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-bionic-arm32v7%22)
- sdk:2.1.809-focal |[![push image sdk_2.1.809-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-focal%22)
- sdk:2.1.809-focal-arm32v7 |[![push image sdk_2.1.809-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-focal-arm32v7%22)
- sdk:2.1.809-stretch |[![push image sdk_2.1.809-stretch](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-stretch/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-stretch%22)
- sdk:2.1.809-stretch-arm32v7 |[![push image sdk_2.1.809-stretch-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1.809-stretch-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1.809-stretch-arm32v7%22)
- sdk:2.1-alpine |[![push image sdk_2.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-alpine%22)
- sdk:2.1-alpine3.11 |[![push image sdk_2.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-alpine3.11%22)
- sdk:2.1-alpine3.12 |[![push image sdk_2.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-alpine3.12%22)
- sdk:2.1-bionic |[![push image sdk_2.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-bionic%22)
- sdk:2.1-bionic-arm32v7 |[![push image sdk_2.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-bionic-arm32v7%22)
- sdk:2.1-focal |[![push image sdk_2.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-focal%22)
- sdk:2.1-focal-arm32v7 |[![push image sdk_2.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-focal-arm32v7%22)
- sdk:2.1-stretch |[![push image sdk_2.1-stretch](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-stretch/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-stretch%22)
- sdk:2.1-stretch-arm32v7 |[![push image sdk_2.1-stretch-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_2.1-stretch-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_2.1-stretch-arm32v7%22)
- sdk:3.1 |[![push image sdk_3.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1%22)
- sdk:3.1.401 |[![push image sdk_3.1.401](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401%22)
- sdk:3.1.401-alpine |[![push image sdk_3.1.401-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-alpine%22)
- sdk:3.1.401-alpine3.11 |[![push image sdk_3.1.401-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-alpine3.11%22)
- sdk:3.1.401-alpine3.12 |[![push image sdk_3.1.401-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-alpine3.12%22)
- sdk:3.1.401-bionic |[![push image sdk_3.1.401-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-bionic%22)
- sdk:3.1.401-bionic-arm32v7 |[![push image sdk_3.1.401-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-bionic-arm32v7%22)
- sdk:3.1.401-bionic-arm64v8 |[![push image sdk_3.1.401-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-bionic-arm64v8%22)
- sdk:3.1.401-buster |[![push image sdk_3.1.401-buster](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-buster/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-buster%22)
- sdk:3.1.401-buster-arm32v7 |[![push image sdk_3.1.401-buster-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-buster-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-buster-arm32v7%22)
- sdk:3.1.401-buster-arm64v8 |[![push image sdk_3.1.401-buster-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-buster-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-buster-arm64v8%22)
- sdk:3.1.401-focal |[![push image sdk_3.1.401-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-focal%22)
- sdk:3.1.401-focal-arm32v7 |[![push image sdk_3.1.401-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-focal-arm32v7%22)
- sdk:3.1.401-focal-arm64v8 |[![push image sdk_3.1.401-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1.401-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1.401-focal-arm64v8%22)
- sdk:3.1-alpine |[![push image sdk_3.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-alpine%22)
- sdk:3.1-alpine3.11 |[![push image sdk_3.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-alpine3.11%22)
- sdk:3.1-alpine3.12 |[![push image sdk_3.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-alpine3.12%22)
- sdk:3.1-bionic |[![push image sdk_3.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-bionic%22)
- sdk:3.1-bionic-arm32v7 |[![push image sdk_3.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-bionic-arm32v7%22)
- sdk:3.1-bionic-arm64v8 |[![push image sdk_3.1-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-bionic-arm64v8%22)
- sdk:3.1-buster |[![push image sdk_3.1-buster](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-buster/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-buster%22)
- sdk:3.1-buster-arm32v7 |[![push image sdk_3.1-buster-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-buster-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-buster-arm32v7%22)
- sdk:3.1-buster-arm64v8 |[![push image sdk_3.1-buster-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-buster-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-buster-arm64v8%22)
- sdk:3.1-focal |[![push image sdk_3.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-focal%22)
- sdk:3.1-focal-arm32v7 |[![push image sdk_3.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-focal-arm32v7%22)
- sdk:3.1-focal-arm64v8 |[![push image sdk_3.1-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_3.1-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_3.1-focal-arm64v8%22)
- sdk:latest |[![push image sdk_latest](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20sdk_latest/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+sdk_latest%22)
- runtime-deps:2.1 |[![push image runtime-deps_2.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1%22)
- runtime-deps:2.1.21 |[![push image runtime-deps_2.1.21](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21%22)
- runtime-deps:2.1.21-alpine |[![push image runtime-deps_2.1.21-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-alpine%22)
- runtime-deps:2.1.21-alpine3.11 |[![push image runtime-deps_2.1.21-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-alpine3.11%22)
- runtime-deps:2.1.21-alpine3.12 |[![push image runtime-deps_2.1.21-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-alpine3.12%22)
- runtime-deps:2.1.21-bionic |[![push image runtime-deps_2.1.21-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-bionic%22)
- runtime-deps:2.1.21-bionic-arm32v7 |[![push image runtime-deps_2.1.21-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-bionic-arm32v7%22)
- runtime-deps:2.1.21-focal |[![push image runtime-deps_2.1.21-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-focal%22)
- runtime-deps:2.1.21-focal-arm32v7 |[![push image runtime-deps_2.1.21-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-focal-arm32v7%22)
- runtime-deps:2.1.21-stretch-slim |[![push image runtime-deps_2.1.21-stretch-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-stretch-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-stretch-slim%22)
- runtime-deps:2.1.21-stretch-slim-arm32v7 |[![push image runtime-deps_2.1.21-stretch-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1.21-stretch-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1.21-stretch-slim-arm32v7%22)
- runtime-deps:2.1-alpine |[![push image runtime-deps_2.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-alpine%22)
- runtime-deps:2.1-alpine3.11 |[![push image runtime-deps_2.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-alpine3.11%22)
- runtime-deps:2.1-alpine3.12 |[![push image runtime-deps_2.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-alpine3.12%22)
- runtime-deps:2.1-bionic |[![push image runtime-deps_2.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-bionic%22)
- runtime-deps:2.1-bionic-arm32v7 |[![push image runtime-deps_2.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-bionic-arm32v7%22)
- runtime-deps:2.1-focal |[![push image runtime-deps_2.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-focal%22)
- runtime-deps:2.1-focal-arm32v7 |[![push image runtime-deps_2.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-focal-arm32v7%22)
- runtime-deps:2.1-stretch-slim |[![push image runtime-deps_2.1-stretch-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-stretch-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-stretch-slim%22)
- runtime-deps:2.1-stretch-slim-arm32v7 |[![push image runtime-deps_2.1-stretch-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_2.1-stretch-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_2.1-stretch-slim-arm32v7%22)
- runtime-deps:3.1 |[![push image runtime-deps_3.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1%22)
- runtime-deps:3.1.7 |[![push image runtime-deps_3.1.7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7%22)
- runtime-deps:3.1.7-alpine |[![push image runtime-deps_3.1.7-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-alpine%22)
- runtime-deps:3.1.7-alpine3.11 |[![push image runtime-deps_3.1.7-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-alpine3.11%22)
- runtime-deps:3.1.7-alpine3.11-arm64v8 |[![push image runtime-deps_3.1.7-alpine3.11-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-alpine3.11-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-alpine3.11-arm64v8%22)
- runtime-deps:3.1.7-alpine3.12 |[![push image runtime-deps_3.1.7-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-alpine3.12%22)
- runtime-deps:3.1.7-alpine3.12-arm64v8 |[![push image runtime-deps_3.1.7-alpine3.12-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-alpine3.12-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-alpine3.12-arm64v8%22)
- runtime-deps:3.1.7-alpine-arm64v8 |[![push image runtime-deps_3.1.7-alpine-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-alpine-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-alpine-arm64v8%22)
- runtime-deps:3.1.7-bionic |[![push image runtime-deps_3.1.7-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-bionic%22)
- runtime-deps:3.1.7-bionic-arm32v7 |[![push image runtime-deps_3.1.7-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-bionic-arm32v7%22)
- runtime-deps:3.1.7-bionic-arm64v8 |[![push image runtime-deps_3.1.7-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-bionic-arm64v8%22)
- runtime-deps:3.1.7-buster-slim |[![push image runtime-deps_3.1.7-buster-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-buster-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-buster-slim%22)
- runtime-deps:3.1.7-buster-slim-arm32v7 |[![push image runtime-deps_3.1.7-buster-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-buster-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-buster-slim-arm32v7%22)
- runtime-deps:3.1.7-buster-slim-arm64v8 |[![push image runtime-deps_3.1.7-buster-slim-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-buster-slim-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-buster-slim-arm64v8%22)
- runtime-deps:3.1.7-focal |[![push image runtime-deps_3.1.7-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-focal%22)
- runtime-deps:3.1.7-focal-arm32v7 |[![push image runtime-deps_3.1.7-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-focal-arm32v7%22)
- runtime-deps:3.1.7-focal-arm64v8 |[![push image runtime-deps_3.1.7-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1.7-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1.7-focal-arm64v8%22)
- runtime-deps:3.1-alpine |[![push image runtime-deps_3.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-alpine%22)
- runtime-deps:3.1-alpine3.11 |[![push image runtime-deps_3.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-alpine3.11%22)
- runtime-deps:3.1-alpine3.11-arm64v8 |[![push image runtime-deps_3.1-alpine3.11-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-alpine3.11-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-alpine3.11-arm64v8%22)
- runtime-deps:3.1-alpine3.12 |[![push image runtime-deps_3.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-alpine3.12%22)
- runtime-deps:3.1-alpine3.12-arm64v8 |[![push image runtime-deps_3.1-alpine3.12-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-alpine3.12-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-alpine3.12-arm64v8%22)
- runtime-deps:3.1-alpine-arm64v8 |[![push image runtime-deps_3.1-alpine-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-alpine-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-alpine-arm64v8%22)
- runtime-deps:3.1-bionic |[![push image runtime-deps_3.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-bionic%22)
- runtime-deps:3.1-bionic-arm32v7 |[![push image runtime-deps_3.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-bionic-arm32v7%22)
- runtime-deps:3.1-bionic-arm64v8 |[![push image runtime-deps_3.1-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-bionic-arm64v8%22)
- runtime-deps:3.1-buster-slim |[![push image runtime-deps_3.1-buster-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-buster-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-buster-slim%22)
- runtime-deps:3.1-buster-slim-arm32v7 |[![push image runtime-deps_3.1-buster-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-buster-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-buster-slim-arm32v7%22)
- runtime-deps:3.1-buster-slim-arm64v8 |[![push image runtime-deps_3.1-buster-slim-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-buster-slim-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-buster-slim-arm64v8%22)
- runtime-deps:3.1-focal |[![push image runtime-deps_3.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-focal%22)
- runtime-deps:3.1-focal-arm32v7 |[![push image runtime-deps_3.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-focal-arm32v7%22)
- runtime-deps:3.1-focal-arm64v8 |[![push image runtime-deps_3.1-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_3.1-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_3.1-focal-arm64v8%22)
- runtime-deps:latest |[![push image runtime-deps_latest](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime-deps_latest/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime-deps_latest%22)
- runtime:2.1 |[![push image runtime_2.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1%22)
- runtime:2.1.21 |[![push image runtime_2.1.21](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21%22)
- runtime:2.1.21-alpine |[![push image runtime_2.1.21-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-alpine%22)
- runtime:2.1.21-alpine3.11 |[![push image runtime_2.1.21-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-alpine3.11%22)
- runtime:2.1.21-alpine3.12 |[![push image runtime_2.1.21-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-alpine3.12%22)
- runtime:2.1.21-bionic |[![push image runtime_2.1.21-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-bionic%22)
- runtime:2.1.21-bionic-arm32v7 |[![push image runtime_2.1.21-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-bionic-arm32v7%22)
- runtime:2.1.21-focal |[![push image runtime_2.1.21-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-focal%22)
- runtime:2.1.21-focal-arm32v7 |[![push image runtime_2.1.21-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-focal-arm32v7%22)
- runtime:2.1.21-stretch-slim |[![push image runtime_2.1.21-stretch-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-stretch-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-stretch-slim%22)
- runtime:2.1.21-stretch-slim-arm32v7 |[![push image runtime_2.1.21-stretch-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1.21-stretch-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1.21-stretch-slim-arm32v7%22)
- runtime:2.1-alpine |[![push image runtime_2.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-alpine%22)
- runtime:2.1-alpine3.11 |[![push image runtime_2.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-alpine3.11%22)
- runtime:2.1-alpine3.12 |[![push image runtime_2.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-alpine3.12%22)
- runtime:2.1-bionic |[![push image runtime_2.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-bionic%22)
- runtime:2.1-bionic-arm32v7 |[![push image runtime_2.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-bionic-arm32v7%22)
- runtime:2.1-focal |[![push image runtime_2.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-focal%22)
- runtime:2.1-focal-arm32v7 |[![push image runtime_2.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-focal-arm32v7%22)
- runtime:2.1-stretch-slim |[![push image runtime_2.1-stretch-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-stretch-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-stretch-slim%22)
- runtime:2.1-stretch-slim-arm32v7 |[![push image runtime_2.1-stretch-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_2.1-stretch-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_2.1-stretch-slim-arm32v7%22)
- runtime:3.1 |[![push image runtime_3.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1%22)
- runtime:3.1.7 |[![push image runtime_3.1.7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7%22)
- runtime:3.1.7-alpine |[![push image runtime_3.1.7-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-alpine%22)
- runtime:3.1.7-alpine3.11 |[![push image runtime_3.1.7-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-alpine3.11%22)
- runtime:3.1.7-alpine3.11-arm64v8 |[![push image runtime_3.1.7-alpine3.11-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-alpine3.11-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-alpine3.11-arm64v8%22)
- runtime:3.1.7-alpine3.12 |[![push image runtime_3.1.7-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-alpine3.12%22)
- runtime:3.1.7-alpine3.12-arm64v8 |[![push image runtime_3.1.7-alpine3.12-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-alpine3.12-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-alpine3.12-arm64v8%22)
- runtime:3.1.7-alpine-arm64v8 |[![push image runtime_3.1.7-alpine-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-alpine-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-alpine-arm64v8%22)
- runtime:3.1.7-bionic |[![push image runtime_3.1.7-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-bionic%22)
- runtime:3.1.7-bionic-arm32v7 |[![push image runtime_3.1.7-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-bionic-arm32v7%22)
- runtime:3.1.7-bionic-arm64v8 |[![push image runtime_3.1.7-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-bionic-arm64v8%22)
- runtime:3.1.7-buster-slim |[![push image runtime_3.1.7-buster-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-buster-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-buster-slim%22)
- runtime:3.1.7-buster-slim-arm32v7 |[![push image runtime_3.1.7-buster-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-buster-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-buster-slim-arm32v7%22)
- runtime:3.1.7-buster-slim-arm64v8 |[![push image runtime_3.1.7-buster-slim-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-buster-slim-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-buster-slim-arm64v8%22)
- runtime:3.1.7-focal |[![push image runtime_3.1.7-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-focal%22)
- runtime:3.1.7-focal-arm32v7 |[![push image runtime_3.1.7-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-focal-arm32v7%22)
- runtime:3.1.7-focal-arm64v8 |[![push image runtime_3.1.7-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1.7-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1.7-focal-arm64v8%22)
- runtime:3.1-alpine |[![push image runtime_3.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-alpine%22)
- runtime:3.1-alpine3.11 |[![push image runtime_3.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-alpine3.11%22)
- runtime:3.1-alpine3.11-arm64v8 |[![push image runtime_3.1-alpine3.11-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-alpine3.11-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-alpine3.11-arm64v8%22)
- runtime:3.1-alpine3.12 |[![push image runtime_3.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-alpine3.12%22)
- runtime:3.1-alpine3.12-arm64v8 |[![push image runtime_3.1-alpine3.12-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-alpine3.12-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-alpine3.12-arm64v8%22)
- runtime:3.1-alpine-arm64v8 |[![push image runtime_3.1-alpine-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-alpine-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-alpine-arm64v8%22)
- runtime:3.1-bionic |[![push image runtime_3.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-bionic%22)
- runtime:3.1-bionic-arm32v7 |[![push image runtime_3.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-bionic-arm32v7%22)
- runtime:3.1-bionic-arm64v8 |[![push image runtime_3.1-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-bionic-arm64v8%22)
- runtime:3.1-buster-slim |[![push image runtime_3.1-buster-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-buster-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-buster-slim%22)
- runtime:3.1-buster-slim-arm32v7 |[![push image runtime_3.1-buster-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-buster-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-buster-slim-arm32v7%22)
- runtime:3.1-buster-slim-arm64v8 |[![push image runtime_3.1-buster-slim-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-buster-slim-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-buster-slim-arm64v8%22)
- runtime:3.1-focal |[![push image runtime_3.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-focal%22)
- runtime:3.1-focal-arm32v7 |[![push image runtime_3.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-focal-arm32v7%22)
- runtime:3.1-focal-arm64v8 |[![push image runtime_3.1-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_3.1-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_3.1-focal-arm64v8%22)
- runtime:latest |[![push image runtime_latest](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20runtime_latest/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+runtime_latest%22)
- aspnet:2.1 |[![push image aspnet_2.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1%22)
- aspnet:2.1.21 |[![push image aspnet_2.1.21](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21%22)
- aspnet:2.1.21-alpine |[![push image aspnet_2.1.21-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-alpine%22)
- aspnet:2.1.21-alpine3.11 |[![push image aspnet_2.1.21-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-alpine3.11%22)
- aspnet:2.1.21-alpine3.12 |[![push image aspnet_2.1.21-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-alpine3.12%22)
- aspnet:2.1.21-bionic |[![push image aspnet_2.1.21-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-bionic%22)
- aspnet:2.1.21-bionic-arm32v7 |[![push image aspnet_2.1.21-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-bionic-arm32v7%22)
- aspnet:2.1.21-focal |[![push image aspnet_2.1.21-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-focal%22)
- aspnet:2.1.21-focal-arm32v7 |[![push image aspnet_2.1.21-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-focal-arm32v7%22)
- aspnet:2.1.21-stretch-slim |[![push image aspnet_2.1.21-stretch-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-stretch-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-stretch-slim%22)
- aspnet:2.1.21-stretch-slim-arm32v7 |[![push image aspnet_2.1.21-stretch-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1.21-stretch-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1.21-stretch-slim-arm32v7%22)
- aspnet:2.1-alpine |[![push image aspnet_2.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-alpine%22)
- aspnet:2.1-alpine3.11 |[![push image aspnet_2.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-alpine3.11%22)
- aspnet:2.1-alpine3.12 |[![push image aspnet_2.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-alpine3.12%22)
- aspnet:2.1-bionic |[![push image aspnet_2.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-bionic%22)
- aspnet:2.1-bionic-arm32v7 |[![push image aspnet_2.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-bionic-arm32v7%22)
- aspnet:2.1-focal |[![push image aspnet_2.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-focal%22)
- aspnet:2.1-focal-arm32v7 |[![push image aspnet_2.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-focal-arm32v7%22)
- aspnet:2.1-stretch-slim |[![push image aspnet_2.1-stretch-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-stretch-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-stretch-slim%22)
- aspnet:2.1-stretch-slim-arm32v7 |[![push image aspnet_2.1-stretch-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_2.1-stretch-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_2.1-stretch-slim-arm32v7%22)
- aspnet:3.1 |[![push image aspnet_3.1](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1%22)
- aspnet:3.1.7 |[![push image aspnet_3.1.7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7%22)
- aspnet:3.1.7-alpine |[![push image aspnet_3.1.7-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-alpine%22)
- aspnet:3.1.7-alpine3.11 |[![push image aspnet_3.1.7-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-alpine3.11%22)
- aspnet:3.1.7-alpine3.11-arm64v8 |[![push image aspnet_3.1.7-alpine3.11-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-alpine3.11-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-alpine3.11-arm64v8%22)
- aspnet:3.1.7-alpine3.12 |[![push image aspnet_3.1.7-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-alpine3.12%22)
- aspnet:3.1.7-alpine3.12-arm64v8 |[![push image aspnet_3.1.7-alpine3.12-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-alpine3.12-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-alpine3.12-arm64v8%22)
- aspnet:3.1.7-alpine-arm64v8 |[![push image aspnet_3.1.7-alpine-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-alpine-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-alpine-arm64v8%22)
- aspnet:3.1.7-bionic |[![push image aspnet_3.1.7-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-bionic%22)
- aspnet:3.1.7-bionic-arm32v7 |[![push image aspnet_3.1.7-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-bionic-arm32v7%22)
- aspnet:3.1.7-bionic-arm64v8 |[![push image aspnet_3.1.7-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-bionic-arm64v8%22)
- aspnet:3.1.7-buster-slim |[![push image aspnet_3.1.7-buster-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-buster-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-buster-slim%22)
- aspnet:3.1.7-buster-slim-arm32v7 |[![push image aspnet_3.1.7-buster-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-buster-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-buster-slim-arm32v7%22)
- aspnet:3.1.7-buster-slim-arm64v8 |[![push image aspnet_3.1.7-buster-slim-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-buster-slim-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-buster-slim-arm64v8%22)
- aspnet:3.1.7-focal |[![push image aspnet_3.1.7-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-focal%22)
- aspnet:3.1.7-focal-arm32v7 |[![push image aspnet_3.1.7-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-focal-arm32v7%22)
- aspnet:3.1.7-focal-arm64v8 |[![push image aspnet_3.1.7-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1.7-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1.7-focal-arm64v8%22)
- aspnet:3.1-alpine |[![push image aspnet_3.1-alpine](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-alpine/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-alpine%22)
- aspnet:3.1-alpine3.11 |[![push image aspnet_3.1-alpine3.11](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-alpine3.11/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-alpine3.11%22)
- aspnet:3.1-alpine3.11-arm64v8 |[![push image aspnet_3.1-alpine3.11-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-alpine3.11-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-alpine3.11-arm64v8%22)
- aspnet:3.1-alpine3.12 |[![push image aspnet_3.1-alpine3.12](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-alpine3.12/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-alpine3.12%22)
- aspnet:3.1-alpine3.12-arm64v8 |[![push image aspnet_3.1-alpine3.12-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-alpine3.12-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-alpine3.12-arm64v8%22)
- aspnet:3.1-alpine-arm64v8 |[![push image aspnet_3.1-alpine-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-alpine-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-alpine-arm64v8%22)
- aspnet:3.1-bionic |[![push image aspnet_3.1-bionic](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-bionic/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-bionic%22)
- aspnet:3.1-bionic-arm32v7 |[![push image aspnet_3.1-bionic-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-bionic-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-bionic-arm32v7%22)
- aspnet:3.1-bionic-arm64v8 |[![push image aspnet_3.1-bionic-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-bionic-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-bionic-arm64v8%22)
- aspnet:3.1-buster-slim |[![push image aspnet_3.1-buster-slim](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-buster-slim/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-buster-slim%22)
- aspnet:3.1-buster-slim-arm32v7 |[![push image aspnet_3.1-buster-slim-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-buster-slim-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-buster-slim-arm32v7%22)
- aspnet:3.1-buster-slim-arm64v8 |[![push image aspnet_3.1-buster-slim-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-buster-slim-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-buster-slim-arm64v8%22)
- aspnet:3.1-focal |[![push image aspnet_3.1-focal](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-focal/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-focal%22)
- aspnet:3.1-focal-arm32v7 |[![push image aspnet_3.1-focal-arm32v7](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-focal-arm32v7/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-focal-arm32v7%22)
- aspnet:3.1-focal-arm64v8 |[![push image aspnet_3.1-focal-arm64v8](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_3.1-focal-arm64v8/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_3.1-focal-arm64v8%22)
- aspnet:latest |[![push image aspnet_latest](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20aspnet_latest/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+aspnet_latest%22)
- server:2017-CU10-ubuntu |[![push image server_2017-CU10-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU10-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU10-ubuntu%22)
- server:2017-CU11-ubuntu |[![push image server_2017-CU11-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU11-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU11-ubuntu%22)
- server:2017-CU12-ubuntu |[![push image server_2017-CU12-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU12-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU12-ubuntu%22)
- server:2017-CU13-ubuntu |[![push image server_2017-CU13-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU13-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU13-ubuntu%22)
- server:2017-CU14-ubuntu |[![push image server_2017-CU14-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU14-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU14-ubuntu%22)
- server:2017-CU15-ubuntu |[![push image server_2017-CU15-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU15-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU15-ubuntu%22)
- server:2017-CU16-ubuntu |[![push image server_2017-CU16-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU16-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU16-ubuntu%22)
- server:2017-CU17-ubuntu |[![push image server_2017-CU17-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU17-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU17-ubuntu%22)
- server:2017-CU18-ubuntu-16.04 |[![push image server_2017-CU18-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU18-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU18-ubuntu-16.04%22)
- server:2017-CU19-ubuntu-16.04 |[![push image server_2017-CU19-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU19-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU19-ubuntu-16.04%22)
- server:2017-CU1-ubuntu |[![push image server_2017-CU1-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU1-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU1-ubuntu%22)
- server:2017-CU20-ubuntu-16.04 |[![push image server_2017-CU20-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU20-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU20-ubuntu-16.04%22)
- server:2017-CU21-ubuntu-16.04 |[![push image server_2017-CU21-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU21-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU21-ubuntu-16.04%22)
- server:2017-CU2-ubuntu |[![push image server_2017-CU2-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU2-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU2-ubuntu%22)
- server:2017-CU3-ubuntu |[![push image server_2017-CU3-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU3-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU3-ubuntu%22)
- server:2017-CU4-ubuntu |[![push image server_2017-CU4-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU4-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU4-ubuntu%22)
- server:2017-CU5-ubuntu |[![push image server_2017-CU5-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU5-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU5-ubuntu%22)
- server:2017-CU6-ubuntu |[![push image server_2017-CU6-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU6-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU6-ubuntu%22)
- server:2017-CU7-ubuntu |[![push image server_2017-CU7-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU7-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU7-ubuntu%22)
- server:2017-CU8-ubuntu |[![push image server_2017-CU8-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU8-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU8-ubuntu%22)
- server:2017-CU9-ubuntu |[![push image server_2017-CU9-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-CU9-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-CU9-ubuntu%22)
- server:2017-GA-ubuntu |[![push image server_2017-GA-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-GA-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-GA-ubuntu%22)
- server:2017-GDR-ubuntu |[![push image server_2017-GDR-ubuntu](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-GDR-ubuntu/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-GDR-ubuntu%22)
- server:2017-latest |[![push image server_2017-latest](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2017-latest/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2017-latest%22)
- server:2019-CU1-ubuntu-16.04 |[![push image server_2019-CU1-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-CU1-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-CU1-ubuntu-16.04%22)
- server:2019-CU2-ubuntu-16.04 |[![push image server_2019-CU2-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-CU2-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-CU2-ubuntu-16.04%22)
- server:2019-CU3-ubuntu-16.04 |[![push image server_2019-CU3-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-CU3-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-CU3-ubuntu-16.04%22)
- server:2019-CU4-ubuntu-16.04 |[![push image server_2019-CU4-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-CU4-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-CU4-ubuntu-16.04%22)
- server:2019-CU5-ubuntu-16.04 |[![push image server_2019-CU5-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-CU5-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-CU5-ubuntu-16.04%22)
- server:2019-CU6-ubuntu-16.04 |[![push image server_2019-CU6-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-CU6-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-CU6-ubuntu-16.04%22)
- server:2019-GA-ubuntu-16.04 |[![push image server_2019-GA-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-GA-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-GA-ubuntu-16.04%22)
- server:2019-GDR1-ubuntu-16.04 |[![push image server_2019-GDR1-ubuntu-16.04](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-GDR1-ubuntu-16.04/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-GDR1-ubuntu-16.04%22)
- server:2019-latest |[![push image server_2019-latest](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_2019-latest/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_2019-latest%22)
- server:latest |[![push image server_latest](https://github.com/newbe36524/Newbe.McrMirror/workflows/push%20image%20server_latest/badge.svg?branch=publish)](https://github.com/newbe36524/Newbe.McrMirror/actions?query=workflow%3A%22push+image+server_latest%22)
+## Tags 
+
+### sdk 
+
+ - mcr.microsoft.com/dotnet/core/sdk:2.1
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810-alpine3.12
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810-bionic
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810-focal
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810-stretch
+- mcr.microsoft.com/dotnet/core/sdk:2.1.810-stretch-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:2.1-alpine
+- mcr.microsoft.com/dotnet/core/sdk:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/sdk:2.1-bionic
+- mcr.microsoft.com/dotnet/core/sdk:2.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:2.1-focal
+- mcr.microsoft.com/dotnet/core/sdk:2.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:2.1-stretch
+- mcr.microsoft.com/dotnet/core/sdk:2.1-stretch-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:3.1
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-alpine3.12
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-bionic
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-buster
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-buster-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-buster-arm64v8
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-focal
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:3.1.402-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+- mcr.microsoft.com/dotnet/core/sdk:3.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/sdk:3.1-bionic
+- mcr.microsoft.com/dotnet/core/sdk:3.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:3.1-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/sdk:3.1-buster
+- mcr.microsoft.com/dotnet/core/sdk:3.1-buster-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:3.1-buster-arm64v8
+- mcr.microsoft.com/dotnet/core/sdk:3.1-focal
+- mcr.microsoft.com/dotnet/core/sdk:3.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/sdk:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/sdk:latest
+
+### runtime-deps 
+
+ - mcr.microsoft.com/dotnet/core/runtime-deps:2.1
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22-bionic
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22-focal
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22-stretch-slim
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1.22-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-alpine
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-bionic
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-focal
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-stretch-slim
+- mcr.microsoft.com/dotnet/core/runtime-deps:2.1-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-bionic
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-buster-slim
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-focal
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1.8-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-alpine
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-alpine-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-bionic
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-buster-slim
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-focal
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime-deps:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime-deps:latest
+
+### runtime 
+
+ - mcr.microsoft.com/dotnet/core/runtime:2.1
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22-bionic
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22-focal
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22-stretch-slim
+- mcr.microsoft.com/dotnet/core/runtime:2.1.22-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:2.1-alpine
+- mcr.microsoft.com/dotnet/core/runtime:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime:2.1-bionic
+- mcr.microsoft.com/dotnet/core/runtime:2.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:2.1-focal
+- mcr.microsoft.com/dotnet/core/runtime:2.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:2.1-stretch-slim
+- mcr.microsoft.com/dotnet/core/runtime:2.1-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:3.1
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-bionic
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-buster-slim
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-focal
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:3.1.8-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1-alpine
+- mcr.microsoft.com/dotnet/core/runtime:3.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/runtime:3.1-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1-alpine-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1-bionic
+- mcr.microsoft.com/dotnet/core/runtime:3.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:3.1-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1-buster-slim
+- mcr.microsoft.com/dotnet/core/runtime:3.1-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:3.1-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:3.1-focal
+- mcr.microsoft.com/dotnet/core/runtime:3.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/runtime:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/runtime:latest
+
+### aspnet 
+
+ - mcr.microsoft.com/dotnet/core/aspnet:2.1
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22-alpine3.12
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22-bionic
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22-focal
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22-stretch-slim
+- mcr.microsoft.com/dotnet/core/aspnet:2.1.22-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-alpine
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-bionic
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-focal
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-stretch-slim
+- mcr.microsoft.com/dotnet/core/aspnet:2.1-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:3.1
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-alpine3.12
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-bionic
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-buster-slim
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-focal
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:3.1.8-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine3.12
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-alpine-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-focal
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-focal-arm32v7
+- mcr.microsoft.com/dotnet/core/aspnet:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/core/aspnet:latest
+
+### server 
+
+ - mcr.microsoft.com/mssql/server:2017-CU10-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU11-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU12-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU13-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU14-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU15-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU16-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU17-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU18-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2017-CU19-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2017-CU1-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU20-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2017-CU21-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2017-CU2-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU3-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU4-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU5-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU6-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU7-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU8-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU9-ubuntu
+- mcr.microsoft.com/mssql/server:2017-GA-ubuntu
+- mcr.microsoft.com/mssql/server:2017-GDR-ubuntu
+- mcr.microsoft.com/mssql/server:2017-latest
+- mcr.microsoft.com/mssql/server:2019-CU1-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-CU2-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-CU3-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-CU4-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-CU6-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-latest
+- mcr.microsoft.com/mssql/server:latest
+
+### vscode_base 
+
+ - mcr.microsoft.com/vscode/devcontainers/base:0-alpine
+- mcr.microsoft.com/vscode/devcontainers/base:0-alpine-3.10
+- mcr.microsoft.com/vscode/devcontainers/base:0-alpine-3.11
+- mcr.microsoft.com/vscode/devcontainers/base:0-alpine-3.12
+- mcr.microsoft.com/vscode/devcontainers/base:0-debian
+- mcr.microsoft.com/vscode/devcontainers/base:0-buster
+- mcr.microsoft.com/vscode/devcontainers/base:0-debian-10
+- mcr.microsoft.com/vscode/devcontainers/base:0-stretch
+- mcr.microsoft.com/vscode/devcontainers/base:0-debian-9
+- mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu
+- mcr.microsoft.com/vscode/devcontainers/base:0-focal
+- mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-20.04
+- mcr.microsoft.com/vscode/devcontainers/base:0-bionic
+- mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-18.04
+
+### vscode_cpp 
+
+ - mcr.microsoft.com/vscode/devcontainers/cpp:0-buster
+- mcr.microsoft.com/vscode/devcontainers/cpp:0-debian-10
+- mcr.microsoft.com/vscode/devcontainers/cpp:0-stretch
+- mcr.microsoft.com/vscode/devcontainers/cpp:0-debian-9
+
+### vscode_dotnetcore 
+
+ - mcr.microsoft.com/vscode/devcontainers/dotnetcore:0-3.1
+- mcr.microsoft.com/vscode/devcontainers/dotnetcore:0-2.1
+
+### vscode_go 
+
+ - mcr.microsoft.com/vscode/devcontainers/go:0-1
+- mcr.microsoft.com/vscode/devcontainers/go:0-1.15
+- mcr.microsoft.com/vscode/devcontainers/go:0-1.14
+
+### vscode_java 
+
+ - mcr.microsoft.com/vscode/devcontainers/java:0-8
+- mcr.microsoft.com/vscode/devcontainers/java:0-11
+- mcr.microsoft.com/vscode/devcontainers/java:0-14
+
+### vscode_javascript_node 
+
+ - mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14
+- mcr.microsoft.com/vscode/devcontainers/javascript-node:0-12
+- mcr.microsoft.com/vscode/devcontainers/javascript-node:0-10
+
+### vscode_php 
+
+ - mcr.microsoft.com/vscode/devcontainers/php:0-7
+- mcr.microsoft.com/vscode/devcontainers/php:0-7.4
+- mcr.microsoft.com/vscode/devcontainers/php:0-7.3
+
+### vscode_python 
+
+ - mcr.microsoft.com/vscode/devcontainers/python:0-3
+- mcr.microsoft.com/vscode/devcontainers/python:0-3.8
+- mcr.microsoft.com/vscode/devcontainers/python:0-3.7
+- mcr.microsoft.com/vscode/devcontainers/python:0-3.6
+
+### vscode_ruby 
+
+ - mcr.microsoft.com/vscode/devcontainers/ruby:0-2
+- mcr.microsoft.com/vscode/devcontainers/ruby:0-2.7
+- mcr.microsoft.com/vscode/devcontainers/ruby:0-2.6
+
+### vscode_typescript_node 
+
+ - mcr.microsoft.com/vscode/devcontainers/typescript-node:0-14
+- mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12
+- mcr.microsoft.com/vscode/devcontainers/typescript-node:0-10
+
+### vscode_universal 
+
+ - mcr.microsoft.com/vscode/devcontainers/universal:0
+
+### vscode_rust 
+
+ - mcr.microsoft.com/vscode/devcontainers/rust:0
+

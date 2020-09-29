@@ -1,5 +1,67 @@
 from invoke import task
 import os
+import json
+import itertools
+
+
+@task
+def create_yml(c):
+    with open("config-v2.json", "r") as json_file:
+        content = json_file.read()
+    config = json.loads(content)
+
+    def concat_image_names(g):
+        parts = map(lambda i: f"          - {i['source']},{i['tag']}", g)
+        return str.join("\n", parts)
+
+    images = []
+    for k, items in itertools.groupby(config['images'], lambda f: f['group']):
+        a = concat_image_names(items)
+        images.append({'name': k, 'images': a})
+
+    templates = [
+        "template_aliyun.yml",
+        "template_dockerhub.yml",
+        "template_tencent.yml"
+    ]
+    out_dir = "../../.github/workflows"
+    for t in templates:
+        server = t.replace("template_", "").replace(".yml", "")
+        for image in images:
+            filename = f"sync_{image['name']}_to_{server}"
+            with open(t, "r") as template_file:
+                template_content = template_file.read()
+            content = template_content \
+                .replace("[FILE_NAME]", filename) \
+                .replace("[DOCKERHUB_USERNAME]", config['dockerhub_name']) \
+                .replace("[DOCKERHUB_NAMESPACE]", config['dockerhub_namespace']) \
+                .replace("[ALIYUN_USERNAME]", config['aliyun_name']) \
+                .replace("[ALIYUN_NAMESPACE]", config['aliyun_namespace']) \
+                .replace("[TENCENTYUN_USERNAME]", config['tencentyun_name']) \
+                .replace("[TENCENTYUN_NAMESPACE]", config['tencentyun_namespace']) \
+                .replace("[ALL_IMAGE]", image['images'])
+            with open(f"{out_dir}/docker_{filename}.yml", 'w') as result_file:
+                result_file.write(content)
+
+
+@task
+def create_md(c):
+    with open("config-v2.json", "r") as json_file:
+        content = json_file.read()
+    config = json.loads(content)
+    md_content = "## Tags \n\n"
+
+    def concat_image_names(g):
+        parts = map(lambda image: f"- {image['source']}", g)
+        images = str.join("\n", parts)
+        return images
+
+    for k, items in itertools.groupby(config['images'], lambda f: f['group']):
+        tags = concat_image_names(items)
+        md_content += f"### {k} \n\n {tags}\n\n"
+
+    with open("md.md", "w") as md_file:
+        md_file.write(md_content)
 
 
 @task
