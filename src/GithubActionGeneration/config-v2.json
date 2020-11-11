@@ -40,11 +40,6 @@
       "group": "sdk"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.811-nanoserver-2009",
-      "tag": "sdk:2.1.811-nanoserver-2009",
-      "group": "sdk"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/sdk:2.1.811-stretch",
       "tag": "sdk:2.1.811-stretch",
       "group": "sdk"
@@ -82,11 +77,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/sdk:2.1-focal-arm32v7",
       "tag": "sdk:2.1-focal-arm32v7",
-      "group": "sdk"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1-nanoserver-2009",
-      "tag": "sdk:2.1-nanoserver-2009",
       "group": "sdk"
     },
     {
@@ -160,11 +150,6 @@
       "group": "sdk"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.404-nanoserver-2009",
-      "tag": "sdk:3.1.404-nanoserver-2009",
-      "group": "sdk"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/sdk:3.1-alpine",
       "tag": "sdk:3.1-alpine",
       "group": "sdk"
@@ -217,11 +202,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/sdk:3.1-focal-arm64v8",
       "tag": "sdk:3.1-focal-arm64v8",
-      "group": "sdk"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1-nanoserver-2009",
-      "tag": "sdk:3.1-nanoserver-2009",
       "group": "sdk"
     },
     {
@@ -285,11 +265,6 @@
       "group": "sdk"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.100-nanoserver-2009",
-      "tag": "sdk:5.0.100-nanoserver-2009",
-      "group": "sdk"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/sdk:5.0-alpine",
       "tag": "sdk:5.0-alpine",
       "group": "sdk"
@@ -347,11 +322,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/sdk:5.0-focal-arm64v8",
       "tag": "sdk:5.0-focal-arm64v8",
-      "group": "sdk"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0-nanoserver-2009",
-      "tag": "sdk:5.0-nanoserver-2009",
       "group": "sdk"
     },
     {
@@ -750,11 +720,6 @@
       "group": "runtime"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.23-nanoserver-2009",
-      "tag": "runtime:2.1.23-nanoserver-2009",
-      "group": "runtime"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/runtime:2.1.23-stretch-slim",
       "tag": "runtime:2.1.23-stretch-slim",
       "group": "runtime"
@@ -792,11 +757,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/runtime:2.1-focal-arm32v7",
       "tag": "runtime:2.1-focal-arm32v7",
-      "group": "runtime"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1-nanoserver-2009",
-      "tag": "runtime:2.1-nanoserver-2009",
       "group": "runtime"
     },
     {
@@ -875,11 +835,6 @@
       "group": "runtime"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.10-nanoserver-2009",
-      "tag": "runtime:3.1.10-nanoserver-2009",
-      "group": "runtime"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/runtime:3.1-alpine",
       "tag": "runtime:3.1-alpine",
       "group": "runtime"
@@ -945,11 +900,6 @@
       "group": "runtime"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1-nanoserver-2009",
-      "tag": "runtime:3.1-nanoserver-2009",
-      "group": "runtime"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/runtime:5.0",
       "tag": "runtime:5.0",
       "group": "runtime"
@@ -1012,11 +962,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/runtime:5.0.0-focal-arm64v8",
       "tag": "runtime:5.0.0-focal-arm64v8",
-      "group": "runtime"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.0-nanoserver-2009",
-      "tag": "runtime:5.0.0-nanoserver-2009",
       "group": "runtime"
     },
     {
@@ -1090,11 +1035,6 @@
       "group": "runtime"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0-nanoserver-2009",
-      "tag": "runtime:5.0-nanoserver-2009",
-      "group": "runtime"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/runtime:latest",
       "tag": "runtime:latest",
       "group": "runtime"
@@ -1135,11 +1075,6 @@
       "group": "aspnet"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.23-nanoserver-2009",
-      "tag": "aspnet:2.1.23-nanoserver-2009",
-      "group": "aspnet"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/aspnet:2.1.23-stretch-slim",
       "tag": "aspnet:2.1.23-stretch-slim",
       "group": "aspnet"
@@ -1177,11 +1112,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/aspnet:2.1-focal-arm32v7",
       "tag": "aspnet:2.1-focal-arm32v7",
-      "group": "aspnet"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1-nanoserver-2009",
-      "tag": "aspnet:2.1-nanoserver-2009",
       "group": "aspnet"
     },
     {
@@ -1260,11 +1190,6 @@
       "group": "aspnet"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.10-nanoserver-2009",
-      "tag": "aspnet:3.1.10-nanoserver-2009",
-      "group": "aspnet"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/aspnet:3.1-alpine",
       "tag": "aspnet:3.1-alpine",
       "group": "aspnet"
@@ -1330,11 +1255,6 @@
       "group": "aspnet"
     },
     {
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1-nanoserver-2009",
-      "tag": "aspnet:3.1-nanoserver-2009",
-      "group": "aspnet"
-    },
-    {
       "source": "mcr.microsoft.com/dotnet/aspnet:5.0",
       "tag": "aspnet:5.0",
       "group": "aspnet"
@@ -1397,11 +1317,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/aspnet:5.0.0-focal-arm64v8",
       "tag": "aspnet:5.0.0-focal-arm64v8",
-      "group": "aspnet"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.0-nanoserver-2009",
-      "tag": "aspnet:5.0.0-nanoserver-2009",
       "group": "aspnet"
     },
     {
@@ -1472,11 +1387,6 @@
     {
       "source": "mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm64v8",
       "tag": "aspnet:5.0-focal-arm64v8",
-      "group": "aspnet"
-    },
-    {
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-nanoserver-2009",
-      "tag": "aspnet:5.0-nanoserver-2009",
       "group": "aspnet"
     },
     {

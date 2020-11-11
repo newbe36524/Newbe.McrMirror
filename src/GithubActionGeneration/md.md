@@ -9,7 +9,6 @@
 - mcr.microsoft.com/dotnet/sdk:2.1.811-bionic-arm32v7
 - mcr.microsoft.com/dotnet/sdk:2.1.811-focal
 - mcr.microsoft.com/dotnet/sdk:2.1.811-focal-arm32v7
-- mcr.microsoft.com/dotnet/sdk:2.1.811-nanoserver-2009
 - mcr.microsoft.com/dotnet/sdk:2.1.811-stretch
 - mcr.microsoft.com/dotnet/sdk:2.1.811-stretch-arm32v7
 - mcr.microsoft.com/dotnet/sdk:2.1-alpine
@@ -18,7 +17,6 @@
 - mcr.microsoft.com/dotnet/sdk:2.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/sdk:2.1-focal
 - mcr.microsoft.com/dotnet/sdk:2.1-focal-arm32v7
-- mcr.microsoft.com/dotnet/sdk:2.1-nanoserver-2009
 - mcr.microsoft.com/dotnet/sdk:2.1-stretch
 - mcr.microsoft.com/dotnet/sdk:2.1-stretch-arm32v7
 - mcr.microsoft.com/dotnet/sdk:3.1
@@ -33,7 +31,6 @@
 - mcr.microsoft.com/dotnet/sdk:3.1.404-focal
 - mcr.microsoft.com/dotnet/sdk:3.1.404-focal-arm32v7
 - mcr.microsoft.com/dotnet/sdk:3.1.404-focal-arm64v8
-- mcr.microsoft.com/dotnet/sdk:3.1.404-nanoserver-2009
 - mcr.microsoft.com/dotnet/sdk:3.1-alpine
 - mcr.microsoft.com/dotnet/sdk:3.1-alpine3.12
 - mcr.microsoft.com/dotnet/sdk:3.1-bionic
@@ -45,7 +42,6 @@
 - mcr.microsoft.com/dotnet/sdk:3.1-focal
 - mcr.microsoft.com/dotnet/sdk:3.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/sdk:3.1-focal-arm64v8
-- mcr.microsoft.com/dotnet/sdk:3.1-nanoserver-2009
 - mcr.microsoft.com/dotnet/sdk:5.0
 - mcr.microsoft.com/dotnet/sdk:5.0.100
 - mcr.microsoft.com/dotnet/sdk:5.0.100-alpine3.12
@@ -58,7 +54,6 @@
 - mcr.microsoft.com/dotnet/sdk:5.0.100-focal-amd64
 - mcr.microsoft.com/dotnet/sdk:5.0.100-focal-arm32v7
 - mcr.microsoft.com/dotnet/sdk:5.0.100-focal-arm64v8
-- mcr.microsoft.com/dotnet/sdk:5.0.100-nanoserver-2009
 - mcr.microsoft.com/dotnet/sdk:5.0-alpine
 - mcr.microsoft.com/dotnet/sdk:5.0-alpine3.12
 - mcr.microsoft.com/dotnet/sdk:5.0-alpine3.12-amd64
@@ -71,7 +66,6 @@
 - mcr.microsoft.com/dotnet/sdk:5.0-focal-amd64
 - mcr.microsoft.com/dotnet/sdk:5.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/sdk:5.0-focal-arm64v8
-- mcr.microsoft.com/dotnet/sdk:5.0-nanoserver-2009
 - mcr.microsoft.com/dotnet/sdk:latest
 
 ### runtime-deps 
@@ -157,7 +151,6 @@
 - mcr.microsoft.com/dotnet/runtime:2.1.23-bionic-arm32v7
 - mcr.microsoft.com/dotnet/runtime:2.1.23-focal
 - mcr.microsoft.com/dotnet/runtime:2.1.23-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime:2.1.23-nanoserver-2009
 - mcr.microsoft.com/dotnet/runtime:2.1.23-stretch-slim
 - mcr.microsoft.com/dotnet/runtime:2.1.23-stretch-slim-arm32v7
 - mcr.microsoft.com/dotnet/runtime:2.1-alpine
@@ -166,7 +159,6 @@
 - mcr.microsoft.com/dotnet/runtime:2.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/runtime:2.1-focal
 - mcr.microsoft.com/dotnet/runtime:2.1-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime:2.1-nanoserver-2009
 - mcr.microsoft.com/dotnet/runtime:2.1-stretch-slim
 - mcr.microsoft.com/dotnet/runtime:2.1-stretch-slim-arm32v7
 - mcr.microsoft.com/dotnet/runtime:3.1
@@ -182,7 +174,6 @@
 - mcr.microsoft.com/dotnet/runtime:3.1.10-focal
 - mcr.microsoft.com/dotnet/runtime:3.1.10-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime:3.1.10-focal-arm64v8
-- mcr.microsoft.com/dotnet/runtime:3.1.10-nanoserver-2009
 - mcr.microsoft.com/dotnet/runtime:3.1-alpine
 - mcr.microsoft.com/dotnet/runtime:3.1-alpine3.12
 - mcr.microsoft.com/dotnet/runtime:3.1-alpine3.12-arm64v8
@@ -196,7 +187,6 @@
 - mcr.microsoft.com/dotnet/runtime:3.1-focal
 - mcr.microsoft.com/dotnet/runtime:3.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime:3.1-focal-arm64v8
-- mcr.microsoft.com/dotnet/runtime:3.1-nanoserver-2009
 - mcr.microsoft.com/dotnet/runtime:5.0
 - mcr.microsoft.com/dotnet/runtime:5.0.0
 - mcr.microsoft.com/dotnet/runtime:5.0.0-alpine3.12
@@ -210,7 +200,6 @@
 - mcr.microsoft.com/dotnet/runtime:5.0.0-focal-amd64
 - mcr.microsoft.com/dotnet/runtime:5.0.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime:5.0.0-focal-arm64v8
-- mcr.microsoft.com/dotnet/runtime:5.0.0-nanoserver-2009
 - mcr.microsoft.com/dotnet/runtime:5.0-alpine
 - mcr.microsoft.com/dotnet/runtime:5.0-alpine3.12
 - mcr.microsoft.com/dotnet/runtime:5.0-alpine3.12-amd64
@@ -225,7 +214,6 @@
 - mcr.microsoft.com/dotnet/runtime:5.0-focal-amd64
 - mcr.microsoft.com/dotnet/runtime:5.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime:5.0-focal-arm64v8
-- mcr.microsoft.com/dotnet/runtime:5.0-nanoserver-2009
 - mcr.microsoft.com/dotnet/runtime:latest
 
 ### aspnet 
@@ -237,7 +225,6 @@
 - mcr.microsoft.com/dotnet/aspnet:2.1.23-bionic-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:2.1.23-focal
 - mcr.microsoft.com/dotnet/aspnet:2.1.23-focal-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:2.1.23-nanoserver-2009
 - mcr.microsoft.com/dotnet/aspnet:2.1.23-stretch-slim
 - mcr.microsoft.com/dotnet/aspnet:2.1.23-stretch-slim-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:2.1-alpine
@@ -246,7 +233,6 @@
 - mcr.microsoft.com/dotnet/aspnet:2.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:2.1-focal
 - mcr.microsoft.com/dotnet/aspnet:2.1-focal-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:2.1-nanoserver-2009
 - mcr.microsoft.com/dotnet/aspnet:2.1-stretch-slim
 - mcr.microsoft.com/dotnet/aspnet:2.1-stretch-slim-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:3.1
@@ -262,7 +248,6 @@
 - mcr.microsoft.com/dotnet/aspnet:3.1.10-focal
 - mcr.microsoft.com/dotnet/aspnet:3.1.10-focal-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:3.1.10-focal-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:3.1.10-nanoserver-2009
 - mcr.microsoft.com/dotnet/aspnet:3.1-alpine
 - mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.12
 - mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.12-arm64v8
@@ -276,7 +261,6 @@
 - mcr.microsoft.com/dotnet/aspnet:3.1-focal
 - mcr.microsoft.com/dotnet/aspnet:3.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:3.1-focal-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:3.1-nanoserver-2009
 - mcr.microsoft.com/dotnet/aspnet:5.0
 - mcr.microsoft.com/dotnet/aspnet:5.0.0
 - mcr.microsoft.com/dotnet/aspnet:5.0.0-alpine3.12
@@ -290,7 +274,6 @@
 - mcr.microsoft.com/dotnet/aspnet:5.0.0-focal-amd64
 - mcr.microsoft.com/dotnet/aspnet:5.0.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:5.0.0-focal-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:5.0.0-nanoserver-2009
 - mcr.microsoft.com/dotnet/aspnet:5.0-alpine
 - mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12
 - mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12-amd64
@@ -305,7 +288,6 @@
 - mcr.microsoft.com/dotnet/aspnet:5.0-focal-amd64
 - mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:5.0-nanoserver-2009
 - mcr.microsoft.com/dotnet/aspnet:latest
 
 ### server 
