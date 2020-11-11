@@ -20,7 +20,7 @@ function CreateImagesFromDockerhub {
     } | ForEach-Object {
         $_.SubString(0, $_.IndexOf("|")).Trim() 
     } | Where-Object {
-        $_ -ne "Tags"
+        $_ -ne "Tags" -and $_ -ne "Tag"
     } | ForEach-Object {
         $_ -split ","
     } | ForEach-Object {
@@ -95,10 +95,10 @@ function VsCodeImages2 {
 
 function CreateImages {
     @(
-        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-core-sdk" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Windows Server, version 2004 amd64 Tags" -imageName "sdk" -namespace "dotnet/core"),
-        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-core-runtime-deps" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "You can retrieve a list of all available tags for dotnet/core/runtime-deps" -imageName "runtime-deps" -namespace "dotnet/core"),
-        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-core-runtime" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Windows Server, version 2004 amd64 Tags" -imageName "runtime" -namespace "dotnet/core"),
-        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-core-aspnet" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Windows Server, version 2004 amd64 Tags" -imageName "aspnet" -namespace "dotnet/core"),
+        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-sdk" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Windows Server, version 2004 amd64 Tags" -imageName "sdk" -namespace "dotnet"),
+        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-runtime-deps" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "You can retrieve a list of all available tags for dotnet/runtime-deps" -imageName "runtime-deps" -namespace "dotnet"),
+        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-runtime" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Windows Server, version 2004 amd64 Tags" -imageName "runtime" -namespace "dotnet"),
+        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-aspnet" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Windows Server, version 2004 amd64 Tags" -imageName "aspnet" -namespace "dotnet"),
         (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-mssql-server" -tagsFromMark "Linux Images" -tagsEndMark "You can retrieve a list of all available tags for mssql/server" -imageName "server" -namespace "mssql"),
         (VsCodeImages)
         (VsCodeImages2)
