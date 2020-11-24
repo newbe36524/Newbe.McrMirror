@@ -30,10 +30,10 @@ docker-mcr 是一个 dotnet core global tool，简单几步，便可以进行安
 dotnet tool install newbe.mcrmirror -g
 ```
 
-现在，假如需要拉取 mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim ，则运行以下命令：
+现在，假如需要拉取 mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim ，则运行以下命令：
 
 ```bash
-docker-mcr -i mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+docker-mcr -i mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim
 ```
 
 等待完成之后，便可以在本地看到已经拉取完毕的镜像。
@@ -49,14 +49,14 @@ docker-mcr -i mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
 - 阿里云 registry.cn-hangzhou.aliyuncs.com/newbe36524
 - 腾讯云 ccr.ccs.tencentyun.com/mcr_newbe36524
 
-以下以阿里云为例进行说明，假设需要拉取 mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+以下以阿里云为例进行说明，假设需要拉取 mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim
 
 [点击此处打开配置文件](https://gitee.com/yks/Newbe.McrMirror/raw/master/src/GithubActionGeneration/config-v2.json)，搜索 mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim 会找到以下节点
 
 ```json
 {
   "tag": "aspnet:3.1-buster-slim",
-  "source": "mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim"
+  "source": "mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim"
 }
 ```
 
@@ -68,10 +68,10 @@ docker-mcr -i mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
 
 ```bash
 docker pull registry.cn-hangzhou.aliyuncs.com/newbe36524/aspnet:3.1-buster-slim
-docker tag registry.cn-hangzhou.aliyuncs.com/newbe36524/aspnet:3.1-buster-slim mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+docker tag registry.cn-hangzhou.aliyuncs.com/newbe36524/aspnet:3.1-buster-slim mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim
 ```
 
-这样你就成功的在本地得到了 mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim 镜像。
+这样你就成功的在本地得到了 mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim 镜像。
 
 当然，你也可以直接把 registry.cn-hangzhou.aliyuncs.com/newbe36524/aspnet:3.1-buster-slim 写入到你的 Docker file 中。
 
@@ -79,16 +79,16 @@ docker tag registry.cn-hangzhou.aliyuncs.com/newbe36524/aspnet:3.1-buster-slim m
 
 我也将镜像推送到了 dockerhub ，所以正常来说，在中国大陆使用 dockerhub 加速器也可以达到加速的效果。
 
-规则，mcr.microsoft.com/dotnet/core/{name}:{tag} -> newbe36524/{name}:{tag}
+规则，mcr.microsoft.com/dotnet/{name}:{tag} -> newbe36524/{name}:{tag}
 
 例如，您可以运行以下命令:
 
 ```bash
 docker pull newbe36524/aspnet:3.1-buster-slim
-docker tag newbe36524/aspnet:3.1-buster-slim mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+docker tag newbe36524/aspnet:3.1-buster-slim mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim
 ```
 
-这样你就成功的在本地得到了 mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim 镜像。
+这样你就成功的在本地得到了 mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim 镜像。
 
 当然，你也可以直接把 newbe36524/aspnet:3.1-buster-slim 写入到你的 Docker file 中。
 
