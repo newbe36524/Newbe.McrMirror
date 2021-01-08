@@ -63,18 +63,18 @@ jobs:
           - mcr.microsoft.com/dotnet/runtime-deps:3.1-focal-arm32v7,runtime-deps:3.1-focal-arm32v7
           - mcr.microsoft.com/dotnet/runtime-deps:3.1-focal-arm64v8,runtime-deps:3.1-focal-arm64v8
           - mcr.microsoft.com/dotnet/runtime-deps:5.0,runtime-deps:5.0
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0,runtime-deps:5.0.0
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-alpine3.12,runtime-deps:5.0.0-alpine3.12
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-alpine3.12-amd64,runtime-deps:5.0.0-alpine3.12-amd64
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-alpine3.12-arm64v8,runtime-deps:5.0.0-alpine3.12-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-buster-slim,runtime-deps:5.0.0-buster-slim
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-buster-slim-amd64,runtime-deps:5.0.0-buster-slim-amd64
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-buster-slim-arm32v7,runtime-deps:5.0.0-buster-slim-arm32v7
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-buster-slim-arm64v8,runtime-deps:5.0.0-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-focal,runtime-deps:5.0.0-focal
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-focal-amd64,runtime-deps:5.0.0-focal-amd64
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-focal-arm32v7,runtime-deps:5.0.0-focal-arm32v7
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.0-focal-arm64v8,runtime-deps:5.0.0-focal-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1,runtime-deps:5.0.1
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-alpine3.12,runtime-deps:5.0.1-alpine3.12
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-alpine3.12-amd64,runtime-deps:5.0.1-alpine3.12-amd64
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-alpine3.12-arm64v8,runtime-deps:5.0.1-alpine3.12-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-buster-slim,runtime-deps:5.0.1-buster-slim
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-buster-slim-amd64,runtime-deps:5.0.1-buster-slim-amd64
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-buster-slim-arm32v7,runtime-deps:5.0.1-buster-slim-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-buster-slim-arm64v8,runtime-deps:5.0.1-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-focal,runtime-deps:5.0.1-focal
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-focal-amd64,runtime-deps:5.0.1-focal-amd64
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-focal-arm32v7,runtime-deps:5.0.1-focal-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.1-focal-arm64v8,runtime-deps:5.0.1-focal-arm64v8
           - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine,runtime-deps:5.0-alpine
           - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.12,runtime-deps:5.0-alpine3.12
           - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.12-amd64,runtime-deps:5.0-alpine3.12-amd64
