@@ -20,14 +20,14 @@ jobs:
       matrix:
         image: 
           - mcr.microsoft.com/dotnet/aspnet:2.1,aspnet:2.1
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23,aspnet:2.1.23
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23-alpine3.12,aspnet:2.1.23-alpine3.12
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23-bionic,aspnet:2.1.23-bionic
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23-bionic-arm32v7,aspnet:2.1.23-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23-focal,aspnet:2.1.23-focal
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23-focal-arm32v7,aspnet:2.1.23-focal-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23-stretch-slim,aspnet:2.1.23-stretch-slim
-          - mcr.microsoft.com/dotnet/aspnet:2.1.23-stretch-slim-arm32v7,aspnet:2.1.23-stretch-slim-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24,aspnet:2.1.24
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24-alpine3.12,aspnet:2.1.24-alpine3.12
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24-bionic,aspnet:2.1.24-bionic
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24-bionic-arm32v7,aspnet:2.1.24-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24-focal,aspnet:2.1.24-focal
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24-focal-arm32v7,aspnet:2.1.24-focal-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24-stretch-slim,aspnet:2.1.24-stretch-slim
+          - mcr.microsoft.com/dotnet/aspnet:2.1.24-stretch-slim-arm32v7,aspnet:2.1.24-stretch-slim-arm32v7
           - mcr.microsoft.com/dotnet/aspnet:2.1-alpine,aspnet:2.1-alpine
           - mcr.microsoft.com/dotnet/aspnet:2.1-alpine3.12,aspnet:2.1-alpine3.12
           - mcr.microsoft.com/dotnet/aspnet:2.1-bionic,aspnet:2.1-bionic
@@ -37,18 +37,18 @@ jobs:
           - mcr.microsoft.com/dotnet/aspnet:2.1-stretch-slim,aspnet:2.1-stretch-slim
           - mcr.microsoft.com/dotnet/aspnet:2.1-stretch-slim-arm32v7,aspnet:2.1-stretch-slim-arm32v7
           - mcr.microsoft.com/dotnet/aspnet:3.1,aspnet:3.1
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10,aspnet:3.1.10
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-alpine3.12,aspnet:3.1.10-alpine3.12
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-alpine3.12-arm64v8,aspnet:3.1.10-alpine3.12-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-bionic,aspnet:3.1.10-bionic
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-bionic-arm32v7,aspnet:3.1.10-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-bionic-arm64v8,aspnet:3.1.10-bionic-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-buster-slim,aspnet:3.1.10-buster-slim
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-buster-slim-arm32v7,aspnet:3.1.10-buster-slim-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-buster-slim-arm64v8,aspnet:3.1.10-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-focal,aspnet:3.1.10-focal
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-focal-arm32v7,aspnet:3.1.10-focal-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:3.1.10-focal-arm64v8,aspnet:3.1.10-focal-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11,aspnet:3.1.11
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-alpine3.12,aspnet:3.1.11-alpine3.12
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-alpine3.12-arm64v8,aspnet:3.1.11-alpine3.12-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic,aspnet:3.1.11-bionic
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic-arm32v7,aspnet:3.1.11-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic-arm64v8,aspnet:3.1.11-bionic-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim,aspnet:3.1.11-buster-slim
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim-arm32v7,aspnet:3.1.11-buster-slim-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim-arm64v8,aspnet:3.1.11-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-focal,aspnet:3.1.11-focal
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-focal-arm32v7,aspnet:3.1.11-focal-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:3.1.11-focal-arm64v8,aspnet:3.1.11-focal-arm64v8
           - mcr.microsoft.com/dotnet/aspnet:3.1-alpine,aspnet:3.1-alpine
           - mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.12,aspnet:3.1-alpine3.12
           - mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.12-arm64v8,aspnet:3.1-alpine3.12-arm64v8
@@ -63,18 +63,18 @@ jobs:
           - mcr.microsoft.com/dotnet/aspnet:3.1-focal-arm32v7,aspnet:3.1-focal-arm32v7
           - mcr.microsoft.com/dotnet/aspnet:3.1-focal-arm64v8,aspnet:3.1-focal-arm64v8
           - mcr.microsoft.com/dotnet/aspnet:5.0,aspnet:5.0
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1,aspnet:5.0.1
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-alpine3.12,aspnet:5.0.1-alpine3.12
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-alpine3.12-amd64,aspnet:5.0.1-alpine3.12-amd64
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-alpine3.12-arm64v8,aspnet:5.0.1-alpine3.12-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-buster-slim,aspnet:5.0.1-buster-slim
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-buster-slim-amd64,aspnet:5.0.1-buster-slim-amd64
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-buster-slim-arm32v7,aspnet:5.0.1-buster-slim-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-buster-slim-arm64v8,aspnet:5.0.1-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-focal,aspnet:5.0.1-focal
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-focal-amd64,aspnet:5.0.1-focal-amd64
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-focal-arm32v7,aspnet:5.0.1-focal-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:5.0.1-focal-arm64v8,aspnet:5.0.1-focal-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2,aspnet:5.0.2
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12,aspnet:5.0.2-alpine3.12
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12-amd64,aspnet:5.0.2-alpine3.12-amd64
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12-arm64v8,aspnet:5.0.2-alpine3.12-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim,aspnet:5.0.2-buster-slim
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-amd64,aspnet:5.0.2-buster-slim-amd64
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-arm32v7,aspnet:5.0.2-buster-slim-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-arm64v8,aspnet:5.0.2-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-focal,aspnet:5.0.2-focal
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-amd64,aspnet:5.0.2-focal-amd64
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-arm32v7,aspnet:5.0.2-focal-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-arm64v8,aspnet:5.0.2-focal-arm64v8
           - mcr.microsoft.com/dotnet/aspnet:5.0-alpine,aspnet:5.0-alpine
           - mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12,aspnet:5.0-alpine3.12
           - mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12-amd64,aspnet:5.0-alpine3.12-amd64
