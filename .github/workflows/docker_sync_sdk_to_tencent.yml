@@ -20,14 +20,14 @@ jobs:
       matrix:
         image: 
           - mcr.microsoft.com/dotnet/sdk:2.1,sdk:2.1
-          - mcr.microsoft.com/dotnet/sdk:2.1.811,sdk:2.1.811
-          - mcr.microsoft.com/dotnet/sdk:2.1.811-alpine3.12,sdk:2.1.811-alpine3.12
-          - mcr.microsoft.com/dotnet/sdk:2.1.811-bionic,sdk:2.1.811-bionic
-          - mcr.microsoft.com/dotnet/sdk:2.1.811-bionic-arm32v7,sdk:2.1.811-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:2.1.811-focal,sdk:2.1.811-focal
-          - mcr.microsoft.com/dotnet/sdk:2.1.811-focal-arm32v7,sdk:2.1.811-focal-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:2.1.811-stretch,sdk:2.1.811-stretch
-          - mcr.microsoft.com/dotnet/sdk:2.1.811-stretch-arm32v7,sdk:2.1.811-stretch-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:2.1.812,sdk:2.1.812
+          - mcr.microsoft.com/dotnet/sdk:2.1.812-alpine3.12,sdk:2.1.812-alpine3.12
+          - mcr.microsoft.com/dotnet/sdk:2.1.812-bionic,sdk:2.1.812-bionic
+          - mcr.microsoft.com/dotnet/sdk:2.1.812-bionic-arm32v7,sdk:2.1.812-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:2.1.812-focal,sdk:2.1.812-focal
+          - mcr.microsoft.com/dotnet/sdk:2.1.812-focal-arm32v7,sdk:2.1.812-focal-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:2.1.812-stretch,sdk:2.1.812-stretch
+          - mcr.microsoft.com/dotnet/sdk:2.1.812-stretch-arm32v7,sdk:2.1.812-stretch-arm32v7
           - mcr.microsoft.com/dotnet/sdk:2.1-alpine,sdk:2.1-alpine
           - mcr.microsoft.com/dotnet/sdk:2.1-alpine3.12,sdk:2.1-alpine3.12
           - mcr.microsoft.com/dotnet/sdk:2.1-bionic,sdk:2.1-bionic
@@ -37,17 +37,17 @@ jobs:
           - mcr.microsoft.com/dotnet/sdk:2.1-stretch,sdk:2.1-stretch
           - mcr.microsoft.com/dotnet/sdk:2.1-stretch-arm32v7,sdk:2.1-stretch-arm32v7
           - mcr.microsoft.com/dotnet/sdk:3.1,sdk:3.1
-          - mcr.microsoft.com/dotnet/sdk:3.1.404,sdk:3.1.404
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-alpine3.12,sdk:3.1.404-alpine3.12
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-bionic,sdk:3.1.404-bionic
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-bionic-arm32v7,sdk:3.1.404-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-bionic-arm64v8,sdk:3.1.404-bionic-arm64v8
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-buster,sdk:3.1.404-buster
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-buster-arm32v7,sdk:3.1.404-buster-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-buster-arm64v8,sdk:3.1.404-buster-arm64v8
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-focal,sdk:3.1.404-focal
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-focal-arm32v7,sdk:3.1.404-focal-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:3.1.404-focal-arm64v8,sdk:3.1.404-focal-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:3.1.405,sdk:3.1.405
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-alpine3.12,sdk:3.1.405-alpine3.12
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-bionic,sdk:3.1.405-bionic
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-bionic-arm32v7,sdk:3.1.405-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-bionic-arm64v8,sdk:3.1.405-bionic-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-buster,sdk:3.1.405-buster
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-buster-arm32v7,sdk:3.1.405-buster-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-buster-arm64v8,sdk:3.1.405-buster-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-focal,sdk:3.1.405-focal
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-focal-arm32v7,sdk:3.1.405-focal-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:3.1.405-focal-arm64v8,sdk:3.1.405-focal-arm64v8
           - mcr.microsoft.com/dotnet/sdk:3.1-alpine,sdk:3.1-alpine
           - mcr.microsoft.com/dotnet/sdk:3.1-alpine3.12,sdk:3.1-alpine3.12
           - mcr.microsoft.com/dotnet/sdk:3.1-bionic,sdk:3.1-bionic
@@ -60,17 +60,17 @@ jobs:
           - mcr.microsoft.com/dotnet/sdk:3.1-focal-arm32v7,sdk:3.1-focal-arm32v7
           - mcr.microsoft.com/dotnet/sdk:3.1-focal-arm64v8,sdk:3.1-focal-arm64v8
           - mcr.microsoft.com/dotnet/sdk:5.0,sdk:5.0
-          - mcr.microsoft.com/dotnet/sdk:5.0.101,sdk:5.0.101
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-alpine3.12,sdk:5.0.101-alpine3.12
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-alpine3.12-amd64,sdk:5.0.101-alpine3.12-amd64
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-buster-slim,sdk:5.0.101-buster-slim
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-buster-slim-amd64,sdk:5.0.101-buster-slim-amd64
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-buster-slim-arm32v7,sdk:5.0.101-buster-slim-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-buster-slim-arm64v8,sdk:5.0.101-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-focal,sdk:5.0.101-focal
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-focal-amd64,sdk:5.0.101-focal-amd64
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-focal-arm32v7,sdk:5.0.101-focal-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:5.0.101-focal-arm64v8,sdk:5.0.101-focal-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:5.0.102,sdk:5.0.102
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-alpine3.12,sdk:5.0.102-alpine3.12
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-alpine3.12-amd64,sdk:5.0.102-alpine3.12-amd64
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim,sdk:5.0.102-buster-slim
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-amd64,sdk:5.0.102-buster-slim-amd64
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-arm32v7,sdk:5.0.102-buster-slim-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-arm64v8,sdk:5.0.102-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-focal,sdk:5.0.102-focal
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-focal-amd64,sdk:5.0.102-focal-amd64
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-focal-arm32v7,sdk:5.0.102-focal-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:5.0.102-focal-arm64v8,sdk:5.0.102-focal-arm64v8
           - mcr.microsoft.com/dotnet/sdk:5.0-alpine,sdk:5.0-alpine
           - mcr.microsoft.com/dotnet/sdk:5.0-alpine3.12,sdk:5.0-alpine3.12
           - mcr.microsoft.com/dotnet/sdk:5.0-alpine3.12-amd64,sdk:5.0-alpine3.12-amd64
