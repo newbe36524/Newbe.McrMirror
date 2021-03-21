@@ -1,51 +1,15 @@
 {
-  "aliyun_namespace": "newbe36524",
   "tencentyun_namespace": "mcr_newbe36524",
+  "dockerhub_namespace": "newbe36524",
+  "dockerhub_name": "newbe36524",
+  "tencentyun_name": "472158246",
+  "aliyun_name": "pianzide1117",
+  "aliyun_namespace": "newbe36524",
   "images": [
     {
       "group": "sdk",
       "source": "mcr.microsoft.com/dotnet/sdk:2.1",
       "tag": "sdk:2.1"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812",
-      "tag": "sdk:2.1.812"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812-alpine3.12",
-      "tag": "sdk:2.1.812-alpine3.12"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812-bionic",
-      "tag": "sdk:2.1.812-bionic"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812-bionic-arm32v7",
-      "tag": "sdk:2.1.812-bionic-arm32v7"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812-focal",
-      "tag": "sdk:2.1.812-focal"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812-focal-arm32v7",
-      "tag": "sdk:2.1.812-focal-arm32v7"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812-stretch",
-      "tag": "sdk:2.1.812-stretch"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:2.1.812-stretch-arm32v7",
-      "tag": "sdk:2.1.812-stretch-arm32v7"
     },
     {
       "group": "sdk",
@@ -56,6 +20,11 @@
       "group": "sdk",
       "source": "mcr.microsoft.com/dotnet/sdk:2.1-alpine3.12",
       "tag": "sdk:2.1-alpine3.12"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1-alpine3.13",
+      "tag": "sdk:2.1-alpine3.13"
     },
     {
       "group": "sdk",
@@ -89,63 +58,53 @@
     },
     {
       "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814",
+      "tag": "sdk:2.1.814"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-alpine3.12",
+      "tag": "sdk:2.1.814-alpine3.12"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-alpine3.13",
+      "tag": "sdk:2.1.814-alpine3.13"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-bionic",
+      "tag": "sdk:2.1.814-bionic"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-bionic-arm32v7",
+      "tag": "sdk:2.1.814-bionic-arm32v7"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-focal",
+      "tag": "sdk:2.1.814-focal"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-focal-arm32v7",
+      "tag": "sdk:2.1.814-focal-arm32v7"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-stretch",
+      "tag": "sdk:2.1.814-stretch"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:2.1.814-stretch-arm32v7",
+      "tag": "sdk:2.1.814-stretch-arm32v7"
+    },
+    {
+      "group": "sdk",
       "source": "mcr.microsoft.com/dotnet/sdk:3.1",
       "tag": "sdk:3.1"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405",
-      "tag": "sdk:3.1.405"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-alpine3.12",
-      "tag": "sdk:3.1.405-alpine3.12"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-bionic",
-      "tag": "sdk:3.1.405-bionic"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-bionic-arm32v7",
-      "tag": "sdk:3.1.405-bionic-arm32v7"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-bionic-arm64v8",
-      "tag": "sdk:3.1.405-bionic-arm64v8"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-buster",
-      "tag": "sdk:3.1.405-buster"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-buster-arm32v7",
-      "tag": "sdk:3.1.405-buster-arm32v7"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-buster-arm64v8",
-      "tag": "sdk:3.1.405-buster-arm64v8"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-focal",
-      "tag": "sdk:3.1.405-focal"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-focal-arm32v7",
-      "tag": "sdk:3.1.405-focal-arm32v7"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:3.1.405-focal-arm64v8",
-      "tag": "sdk:3.1.405-focal-arm64v8"
     },
     {
       "group": "sdk",
@@ -156,6 +115,11 @@
       "group": "sdk",
       "source": "mcr.microsoft.com/dotnet/sdk:3.1-alpine3.12",
       "tag": "sdk:3.1-alpine3.12"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1-alpine3.13",
+      "tag": "sdk:3.1-alpine3.13"
     },
     {
       "group": "sdk",
@@ -204,68 +168,78 @@
     },
     {
       "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407",
+      "tag": "sdk:3.1.407"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-alpine3.12",
+      "tag": "sdk:3.1.407-alpine3.12"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-alpine3.13",
+      "tag": "sdk:3.1.407-alpine3.13"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-bionic",
+      "tag": "sdk:3.1.407-bionic"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-bionic-arm32v7",
+      "tag": "sdk:3.1.407-bionic-arm32v7"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-bionic-arm64v8",
+      "tag": "sdk:3.1.407-bionic-arm64v8"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-buster",
+      "tag": "sdk:3.1.407-buster"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-buster-arm32v7",
+      "tag": "sdk:3.1.407-buster-arm32v7"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-buster-arm64v8",
+      "tag": "sdk:3.1.407-buster-arm64v8"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-focal",
+      "tag": "sdk:3.1.407-focal"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-focal-arm32v7",
+      "tag": "sdk:3.1.407-focal-arm32v7"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:3.1.407-focal-arm64v8",
+      "tag": "sdk:3.1.407-focal-arm64v8"
+    },
+    {
+      "group": "sdk",
       "source": "mcr.microsoft.com/dotnet/sdk:5.0",
       "tag": "sdk:5.0"
     },
     {
       "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102",
-      "tag": "sdk:5.0.102"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-alpine3.12",
-      "tag": "sdk:5.0.102-alpine3.12"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-alpine3.12-amd64",
-      "tag": "sdk:5.0.102-alpine3.12-amd64"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim",
-      "tag": "sdk:5.0.102-buster-slim"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-amd64",
-      "tag": "sdk:5.0.102-buster-slim-amd64"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-arm32v7",
-      "tag": "sdk:5.0.102-buster-slim-arm32v7"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-arm64v8",
-      "tag": "sdk:5.0.102-buster-slim-arm64v8"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-focal",
-      "tag": "sdk:5.0.102-focal"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-focal-amd64",
-      "tag": "sdk:5.0.102-focal-amd64"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-focal-arm32v7",
-      "tag": "sdk:5.0.102-focal-arm32v7"
-    },
-    {
-      "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0.102-focal-arm64v8",
-      "tag": "sdk:5.0.102-focal-arm64v8"
-    },
-    {
-      "group": "sdk",
       "source": "mcr.microsoft.com/dotnet/sdk:5.0-alpine",
       "tag": "sdk:5.0-alpine"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0-alpine-amd64",
+      "tag": "sdk:5.0-alpine-amd64"
     },
     {
       "group": "sdk",
@@ -279,8 +253,13 @@
     },
     {
       "group": "sdk",
-      "source": "mcr.microsoft.com/dotnet/sdk:5.0-alpine-amd64",
-      "tag": "sdk:5.0-alpine-amd64"
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0-alpine3.13",
+      "tag": "sdk:5.0-alpine3.13"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0-alpine3.13-amd64",
+      "tag": "sdk:5.0-alpine3.13-amd64"
     },
     {
       "group": "sdk",
@@ -324,6 +303,71 @@
     },
     {
       "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201",
+      "tag": "sdk:5.0.201"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.12",
+      "tag": "sdk:5.0.201-alpine3.12"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.12-amd64",
+      "tag": "sdk:5.0.201-alpine3.12-amd64"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.13",
+      "tag": "sdk:5.0.201-alpine3.13"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.13-amd64",
+      "tag": "sdk:5.0.201-alpine3.13-amd64"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim",
+      "tag": "sdk:5.0.201-buster-slim"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-amd64",
+      "tag": "sdk:5.0.201-buster-slim-amd64"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-arm32v7",
+      "tag": "sdk:5.0.201-buster-slim-arm32v7"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-arm64v8",
+      "tag": "sdk:5.0.201-buster-slim-arm64v8"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-focal",
+      "tag": "sdk:5.0.201-focal"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-focal-amd64",
+      "tag": "sdk:5.0.201-focal-amd64"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-focal-arm32v7",
+      "tag": "sdk:5.0.201-focal-arm32v7"
+    },
+    {
+      "group": "sdk",
+      "source": "mcr.microsoft.com/dotnet/sdk:5.0.201-focal-arm64v8",
+      "tag": "sdk:5.0.201-focal-arm64v8"
+    },
+    {
+      "group": "sdk",
       "source": "mcr.microsoft.com/dotnet/sdk:latest",
       "tag": "sdk:latest"
     },
@@ -334,46 +378,6 @@
     },
     {
       "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24",
-      "tag": "runtime-deps:2.1.24"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24-alpine3.12",
-      "tag": "runtime-deps:2.1.24-alpine3.12"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24-bionic",
-      "tag": "runtime-deps:2.1.24-bionic"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24-bionic-arm32v7",
-      "tag": "runtime-deps:2.1.24-bionic-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24-focal",
-      "tag": "runtime-deps:2.1.24-focal"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24-focal-arm32v7",
-      "tag": "runtime-deps:2.1.24-focal-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24-stretch-slim",
-      "tag": "runtime-deps:2.1.24-stretch-slim"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.24-stretch-slim-arm32v7",
-      "tag": "runtime-deps:2.1.24-stretch-slim-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
       "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1-alpine",
       "tag": "runtime-deps:2.1-alpine"
     },
@@ -381,6 +385,11 @@
       "group": "runtime-deps",
       "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1-alpine3.12",
       "tag": "runtime-deps:2.1-alpine3.12"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1-alpine3.13",
+      "tag": "runtime-deps:2.1-alpine3.13"
     },
     {
       "group": "runtime-deps",
@@ -414,73 +423,63 @@
     },
     {
       "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26",
+      "tag": "runtime-deps:2.1.26"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-alpine3.12",
+      "tag": "runtime-deps:2.1.26-alpine3.12"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-alpine3.13",
+      "tag": "runtime-deps:2.1.26-alpine3.13"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-bionic",
+      "tag": "runtime-deps:2.1.26-bionic"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-bionic-arm32v7",
+      "tag": "runtime-deps:2.1.26-bionic-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-focal",
+      "tag": "runtime-deps:2.1.26-focal"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-focal-arm32v7",
+      "tag": "runtime-deps:2.1.26-focal-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-stretch-slim",
+      "tag": "runtime-deps:2.1.26-stretch-slim"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:2.1.26-stretch-slim-arm32v7",
+      "tag": "runtime-deps:2.1.26-stretch-slim-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
       "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1",
       "tag": "runtime-deps:3.1"
     },
     {
       "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11",
-      "tag": "runtime-deps:3.1.11"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-alpine3.12",
-      "tag": "runtime-deps:3.1.11-alpine3.12"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-alpine3.12-arm64v8",
-      "tag": "runtime-deps:3.1.11-alpine3.12-arm64v8"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-bionic",
-      "tag": "runtime-deps:3.1.11-bionic"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-bionic-arm32v7",
-      "tag": "runtime-deps:3.1.11-bionic-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-bionic-arm64v8",
-      "tag": "runtime-deps:3.1.11-bionic-arm64v8"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-buster-slim",
-      "tag": "runtime-deps:3.1.11-buster-slim"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-buster-slim-arm32v7",
-      "tag": "runtime-deps:3.1.11-buster-slim-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-buster-slim-arm64v8",
-      "tag": "runtime-deps:3.1.11-buster-slim-arm64v8"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-focal",
-      "tag": "runtime-deps:3.1.11-focal"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-focal-arm32v7",
-      "tag": "runtime-deps:3.1.11-focal-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.11-focal-arm64v8",
-      "tag": "runtime-deps:3.1.11-focal-arm64v8"
-    },
-    {
-      "group": "runtime-deps",
       "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine",
       "tag": "runtime-deps:3.1-alpine"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine-arm64v8",
+      "tag": "runtime-deps:3.1-alpine-arm64v8"
     },
     {
       "group": "runtime-deps",
@@ -494,8 +493,13 @@
     },
     {
       "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine-arm64v8",
-      "tag": "runtime-deps:3.1-alpine-arm64v8"
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine3.13",
+      "tag": "runtime-deps:3.1-alpine3.13"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine3.13-arm64v8",
+      "tag": "runtime-deps:3.1-alpine3.13-arm64v8"
     },
     {
       "group": "runtime-deps",
@@ -544,73 +548,93 @@
     },
     {
       "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13",
+      "tag": "runtime-deps:3.1.13"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.12",
+      "tag": "runtime-deps:3.1.13-alpine3.12"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.12-arm64v8",
+      "tag": "runtime-deps:3.1.13-alpine3.12-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.13",
+      "tag": "runtime-deps:3.1.13-alpine3.13"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.13-arm64v8",
+      "tag": "runtime-deps:3.1.13-alpine3.13-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic",
+      "tag": "runtime-deps:3.1.13-bionic"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic-arm32v7",
+      "tag": "runtime-deps:3.1.13-bionic-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic-arm64v8",
+      "tag": "runtime-deps:3.1.13-bionic-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim",
+      "tag": "runtime-deps:3.1.13-buster-slim"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim-arm32v7",
+      "tag": "runtime-deps:3.1.13-buster-slim-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim-arm64v8",
+      "tag": "runtime-deps:3.1.13-buster-slim-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal",
+      "tag": "runtime-deps:3.1.13-focal"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal-arm32v7",
+      "tag": "runtime-deps:3.1.13-focal-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal-arm64v8",
+      "tag": "runtime-deps:3.1.13-focal-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
       "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0",
       "tag": "runtime-deps:5.0"
     },
     {
       "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2",
-      "tag": "runtime-deps:5.0.2"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-alpine3.12",
-      "tag": "runtime-deps:5.0.2-alpine3.12"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-alpine3.12-amd64",
-      "tag": "runtime-deps:5.0.2-alpine3.12-amd64"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-alpine3.12-arm64v8",
-      "tag": "runtime-deps:5.0.2-alpine3.12-arm64v8"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim",
-      "tag": "runtime-deps:5.0.2-buster-slim"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim-amd64",
-      "tag": "runtime-deps:5.0.2-buster-slim-amd64"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim-arm32v7",
-      "tag": "runtime-deps:5.0.2-buster-slim-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim-arm64v8",
-      "tag": "runtime-deps:5.0.2-buster-slim-arm64v8"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal",
-      "tag": "runtime-deps:5.0.2-focal"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal-amd64",
-      "tag": "runtime-deps:5.0.2-focal-amd64"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal-arm32v7",
-      "tag": "runtime-deps:5.0.2-focal-arm32v7"
-    },
-    {
-      "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal-arm64v8",
-      "tag": "runtime-deps:5.0.2-focal-arm64v8"
-    },
-    {
-      "group": "runtime-deps",
       "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine",
       "tag": "runtime-deps:5.0-alpine"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-amd64",
+      "tag": "runtime-deps:5.0-alpine-amd64"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-arm64v8",
+      "tag": "runtime-deps:5.0-alpine-arm64v8"
     },
     {
       "group": "runtime-deps",
@@ -629,13 +653,18 @@
     },
     {
       "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-amd64",
-      "tag": "runtime-deps:5.0-alpine-amd64"
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.13",
+      "tag": "runtime-deps:5.0-alpine3.13"
     },
     {
       "group": "runtime-deps",
-      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-arm64v8",
-      "tag": "runtime-deps:5.0-alpine-arm64v8"
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.13-amd64",
+      "tag": "runtime-deps:5.0-alpine3.13-amd64"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.13-arm64v8",
+      "tag": "runtime-deps:5.0-alpine3.13-arm64v8"
     },
     {
       "group": "runtime-deps",
@@ -679,6 +708,81 @@
     },
     {
       "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4",
+      "tag": "runtime-deps:5.0.4"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12",
+      "tag": "runtime-deps:5.0.4-alpine3.12"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12-amd64",
+      "tag": "runtime-deps:5.0.4-alpine3.12-amd64"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12-arm64v8",
+      "tag": "runtime-deps:5.0.4-alpine3.12-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13",
+      "tag": "runtime-deps:5.0.4-alpine3.13"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13-amd64",
+      "tag": "runtime-deps:5.0.4-alpine3.13-amd64"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13-arm64v8",
+      "tag": "runtime-deps:5.0.4-alpine3.13-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim",
+      "tag": "runtime-deps:5.0.4-buster-slim"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim-amd64",
+      "tag": "runtime-deps:5.0.4-buster-slim-amd64"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim-arm32v7",
+      "tag": "runtime-deps:5.0.4-buster-slim-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim-arm64v8",
+      "tag": "runtime-deps:5.0.4-buster-slim-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal",
+      "tag": "runtime-deps:5.0.4-focal"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal-amd64",
+      "tag": "runtime-deps:5.0.4-focal-amd64"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal-arm32v7",
+      "tag": "runtime-deps:5.0.4-focal-arm32v7"
+    },
+    {
+      "group": "runtime-deps",
+      "source": "mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal-arm64v8",
+      "tag": "runtime-deps:5.0.4-focal-arm64v8"
+    },
+    {
+      "group": "runtime-deps",
       "source": "mcr.microsoft.com/dotnet/runtime-deps:latest",
       "tag": "runtime-deps:latest"
     },
@@ -689,46 +793,6 @@
     },
     {
       "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24",
-      "tag": "runtime:2.1.24"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24-alpine3.12",
-      "tag": "runtime:2.1.24-alpine3.12"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24-bionic",
-      "tag": "runtime:2.1.24-bionic"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24-bionic-arm32v7",
-      "tag": "runtime:2.1.24-bionic-arm32v7"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24-focal",
-      "tag": "runtime:2.1.24-focal"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24-focal-arm32v7",
-      "tag": "runtime:2.1.24-focal-arm32v7"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24-stretch-slim",
-      "tag": "runtime:2.1.24-stretch-slim"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:2.1.24-stretch-slim-arm32v7",
-      "tag": "runtime:2.1.24-stretch-slim-arm32v7"
-    },
-    {
-      "group": "runtime",
       "source": "mcr.microsoft.com/dotnet/runtime:2.1-alpine",
       "tag": "runtime:2.1-alpine"
     },
@@ -736,6 +800,11 @@
       "group": "runtime",
       "source": "mcr.microsoft.com/dotnet/runtime:2.1-alpine3.12",
       "tag": "runtime:2.1-alpine3.12"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1-alpine3.13",
+      "tag": "runtime:2.1-alpine3.13"
     },
     {
       "group": "runtime",
@@ -769,73 +838,63 @@
     },
     {
       "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26",
+      "tag": "runtime:2.1.26"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-alpine3.12",
+      "tag": "runtime:2.1.26-alpine3.12"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-alpine3.13",
+      "tag": "runtime:2.1.26-alpine3.13"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-bionic",
+      "tag": "runtime:2.1.26-bionic"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-bionic-arm32v7",
+      "tag": "runtime:2.1.26-bionic-arm32v7"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-focal",
+      "tag": "runtime:2.1.26-focal"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-focal-arm32v7",
+      "tag": "runtime:2.1.26-focal-arm32v7"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-stretch-slim",
+      "tag": "runtime:2.1.26-stretch-slim"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:2.1.26-stretch-slim-arm32v7",
+      "tag": "runtime:2.1.26-stretch-slim-arm32v7"
+    },
+    {
+      "group": "runtime",
       "source": "mcr.microsoft.com/dotnet/runtime:3.1",
       "tag": "runtime:3.1"
     },
     {
       "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11",
-      "tag": "runtime:3.1.11"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-alpine3.12",
-      "tag": "runtime:3.1.11-alpine3.12"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-alpine3.12-arm64v8",
-      "tag": "runtime:3.1.11-alpine3.12-arm64v8"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-bionic",
-      "tag": "runtime:3.1.11-bionic"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-bionic-arm32v7",
-      "tag": "runtime:3.1.11-bionic-arm32v7"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-bionic-arm64v8",
-      "tag": "runtime:3.1.11-bionic-arm64v8"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-buster-slim",
-      "tag": "runtime:3.1.11-buster-slim"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-buster-slim-arm32v7",
-      "tag": "runtime:3.1.11-buster-slim-arm32v7"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-buster-slim-arm64v8",
-      "tag": "runtime:3.1.11-buster-slim-arm64v8"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-focal",
-      "tag": "runtime:3.1.11-focal"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-focal-arm32v7",
-      "tag": "runtime:3.1.11-focal-arm32v7"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1.11-focal-arm64v8",
-      "tag": "runtime:3.1.11-focal-arm64v8"
-    },
-    {
-      "group": "runtime",
       "source": "mcr.microsoft.com/dotnet/runtime:3.1-alpine",
       "tag": "runtime:3.1-alpine"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1-alpine-arm64v8",
+      "tag": "runtime:3.1-alpine-arm64v8"
     },
     {
       "group": "runtime",
@@ -849,8 +908,13 @@
     },
     {
       "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:3.1-alpine-arm64v8",
-      "tag": "runtime:3.1-alpine-arm64v8"
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1-alpine3.13",
+      "tag": "runtime:3.1-alpine3.13"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1-alpine3.13-arm64v8",
+      "tag": "runtime:3.1-alpine3.13-arm64v8"
     },
     {
       "group": "runtime",
@@ -899,73 +963,93 @@
     },
     {
       "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13",
+      "tag": "runtime:3.1.13"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.12",
+      "tag": "runtime:3.1.13-alpine3.12"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.12-arm64v8",
+      "tag": "runtime:3.1.13-alpine3.12-arm64v8"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.13",
+      "tag": "runtime:3.1.13-alpine3.13"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.13-arm64v8",
+      "tag": "runtime:3.1.13-alpine3.13-arm64v8"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-bionic",
+      "tag": "runtime:3.1.13-bionic"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-bionic-arm32v7",
+      "tag": "runtime:3.1.13-bionic-arm32v7"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-bionic-arm64v8",
+      "tag": "runtime:3.1.13-bionic-arm64v8"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-buster-slim",
+      "tag": "runtime:3.1.13-buster-slim"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-buster-slim-arm32v7",
+      "tag": "runtime:3.1.13-buster-slim-arm32v7"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-buster-slim-arm64v8",
+      "tag": "runtime:3.1.13-buster-slim-arm64v8"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-focal",
+      "tag": "runtime:3.1.13-focal"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-focal-arm32v7",
+      "tag": "runtime:3.1.13-focal-arm32v7"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:3.1.13-focal-arm64v8",
+      "tag": "runtime:3.1.13-focal-arm64v8"
+    },
+    {
+      "group": "runtime",
       "source": "mcr.microsoft.com/dotnet/runtime:5.0",
       "tag": "runtime:5.0"
     },
     {
       "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2",
-      "tag": "runtime:5.0.2"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-alpine3.12",
-      "tag": "runtime:5.0.2-alpine3.12"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-alpine3.12-amd64",
-      "tag": "runtime:5.0.2-alpine3.12-amd64"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-alpine3.12-arm64v8",
-      "tag": "runtime:5.0.2-alpine3.12-arm64v8"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim",
-      "tag": "runtime:5.0.2-buster-slim"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim-amd64",
-      "tag": "runtime:5.0.2-buster-slim-amd64"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim-arm32v7",
-      "tag": "runtime:5.0.2-buster-slim-arm32v7"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim-arm64v8",
-      "tag": "runtime:5.0.2-buster-slim-arm64v8"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-focal",
-      "tag": "runtime:5.0.2-focal"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-focal-amd64",
-      "tag": "runtime:5.0.2-focal-amd64"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-focal-arm32v7",
-      "tag": "runtime:5.0.2-focal-arm32v7"
-    },
-    {
-      "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0.2-focal-arm64v8",
-      "tag": "runtime:5.0.2-focal-arm64v8"
-    },
-    {
-      "group": "runtime",
       "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine",
       "tag": "runtime:5.0-alpine"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine-amd64",
+      "tag": "runtime:5.0-alpine-amd64"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine-arm64v8",
+      "tag": "runtime:5.0-alpine-arm64v8"
     },
     {
       "group": "runtime",
@@ -984,13 +1068,18 @@
     },
     {
       "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine-amd64",
-      "tag": "runtime:5.0-alpine-amd64"
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine3.13",
+      "tag": "runtime:5.0-alpine3.13"
     },
     {
       "group": "runtime",
-      "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine-arm64v8",
-      "tag": "runtime:5.0-alpine-arm64v8"
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine3.13-amd64",
+      "tag": "runtime:5.0-alpine3.13-amd64"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0-alpine3.13-arm64v8",
+      "tag": "runtime:5.0-alpine3.13-arm64v8"
     },
     {
       "group": "runtime",
@@ -1034,6 +1123,81 @@
     },
     {
       "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4",
+      "tag": "runtime:5.0.4"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.12",
+      "tag": "runtime:5.0.4-alpine3.12"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.12-amd64",
+      "tag": "runtime:5.0.4-alpine3.12-amd64"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.12-arm64v8",
+      "tag": "runtime:5.0.4-alpine3.12-arm64v8"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.13",
+      "tag": "runtime:5.0.4-alpine3.13"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.13-amd64",
+      "tag": "runtime:5.0.4-alpine3.13-amd64"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.13-arm64v8",
+      "tag": "runtime:5.0.4-alpine3.13-arm64v8"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim",
+      "tag": "runtime:5.0.4-buster-slim"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim-amd64",
+      "tag": "runtime:5.0.4-buster-slim-amd64"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim-arm32v7",
+      "tag": "runtime:5.0.4-buster-slim-arm32v7"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim-arm64v8",
+      "tag": "runtime:5.0.4-buster-slim-arm64v8"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-focal",
+      "tag": "runtime:5.0.4-focal"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-focal-amd64",
+      "tag": "runtime:5.0.4-focal-amd64"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-focal-arm32v7",
+      "tag": "runtime:5.0.4-focal-arm32v7"
+    },
+    {
+      "group": "runtime",
+      "source": "mcr.microsoft.com/dotnet/runtime:5.0.4-focal-arm64v8",
+      "tag": "runtime:5.0.4-focal-arm64v8"
+    },
+    {
+      "group": "runtime",
       "source": "mcr.microsoft.com/dotnet/runtime:latest",
       "tag": "runtime:latest"
     },
@@ -1044,46 +1208,6 @@
     },
     {
       "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24",
-      "tag": "aspnet:2.1.24"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24-alpine3.12",
-      "tag": "aspnet:2.1.24-alpine3.12"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24-bionic",
-      "tag": "aspnet:2.1.24-bionic"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24-bionic-arm32v7",
-      "tag": "aspnet:2.1.24-bionic-arm32v7"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24-focal",
-      "tag": "aspnet:2.1.24-focal"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24-focal-arm32v7",
-      "tag": "aspnet:2.1.24-focal-arm32v7"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24-stretch-slim",
-      "tag": "aspnet:2.1.24-stretch-slim"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.24-stretch-slim-arm32v7",
-      "tag": "aspnet:2.1.24-stretch-slim-arm32v7"
-    },
-    {
-      "group": "aspnet",
       "source": "mcr.microsoft.com/dotnet/aspnet:2.1-alpine",
       "tag": "aspnet:2.1-alpine"
     },
@@ -1091,6 +1215,11 @@
       "group": "aspnet",
       "source": "mcr.microsoft.com/dotnet/aspnet:2.1-alpine3.12",
       "tag": "aspnet:2.1-alpine3.12"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1-alpine3.13",
+      "tag": "aspnet:2.1-alpine3.13"
     },
     {
       "group": "aspnet",
@@ -1124,73 +1253,63 @@
     },
     {
       "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26",
+      "tag": "aspnet:2.1.26"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-alpine3.12",
+      "tag": "aspnet:2.1.26-alpine3.12"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-alpine3.13",
+      "tag": "aspnet:2.1.26-alpine3.13"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-bionic",
+      "tag": "aspnet:2.1.26-bionic"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-bionic-arm32v7",
+      "tag": "aspnet:2.1.26-bionic-arm32v7"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-focal",
+      "tag": "aspnet:2.1.26-focal"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-focal-arm32v7",
+      "tag": "aspnet:2.1.26-focal-arm32v7"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-stretch-slim",
+      "tag": "aspnet:2.1.26-stretch-slim"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:2.1.26-stretch-slim-arm32v7",
+      "tag": "aspnet:2.1.26-stretch-slim-arm32v7"
+    },
+    {
+      "group": "aspnet",
       "source": "mcr.microsoft.com/dotnet/aspnet:3.1",
       "tag": "aspnet:3.1"
     },
     {
       "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11",
-      "tag": "aspnet:3.1.11"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-alpine3.12",
-      "tag": "aspnet:3.1.11-alpine3.12"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-alpine3.12-arm64v8",
-      "tag": "aspnet:3.1.11-alpine3.12-arm64v8"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic",
-      "tag": "aspnet:3.1.11-bionic"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic-arm32v7",
-      "tag": "aspnet:3.1.11-bionic-arm32v7"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic-arm64v8",
-      "tag": "aspnet:3.1.11-bionic-arm64v8"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim",
-      "tag": "aspnet:3.1.11-buster-slim"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim-arm32v7",
-      "tag": "aspnet:3.1.11-buster-slim-arm32v7"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim-arm64v8",
-      "tag": "aspnet:3.1.11-buster-slim-arm64v8"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-focal",
-      "tag": "aspnet:3.1.11-focal"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-focal-arm32v7",
-      "tag": "aspnet:3.1.11-focal-arm32v7"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.11-focal-arm64v8",
-      "tag": "aspnet:3.1.11-focal-arm64v8"
-    },
-    {
-      "group": "aspnet",
       "source": "mcr.microsoft.com/dotnet/aspnet:3.1-alpine",
       "tag": "aspnet:3.1-alpine"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1-alpine-arm64v8",
+      "tag": "aspnet:3.1-alpine-arm64v8"
     },
     {
       "group": "aspnet",
@@ -1204,8 +1323,13 @@
     },
     {
       "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:3.1-alpine-arm64v8",
-      "tag": "aspnet:3.1-alpine-arm64v8"
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.13",
+      "tag": "aspnet:3.1-alpine3.13"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.13-arm64v8",
+      "tag": "aspnet:3.1-alpine3.13-arm64v8"
     },
     {
       "group": "aspnet",
@@ -1254,73 +1378,93 @@
     },
     {
       "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13",
+      "tag": "aspnet:3.1.13"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.12",
+      "tag": "aspnet:3.1.13-alpine3.12"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.12-arm64v8",
+      "tag": "aspnet:3.1.13-alpine3.12-arm64v8"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.13",
+      "tag": "aspnet:3.1.13-alpine3.13"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.13-arm64v8",
+      "tag": "aspnet:3.1.13-alpine3.13-arm64v8"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-bionic",
+      "tag": "aspnet:3.1.13-bionic"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-bionic-arm32v7",
+      "tag": "aspnet:3.1.13-bionic-arm32v7"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-bionic-arm64v8",
+      "tag": "aspnet:3.1.13-bionic-arm64v8"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim",
+      "tag": "aspnet:3.1.13-buster-slim"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim-arm32v7",
+      "tag": "aspnet:3.1.13-buster-slim-arm32v7"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim-arm64v8",
+      "tag": "aspnet:3.1.13-buster-slim-arm64v8"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-focal",
+      "tag": "aspnet:3.1.13-focal"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-focal-arm32v7",
+      "tag": "aspnet:3.1.13-focal-arm32v7"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:3.1.13-focal-arm64v8",
+      "tag": "aspnet:3.1.13-focal-arm64v8"
+    },
+    {
+      "group": "aspnet",
       "source": "mcr.microsoft.com/dotnet/aspnet:5.0",
       "tag": "aspnet:5.0"
     },
     {
       "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2",
-      "tag": "aspnet:5.0.2"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12",
-      "tag": "aspnet:5.0.2-alpine3.12"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12-amd64",
-      "tag": "aspnet:5.0.2-alpine3.12-amd64"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12-arm64v8",
-      "tag": "aspnet:5.0.2-alpine3.12-arm64v8"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim",
-      "tag": "aspnet:5.0.2-buster-slim"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-amd64",
-      "tag": "aspnet:5.0.2-buster-slim-amd64"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-arm32v7",
-      "tag": "aspnet:5.0.2-buster-slim-arm32v7"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-arm64v8",
-      "tag": "aspnet:5.0.2-buster-slim-arm64v8"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-focal",
-      "tag": "aspnet:5.0.2-focal"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-amd64",
-      "tag": "aspnet:5.0.2-focal-amd64"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-arm32v7",
-      "tag": "aspnet:5.0.2-focal-arm32v7"
-    },
-    {
-      "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-arm64v8",
-      "tag": "aspnet:5.0.2-focal-arm64v8"
-    },
-    {
-      "group": "aspnet",
       "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine",
       "tag": "aspnet:5.0-alpine"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine-amd64",
+      "tag": "aspnet:5.0-alpine-amd64"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine-arm64v8",
+      "tag": "aspnet:5.0-alpine-arm64v8"
     },
     {
       "group": "aspnet",
@@ -1339,13 +1483,18 @@
     },
     {
       "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine-amd64",
-      "tag": "aspnet:5.0-alpine-amd64"
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.13",
+      "tag": "aspnet:5.0-alpine3.13"
     },
     {
       "group": "aspnet",
-      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine-arm64v8",
-      "tag": "aspnet:5.0-alpine-arm64v8"
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.13-amd64",
+      "tag": "aspnet:5.0-alpine3.13-amd64"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.13-arm64v8",
+      "tag": "aspnet:5.0-alpine3.13-arm64v8"
     },
     {
       "group": "aspnet",
@@ -1389,8 +1538,88 @@
     },
     {
       "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4",
+      "tag": "aspnet:5.0.4"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12",
+      "tag": "aspnet:5.0.4-alpine3.12"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12-amd64",
+      "tag": "aspnet:5.0.4-alpine3.12-amd64"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12-arm64v8",
+      "tag": "aspnet:5.0.4-alpine3.12-arm64v8"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13",
+      "tag": "aspnet:5.0.4-alpine3.13"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13-amd64",
+      "tag": "aspnet:5.0.4-alpine3.13-amd64"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13-arm64v8",
+      "tag": "aspnet:5.0.4-alpine3.13-arm64v8"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim",
+      "tag": "aspnet:5.0.4-buster-slim"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim-amd64",
+      "tag": "aspnet:5.0.4-buster-slim-amd64"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim-arm32v7",
+      "tag": "aspnet:5.0.4-buster-slim-arm32v7"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim-arm64v8",
+      "tag": "aspnet:5.0.4-buster-slim-arm64v8"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-focal",
+      "tag": "aspnet:5.0.4-focal"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-focal-amd64",
+      "tag": "aspnet:5.0.4-focal-amd64"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-focal-arm32v7",
+      "tag": "aspnet:5.0.4-focal-arm32v7"
+    },
+    {
+      "group": "aspnet",
+      "source": "mcr.microsoft.com/dotnet/aspnet:5.0.4-focal-arm64v8",
+      "tag": "aspnet:5.0.4-focal-arm64v8"
+    },
+    {
+      "group": "aspnet",
       "source": "mcr.microsoft.com/dotnet/aspnet:latest",
       "tag": "aspnet:latest"
+    },
+    {
+      "group": "server",
+      "source": "mcr.microsoft.com/mssql/server:2017-CU1-ubuntu",
+      "tag": "server:2017-CU1-ubuntu"
     },
     {
       "group": "server",
@@ -1444,8 +1673,8 @@
     },
     {
       "group": "server",
-      "source": "mcr.microsoft.com/mssql/server:2017-CU1-ubuntu",
-      "tag": "server:2017-CU1-ubuntu"
+      "source": "mcr.microsoft.com/mssql/server:2017-CU2-ubuntu",
+      "tag": "server:2017-CU2-ubuntu"
     },
     {
       "group": "server",
@@ -1459,8 +1688,8 @@
     },
     {
       "group": "server",
-      "source": "mcr.microsoft.com/mssql/server:2017-CU2-ubuntu",
-      "tag": "server:2017-CU2-ubuntu"
+      "source": "mcr.microsoft.com/mssql/server:2017-CU22-ubuntu-16.04",
+      "tag": "server:2017-CU22-ubuntu-16.04"
     },
     {
       "group": "server",
@@ -1546,6 +1775,11 @@
       "group": "server",
       "source": "mcr.microsoft.com/mssql/server:2019-CU8-ubuntu-16.04",
       "tag": "server:2019-CU8-ubuntu-16.04"
+    },
+    {
+      "group": "server",
+      "source": "mcr.microsoft.com/mssql/server:2019-CU9-ubuntu-16.04",
+      "tag": "server:2019-CU9-ubuntu-16.04"
     },
     {
       "group": "server",
@@ -1787,9 +2021,5 @@
       "source": "mcr.microsoft.com/vscode/devcontainers/rust:0",
       "tag": "vscode_rust:0"
     }
-  ],
-  "dockerhub_name": "newbe36524",
-  "tencentyun_name": "472158246",
-  "aliyun_name": "pianzide1117",
-  "dockerhub_namespace": "newbe36524"
+  ]
 }

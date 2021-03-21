@@ -20,7 +20,7 @@ function CreateImagesFromDockerhub {
     } | ForEach-Object {
         $_.SubString(0, $_.IndexOf("|")).Trim() 
     } | Where-Object {
-        $_ -ne "Tags" -and $_ -ne "Tag" -and -not $_.Contains("nano")
+        $_ -ne "Tags" -and $_ -ne "Tag" -and -not $_.Contains("nano") -and -not $_.Contains("preview")
     } | ForEach-Object {
         $_ -split ","
     } | ForEach-Object {

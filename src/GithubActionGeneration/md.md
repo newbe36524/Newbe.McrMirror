@@ -1,38 +1,30 @@
-## Tags 
+## Tags
 
-### sdk 
+### sdk
 
- - mcr.microsoft.com/dotnet/sdk:2.1
-- mcr.microsoft.com/dotnet/sdk:2.1.812
-- mcr.microsoft.com/dotnet/sdk:2.1.812-alpine3.12
-- mcr.microsoft.com/dotnet/sdk:2.1.812-bionic
-- mcr.microsoft.com/dotnet/sdk:2.1.812-bionic-arm32v7
-- mcr.microsoft.com/dotnet/sdk:2.1.812-focal
-- mcr.microsoft.com/dotnet/sdk:2.1.812-focal-arm32v7
-- mcr.microsoft.com/dotnet/sdk:2.1.812-stretch
-- mcr.microsoft.com/dotnet/sdk:2.1.812-stretch-arm32v7
+- mcr.microsoft.com/dotnet/sdk:2.1
 - mcr.microsoft.com/dotnet/sdk:2.1-alpine
 - mcr.microsoft.com/dotnet/sdk:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/sdk:2.1-alpine3.13
 - mcr.microsoft.com/dotnet/sdk:2.1-bionic
 - mcr.microsoft.com/dotnet/sdk:2.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/sdk:2.1-focal
 - mcr.microsoft.com/dotnet/sdk:2.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/sdk:2.1-stretch
 - mcr.microsoft.com/dotnet/sdk:2.1-stretch-arm32v7
+- mcr.microsoft.com/dotnet/sdk:2.1.814
+- mcr.microsoft.com/dotnet/sdk:2.1.814-alpine3.12
+- mcr.microsoft.com/dotnet/sdk:2.1.814-alpine3.13
+- mcr.microsoft.com/dotnet/sdk:2.1.814-bionic
+- mcr.microsoft.com/dotnet/sdk:2.1.814-bionic-arm32v7
+- mcr.microsoft.com/dotnet/sdk:2.1.814-focal
+- mcr.microsoft.com/dotnet/sdk:2.1.814-focal-arm32v7
+- mcr.microsoft.com/dotnet/sdk:2.1.814-stretch
+- mcr.microsoft.com/dotnet/sdk:2.1.814-stretch-arm32v7
 - mcr.microsoft.com/dotnet/sdk:3.1
-- mcr.microsoft.com/dotnet/sdk:3.1.405
-- mcr.microsoft.com/dotnet/sdk:3.1.405-alpine3.12
-- mcr.microsoft.com/dotnet/sdk:3.1.405-bionic
-- mcr.microsoft.com/dotnet/sdk:3.1.405-bionic-arm32v7
-- mcr.microsoft.com/dotnet/sdk:3.1.405-bionic-arm64v8
-- mcr.microsoft.com/dotnet/sdk:3.1.405-buster
-- mcr.microsoft.com/dotnet/sdk:3.1.405-buster-arm32v7
-- mcr.microsoft.com/dotnet/sdk:3.1.405-buster-arm64v8
-- mcr.microsoft.com/dotnet/sdk:3.1.405-focal
-- mcr.microsoft.com/dotnet/sdk:3.1.405-focal-arm32v7
-- mcr.microsoft.com/dotnet/sdk:3.1.405-focal-arm64v8
 - mcr.microsoft.com/dotnet/sdk:3.1-alpine
 - mcr.microsoft.com/dotnet/sdk:3.1-alpine3.12
+- mcr.microsoft.com/dotnet/sdk:3.1-alpine3.13
 - mcr.microsoft.com/dotnet/sdk:3.1-bionic
 - mcr.microsoft.com/dotnet/sdk:3.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/sdk:3.1-bionic-arm64v8
@@ -42,22 +34,25 @@
 - mcr.microsoft.com/dotnet/sdk:3.1-focal
 - mcr.microsoft.com/dotnet/sdk:3.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/sdk:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/sdk:3.1.407
+- mcr.microsoft.com/dotnet/sdk:3.1.407-alpine3.12
+- mcr.microsoft.com/dotnet/sdk:3.1.407-alpine3.13
+- mcr.microsoft.com/dotnet/sdk:3.1.407-bionic
+- mcr.microsoft.com/dotnet/sdk:3.1.407-bionic-arm32v7
+- mcr.microsoft.com/dotnet/sdk:3.1.407-bionic-arm64v8
+- mcr.microsoft.com/dotnet/sdk:3.1.407-buster
+- mcr.microsoft.com/dotnet/sdk:3.1.407-buster-arm32v7
+- mcr.microsoft.com/dotnet/sdk:3.1.407-buster-arm64v8
+- mcr.microsoft.com/dotnet/sdk:3.1.407-focal
+- mcr.microsoft.com/dotnet/sdk:3.1.407-focal-arm32v7
+- mcr.microsoft.com/dotnet/sdk:3.1.407-focal-arm64v8
 - mcr.microsoft.com/dotnet/sdk:5.0
-- mcr.microsoft.com/dotnet/sdk:5.0.102
-- mcr.microsoft.com/dotnet/sdk:5.0.102-alpine3.12
-- mcr.microsoft.com/dotnet/sdk:5.0.102-alpine3.12-amd64
-- mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim
-- mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-amd64
-- mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-arm32v7
-- mcr.microsoft.com/dotnet/sdk:5.0.102-buster-slim-arm64v8
-- mcr.microsoft.com/dotnet/sdk:5.0.102-focal
-- mcr.microsoft.com/dotnet/sdk:5.0.102-focal-amd64
-- mcr.microsoft.com/dotnet/sdk:5.0.102-focal-arm32v7
-- mcr.microsoft.com/dotnet/sdk:5.0.102-focal-arm64v8
 - mcr.microsoft.com/dotnet/sdk:5.0-alpine
+- mcr.microsoft.com/dotnet/sdk:5.0-alpine-amd64
 - mcr.microsoft.com/dotnet/sdk:5.0-alpine3.12
 - mcr.microsoft.com/dotnet/sdk:5.0-alpine3.12-amd64
-- mcr.microsoft.com/dotnet/sdk:5.0-alpine-amd64
+- mcr.microsoft.com/dotnet/sdk:5.0-alpine3.13
+- mcr.microsoft.com/dotnet/sdk:5.0-alpine3.13-amd64
 - mcr.microsoft.com/dotnet/sdk:5.0-buster-slim
 - mcr.microsoft.com/dotnet/sdk:5.0-buster-slim-amd64
 - mcr.microsoft.com/dotnet/sdk:5.0-buster-slim-arm32v7
@@ -66,44 +61,49 @@
 - mcr.microsoft.com/dotnet/sdk:5.0-focal-amd64
 - mcr.microsoft.com/dotnet/sdk:5.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/sdk:5.0-focal-arm64v8
+- mcr.microsoft.com/dotnet/sdk:5.0.201
+- mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.12
+- mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.12-amd64
+- mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.13
+- mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.13-amd64
+- mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim
+- mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-amd64
+- mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/sdk:5.0.201-focal
+- mcr.microsoft.com/dotnet/sdk:5.0.201-focal-amd64
+- mcr.microsoft.com/dotnet/sdk:5.0.201-focal-arm32v7
+- mcr.microsoft.com/dotnet/sdk:5.0.201-focal-arm64v8
 - mcr.microsoft.com/dotnet/sdk:latest
 
-### runtime-deps 
+### runtime-deps
 
- - mcr.microsoft.com/dotnet/runtime-deps:2.1
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24-alpine3.12
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24-bionic
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24-bionic-arm32v7
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24-focal
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24-stretch-slim
-- mcr.microsoft.com/dotnet/runtime-deps:2.1.24-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:2.1
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-alpine
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/runtime-deps:2.1-alpine3.13
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-bionic
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-focal
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-stretch-slim
 - mcr.microsoft.com/dotnet/runtime-deps:2.1-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-alpine3.12
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-alpine3.13
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-bionic
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-bionic-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-focal
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-focal-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-stretch-slim
+- mcr.microsoft.com/dotnet/runtime-deps:2.1.26-stretch-slim-arm32v7
 - mcr.microsoft.com/dotnet/runtime-deps:3.1
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-alpine3.12
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-bionic
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-bionic-arm32v7
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-bionic-arm64v8
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-buster-slim
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-buster-slim-arm32v7
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-buster-slim-arm64v8
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-focal
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime-deps:3.1.11-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine
+- mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine3.12
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine3.13
+- mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine3.13-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-bionic
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-bionic-arm64v8
@@ -113,25 +113,30 @@
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-focal
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime-deps:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.12
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.13
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.13-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:5.0
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-alpine3.12
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-alpine3.12-amd64
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim-amd64
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim-arm32v7
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-buster-slim-arm64v8
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal-amd64
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime-deps:5.0.2-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine
+- mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-amd64
+- mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.12
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.12-amd64
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-amd64
-- mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.13
+- mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.13-amd64
+- mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine3.13-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-buster-slim
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-buster-slim-amd64
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-buster-slim-arm32v7
@@ -140,44 +145,51 @@
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-focal-amd64
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime-deps:5.0-focal-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12-amd64
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13-amd64
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim-amd64
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal-amd64
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal-arm32v7
+- mcr.microsoft.com/dotnet/runtime-deps:5.0.4-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime-deps:latest
 
-### runtime 
+### runtime
 
- - mcr.microsoft.com/dotnet/runtime:2.1
-- mcr.microsoft.com/dotnet/runtime:2.1.24
-- mcr.microsoft.com/dotnet/runtime:2.1.24-alpine3.12
-- mcr.microsoft.com/dotnet/runtime:2.1.24-bionic
-- mcr.microsoft.com/dotnet/runtime:2.1.24-bionic-arm32v7
-- mcr.microsoft.com/dotnet/runtime:2.1.24-focal
-- mcr.microsoft.com/dotnet/runtime:2.1.24-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime:2.1.24-stretch-slim
-- mcr.microsoft.com/dotnet/runtime:2.1.24-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime:2.1
 - mcr.microsoft.com/dotnet/runtime:2.1-alpine
 - mcr.microsoft.com/dotnet/runtime:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/runtime:2.1-alpine3.13
 - mcr.microsoft.com/dotnet/runtime:2.1-bionic
 - mcr.microsoft.com/dotnet/runtime:2.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/runtime:2.1-focal
 - mcr.microsoft.com/dotnet/runtime:2.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime:2.1-stretch-slim
 - mcr.microsoft.com/dotnet/runtime:2.1-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime:2.1.26
+- mcr.microsoft.com/dotnet/runtime:2.1.26-alpine3.12
+- mcr.microsoft.com/dotnet/runtime:2.1.26-alpine3.13
+- mcr.microsoft.com/dotnet/runtime:2.1.26-bionic
+- mcr.microsoft.com/dotnet/runtime:2.1.26-bionic-arm32v7
+- mcr.microsoft.com/dotnet/runtime:2.1.26-focal
+- mcr.microsoft.com/dotnet/runtime:2.1.26-focal-arm32v7
+- mcr.microsoft.com/dotnet/runtime:2.1.26-stretch-slim
+- mcr.microsoft.com/dotnet/runtime:2.1.26-stretch-slim-arm32v7
 - mcr.microsoft.com/dotnet/runtime:3.1
-- mcr.microsoft.com/dotnet/runtime:3.1.11
-- mcr.microsoft.com/dotnet/runtime:3.1.11-alpine3.12
-- mcr.microsoft.com/dotnet/runtime:3.1.11-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime:3.1.11-bionic
-- mcr.microsoft.com/dotnet/runtime:3.1.11-bionic-arm32v7
-- mcr.microsoft.com/dotnet/runtime:3.1.11-bionic-arm64v8
-- mcr.microsoft.com/dotnet/runtime:3.1.11-buster-slim
-- mcr.microsoft.com/dotnet/runtime:3.1.11-buster-slim-arm32v7
-- mcr.microsoft.com/dotnet/runtime:3.1.11-buster-slim-arm64v8
-- mcr.microsoft.com/dotnet/runtime:3.1.11-focal
-- mcr.microsoft.com/dotnet/runtime:3.1.11-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime:3.1.11-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime:3.1-alpine
+- mcr.microsoft.com/dotnet/runtime:3.1-alpine-arm64v8
 - mcr.microsoft.com/dotnet/runtime:3.1-alpine3.12
 - mcr.microsoft.com/dotnet/runtime:3.1-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime:3.1-alpine-arm64v8
+- mcr.microsoft.com/dotnet/runtime:3.1-alpine3.13
+- mcr.microsoft.com/dotnet/runtime:3.1-alpine3.13-arm64v8
 - mcr.microsoft.com/dotnet/runtime:3.1-bionic
 - mcr.microsoft.com/dotnet/runtime:3.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/runtime:3.1-bionic-arm64v8
@@ -187,25 +199,30 @@
 - mcr.microsoft.com/dotnet/runtime:3.1-focal
 - mcr.microsoft.com/dotnet/runtime:3.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/runtime:3.1.13
+- mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.12
+- mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.13
+- mcr.microsoft.com/dotnet/runtime:3.1.13-alpine3.13-arm64v8
+- mcr.microsoft.com/dotnet/runtime:3.1.13-bionic
+- mcr.microsoft.com/dotnet/runtime:3.1.13-bionic-arm32v7
+- mcr.microsoft.com/dotnet/runtime:3.1.13-bionic-arm64v8
+- mcr.microsoft.com/dotnet/runtime:3.1.13-buster-slim
+- mcr.microsoft.com/dotnet/runtime:3.1.13-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime:3.1.13-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/runtime:3.1.13-focal
+- mcr.microsoft.com/dotnet/runtime:3.1.13-focal-arm32v7
+- mcr.microsoft.com/dotnet/runtime:3.1.13-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime:5.0
-- mcr.microsoft.com/dotnet/runtime:5.0.2
-- mcr.microsoft.com/dotnet/runtime:5.0.2-alpine3.12
-- mcr.microsoft.com/dotnet/runtime:5.0.2-alpine3.12-amd64
-- mcr.microsoft.com/dotnet/runtime:5.0.2-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim
-- mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim-amd64
-- mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim-arm32v7
-- mcr.microsoft.com/dotnet/runtime:5.0.2-buster-slim-arm64v8
-- mcr.microsoft.com/dotnet/runtime:5.0.2-focal
-- mcr.microsoft.com/dotnet/runtime:5.0.2-focal-amd64
-- mcr.microsoft.com/dotnet/runtime:5.0.2-focal-arm32v7
-- mcr.microsoft.com/dotnet/runtime:5.0.2-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime:5.0-alpine
+- mcr.microsoft.com/dotnet/runtime:5.0-alpine-amd64
+- mcr.microsoft.com/dotnet/runtime:5.0-alpine-arm64v8
 - mcr.microsoft.com/dotnet/runtime:5.0-alpine3.12
 - mcr.microsoft.com/dotnet/runtime:5.0-alpine3.12-amd64
 - mcr.microsoft.com/dotnet/runtime:5.0-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/runtime:5.0-alpine-amd64
-- mcr.microsoft.com/dotnet/runtime:5.0-alpine-arm64v8
+- mcr.microsoft.com/dotnet/runtime:5.0-alpine3.13
+- mcr.microsoft.com/dotnet/runtime:5.0-alpine3.13-amd64
+- mcr.microsoft.com/dotnet/runtime:5.0-alpine3.13-arm64v8
 - mcr.microsoft.com/dotnet/runtime:5.0-buster-slim
 - mcr.microsoft.com/dotnet/runtime:5.0-buster-slim-amd64
 - mcr.microsoft.com/dotnet/runtime:5.0-buster-slim-arm32v7
@@ -214,44 +231,51 @@
 - mcr.microsoft.com/dotnet/runtime:5.0-focal-amd64
 - mcr.microsoft.com/dotnet/runtime:5.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/runtime:5.0-focal-arm64v8
+- mcr.microsoft.com/dotnet/runtime:5.0.4
+- mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.12
+- mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.12-amd64
+- mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.13
+- mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.13-amd64
+- mcr.microsoft.com/dotnet/runtime:5.0.4-alpine3.13-arm64v8
+- mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim
+- mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim-amd64
+- mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/runtime:5.0.4-focal
+- mcr.microsoft.com/dotnet/runtime:5.0.4-focal-amd64
+- mcr.microsoft.com/dotnet/runtime:5.0.4-focal-arm32v7
+- mcr.microsoft.com/dotnet/runtime:5.0.4-focal-arm64v8
 - mcr.microsoft.com/dotnet/runtime:latest
 
-### aspnet 
+### aspnet
 
- - mcr.microsoft.com/dotnet/aspnet:2.1
-- mcr.microsoft.com/dotnet/aspnet:2.1.24
-- mcr.microsoft.com/dotnet/aspnet:2.1.24-alpine3.12
-- mcr.microsoft.com/dotnet/aspnet:2.1.24-bionic
-- mcr.microsoft.com/dotnet/aspnet:2.1.24-bionic-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:2.1.24-focal
-- mcr.microsoft.com/dotnet/aspnet:2.1.24-focal-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:2.1.24-stretch-slim
-- mcr.microsoft.com/dotnet/aspnet:2.1.24-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:2.1
 - mcr.microsoft.com/dotnet/aspnet:2.1-alpine
 - mcr.microsoft.com/dotnet/aspnet:2.1-alpine3.12
+- mcr.microsoft.com/dotnet/aspnet:2.1-alpine3.13
 - mcr.microsoft.com/dotnet/aspnet:2.1-bionic
 - mcr.microsoft.com/dotnet/aspnet:2.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:2.1-focal
 - mcr.microsoft.com/dotnet/aspnet:2.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:2.1-stretch-slim
 - mcr.microsoft.com/dotnet/aspnet:2.1-stretch-slim-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:2.1.26
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-alpine3.12
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-alpine3.13
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-bionic
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-bionic-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-focal
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-focal-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-stretch-slim
+- mcr.microsoft.com/dotnet/aspnet:2.1.26-stretch-slim-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:3.1
-- mcr.microsoft.com/dotnet/aspnet:3.1.11
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-alpine3.12
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-bionic-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-buster-slim-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-focal
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-focal-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:3.1.11-focal-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:3.1-alpine
+- mcr.microsoft.com/dotnet/aspnet:3.1-alpine-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.12
 - mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:3.1-alpine-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.13
+- mcr.microsoft.com/dotnet/aspnet:3.1-alpine3.13-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:3.1-bionic
 - mcr.microsoft.com/dotnet/aspnet:3.1-bionic-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:3.1-bionic-arm64v8
@@ -261,25 +285,30 @@
 - mcr.microsoft.com/dotnet/aspnet:3.1-focal
 - mcr.microsoft.com/dotnet/aspnet:3.1-focal-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:3.1-focal-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:3.1.13
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.12
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.13
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-alpine3.13-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-bionic
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-bionic-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-bionic-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-focal
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-focal-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:3.1.13-focal-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:5.0
-- mcr.microsoft.com/dotnet/aspnet:5.0.2
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12-amd64
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-amd64
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-buster-slim-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-focal
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-amd64
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-arm32v7
-- mcr.microsoft.com/dotnet/aspnet:5.0.2-focal-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:5.0-alpine
+- mcr.microsoft.com/dotnet/aspnet:5.0-alpine-amd64
+- mcr.microsoft.com/dotnet/aspnet:5.0-alpine-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12
 - mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12-amd64
 - mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.12-arm64v8
-- mcr.microsoft.com/dotnet/aspnet:5.0-alpine-amd64
-- mcr.microsoft.com/dotnet/aspnet:5.0-alpine-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.13
+- mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.13-amd64
+- mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.13-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim
 - mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim-amd64
 - mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim-arm32v7
@@ -288,11 +317,27 @@
 - mcr.microsoft.com/dotnet/aspnet:5.0-focal-amd64
 - mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm32v7
 - mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:5.0.4
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12-amd64
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13-amd64
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim-amd64
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim-arm64v8
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-focal
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-focal-amd64
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-focal-arm32v7
+- mcr.microsoft.com/dotnet/aspnet:5.0.4-focal-arm64v8
 - mcr.microsoft.com/dotnet/aspnet:latest
 
-### server 
+### server
 
- - mcr.microsoft.com/mssql/server:2017-CU10-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU1-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU10-ubuntu
 - mcr.microsoft.com/mssql/server:2017-CU11-ubuntu
 - mcr.microsoft.com/mssql/server:2017-CU12-ubuntu
 - mcr.microsoft.com/mssql/server:2017-CU13-ubuntu
@@ -302,10 +347,10 @@
 - mcr.microsoft.com/mssql/server:2017-CU17-ubuntu
 - mcr.microsoft.com/mssql/server:2017-CU18-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2017-CU19-ubuntu-16.04
-- mcr.microsoft.com/mssql/server:2017-CU1-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU2-ubuntu
 - mcr.microsoft.com/mssql/server:2017-CU20-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2017-CU21-ubuntu-16.04
-- mcr.microsoft.com/mssql/server:2017-CU2-ubuntu
+- mcr.microsoft.com/mssql/server:2017-CU22-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2017-CU3-ubuntu
 - mcr.microsoft.com/mssql/server:2017-CU4-ubuntu
 - mcr.microsoft.com/mssql/server:2017-CU5-ubuntu
@@ -323,14 +368,15 @@
 - mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2019-CU6-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2019-CU8-ubuntu-16.04
+- mcr.microsoft.com/mssql/server:2019-CU9-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04
 - mcr.microsoft.com/mssql/server:2019-latest
 - mcr.microsoft.com/mssql/server:latest
 
-### vscode_base 
+### vscode_base
 
- - mcr.microsoft.com/vscode/devcontainers/base:0-alpine
+- mcr.microsoft.com/vscode/devcontainers/base:0-alpine
 - mcr.microsoft.com/vscode/devcontainers/base:0-alpine-3.10
 - mcr.microsoft.com/vscode/devcontainers/base:0-alpine-3.11
 - mcr.microsoft.com/vscode/devcontainers/base:0-alpine-3.12
@@ -345,66 +391,65 @@
 - mcr.microsoft.com/vscode/devcontainers/base:0-bionic
 - mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-18.04
 
-### vscode_cpp 
+### vscode_cpp
 
- - mcr.microsoft.com/vscode/devcontainers/cpp:0-buster
+- mcr.microsoft.com/vscode/devcontainers/cpp:0-buster
 - mcr.microsoft.com/vscode/devcontainers/cpp:0-debian-10
 - mcr.microsoft.com/vscode/devcontainers/cpp:0-stretch
 - mcr.microsoft.com/vscode/devcontainers/cpp:0-debian-9
 
-### vscode_dotnetcore 
+### vscode_dotnetcore
 
- - mcr.microsoft.com/vscode/devcontainers/dotnetcore:0-3.1
+- mcr.microsoft.com/vscode/devcontainers/dotnetcore:0-3.1
 - mcr.microsoft.com/vscode/devcontainers/dotnetcore:0-2.1
 
-### vscode_go 
+### vscode_go
 
- - mcr.microsoft.com/vscode/devcontainers/go:0-1
+- mcr.microsoft.com/vscode/devcontainers/go:0-1
 - mcr.microsoft.com/vscode/devcontainers/go:0-1.15
 - mcr.microsoft.com/vscode/devcontainers/go:0-1.14
 
-### vscode_java 
+### vscode_java
 
- - mcr.microsoft.com/vscode/devcontainers/java:0-8
+- mcr.microsoft.com/vscode/devcontainers/java:0-8
 - mcr.microsoft.com/vscode/devcontainers/java:0-11
 - mcr.microsoft.com/vscode/devcontainers/java:0-14
 
-### vscode_javascript_node 
+### vscode_javascript_node
 
- - mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14
+- mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14
 - mcr.microsoft.com/vscode/devcontainers/javascript-node:0-12
 - mcr.microsoft.com/vscode/devcontainers/javascript-node:0-10
 
-### vscode_php 
+### vscode_php
 
- - mcr.microsoft.com/vscode/devcontainers/php:0-7
+- mcr.microsoft.com/vscode/devcontainers/php:0-7
 - mcr.microsoft.com/vscode/devcontainers/php:0-7.4
 - mcr.microsoft.com/vscode/devcontainers/php:0-7.3
 
-### vscode_python 
+### vscode_python
 
- - mcr.microsoft.com/vscode/devcontainers/python:0-3
+- mcr.microsoft.com/vscode/devcontainers/python:0-3
 - mcr.microsoft.com/vscode/devcontainers/python:0-3.8
 - mcr.microsoft.com/vscode/devcontainers/python:0-3.7
 - mcr.microsoft.com/vscode/devcontainers/python:0-3.6
 
-### vscode_ruby 
+### vscode_ruby
 
- - mcr.microsoft.com/vscode/devcontainers/ruby:0-2
+- mcr.microsoft.com/vscode/devcontainers/ruby:0-2
 - mcr.microsoft.com/vscode/devcontainers/ruby:0-2.7
 - mcr.microsoft.com/vscode/devcontainers/ruby:0-2.6
 
-### vscode_typescript_node 
+### vscode_typescript_node
 
- - mcr.microsoft.com/vscode/devcontainers/typescript-node:0-14
+- mcr.microsoft.com/vscode/devcontainers/typescript-node:0-14
 - mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12
 - mcr.microsoft.com/vscode/devcontainers/typescript-node:0-10
 
-### vscode_universal 
+### vscode_universal
 
- - mcr.microsoft.com/vscode/devcontainers/universal:0
+- mcr.microsoft.com/vscode/devcontainers/universal:0
 
-### vscode_rust 
+### vscode_rust
 
- - mcr.microsoft.com/vscode/devcontainers/rust:0
-
+- mcr.microsoft.com/vscode/devcontainers/rust:0

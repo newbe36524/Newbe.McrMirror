@@ -15,9 +15,25 @@ def create_yml(c):
         return str.join("\n", parts)
 
     images = []
+    group_max_count = 10
     for k, items in itertools.groupby(config['images'], lambda f: f['group']):
-        a = concat_image_names(items)
-        images.append({'name': k, 'images': a})
+        i = 0
+        group_items = []
+        group_index = 0
+        for item in items:
+            if i < group_max_count:
+                group_items.append(item)
+                i = i + 1
+            else:
+                i = 0
+                a = concat_image_names(group_items)
+                images.append({'name': f"{k}_{group_index}", 'images': a})
+                group_index = group_index + 1
+                group_items = []
+
+        if len(group_items) > 0:
+            a = concat_image_names(group_items)
+            images.append({'name': f"{k}_{group_index}", 'images': a})
 
     templates = [
         "template_aliyun.yml",
