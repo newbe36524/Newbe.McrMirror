@@ -20,15 +20,15 @@ jobs:
       matrix:
         image: 
           - mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm64v8,aspnet:5.0-focal-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4,aspnet:5.0.4
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12,aspnet:5.0.4-alpine3.12
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12-amd64,aspnet:5.0.4-alpine3.12-amd64
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.12-arm64v8,aspnet:5.0.4-alpine3.12-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13,aspnet:5.0.4-alpine3.13
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13-amd64,aspnet:5.0.4-alpine3.13-amd64
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-alpine3.13-arm64v8,aspnet:5.0.4-alpine3.13-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim,aspnet:5.0.4-buster-slim
-          - mcr.microsoft.com/dotnet/aspnet:5.0.4-buster-slim-amd64,aspnet:5.0.4-buster-slim-amd64
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6,aspnet:5.0.6
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.12,aspnet:5.0.6-alpine3.12
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.12-amd64,aspnet:5.0.6-alpine3.12-amd64
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.12-arm64v8,aspnet:5.0.6-alpine3.12-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.13,aspnet:5.0.6-alpine3.13
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.13-amd64,aspnet:5.0.6-alpine3.13-amd64
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.13-arm64v8,aspnet:5.0.6-alpine3.13-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-buster-slim,aspnet:5.0.6-buster-slim
+          - mcr.microsoft.com/dotnet/aspnet:5.0.6-buster-slim-amd64,aspnet:5.0.6-buster-slim-amd64
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8

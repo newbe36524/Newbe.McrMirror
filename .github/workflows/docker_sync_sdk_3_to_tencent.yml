@@ -19,16 +19,16 @@ jobs:
     strategy:
       matrix:
         image: 
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-alpine3.12,sdk:3.1.407-alpine3.12
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-alpine3.13,sdk:3.1.407-alpine3.13
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-bionic,sdk:3.1.407-bionic
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-bionic-arm32v7,sdk:3.1.407-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-bionic-arm64v8,sdk:3.1.407-bionic-arm64v8
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-buster,sdk:3.1.407-buster
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-buster-arm32v7,sdk:3.1.407-buster-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-buster-arm64v8,sdk:3.1.407-buster-arm64v8
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-focal,sdk:3.1.407-focal
-          - mcr.microsoft.com/dotnet/sdk:3.1.407-focal-arm32v7,sdk:3.1.407-focal-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-alpine3.12,sdk:3.1.409-alpine3.12
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-alpine3.13,sdk:3.1.409-alpine3.13
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-bionic,sdk:3.1.409-bionic
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-bionic-arm32v7,sdk:3.1.409-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-bionic-arm64v8,sdk:3.1.409-bionic-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-buster,sdk:3.1.409-buster
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-buster-arm32v7,sdk:3.1.409-buster-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-buster-arm64v8,sdk:3.1.409-buster-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-focal,sdk:3.1.409-focal
+          - mcr.microsoft.com/dotnet/sdk:3.1.409-focal-arm32v7,sdk:3.1.409-focal-arm32v7
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8

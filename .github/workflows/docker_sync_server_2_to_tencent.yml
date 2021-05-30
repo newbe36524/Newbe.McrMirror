@@ -19,16 +19,16 @@ jobs:
     strategy:
       matrix:
         image: 
+          - mcr.microsoft.com/mssql/server:2017-CU8-ubuntu,server:2017-CU8-ubuntu
+          - mcr.microsoft.com/mssql/server:2017-CU9-ubuntu,server:2017-CU9-ubuntu
           - mcr.microsoft.com/mssql/server:2017-GA-ubuntu,server:2017-GA-ubuntu
           - mcr.microsoft.com/mssql/server:2017-GDR-ubuntu,server:2017-GDR-ubuntu
           - mcr.microsoft.com/mssql/server:2017-latest,server:2017-latest
           - mcr.microsoft.com/mssql/server:2019-CU1-ubuntu-16.04,server:2019-CU1-ubuntu-16.04
+          - mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-16.04,server:2019-CU10-ubuntu-16.04
+          - mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-18.04,server:2019-CU10-ubuntu-18.04
+          - mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-20.04,server:2019-CU10-ubuntu-20.04
           - mcr.microsoft.com/mssql/server:2019-CU2-ubuntu-16.04,server:2019-CU2-ubuntu-16.04
-          - mcr.microsoft.com/mssql/server:2019-CU3-ubuntu-16.04,server:2019-CU3-ubuntu-16.04
-          - mcr.microsoft.com/mssql/server:2019-CU4-ubuntu-16.04,server:2019-CU4-ubuntu-16.04
-          - mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-16.04,server:2019-CU5-ubuntu-16.04
-          - mcr.microsoft.com/mssql/server:2019-CU6-ubuntu-16.04,server:2019-CU6-ubuntu-16.04
-          - mcr.microsoft.com/mssql/server:2019-CU8-ubuntu-16.04,server:2019-CU8-ubuntu-16.04
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8

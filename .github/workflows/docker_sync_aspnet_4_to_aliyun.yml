@@ -19,11 +19,11 @@ jobs:
     strategy:
       matrix:
         image: 
-          - mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim-arm32v7,aspnet:3.1.13-buster-slim-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:3.1.13-buster-slim-arm64v8,aspnet:3.1.13-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/aspnet:3.1.13-focal,aspnet:3.1.13-focal
-          - mcr.microsoft.com/dotnet/aspnet:3.1.13-focal-arm32v7,aspnet:3.1.13-focal-arm32v7
-          - mcr.microsoft.com/dotnet/aspnet:3.1.13-focal-arm64v8,aspnet:3.1.13-focal-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:3.1.15-buster-slim-arm32v7,aspnet:3.1.15-buster-slim-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:3.1.15-buster-slim-arm64v8,aspnet:3.1.15-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/aspnet:3.1.15-focal,aspnet:3.1.15-focal
+          - mcr.microsoft.com/dotnet/aspnet:3.1.15-focal-arm32v7,aspnet:3.1.15-focal-arm32v7
+          - mcr.microsoft.com/dotnet/aspnet:3.1.15-focal-arm64v8,aspnet:3.1.15-focal-arm64v8
           - mcr.microsoft.com/dotnet/aspnet:5.0,aspnet:5.0
           - mcr.microsoft.com/dotnet/aspnet:5.0-alpine,aspnet:5.0-alpine
           - mcr.microsoft.com/dotnet/aspnet:5.0-alpine-amd64,aspnet:5.0-alpine-amd64

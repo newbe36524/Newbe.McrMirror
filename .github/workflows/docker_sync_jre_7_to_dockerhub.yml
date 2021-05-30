@@ -1,0 +1,48 @@
+name: push image and push to dockerhub
+
+on:
+  push:
+    branches: 
+      - publish
+
+env:
+  DOCKERHUB_USERNAME: newbe36524
+  DOCKERHUB_NAMESPACE: newbe36524
+  ALIYUN_USERNAME: pianzide1117
+  ALIYUN_NAMESPACE: newbe36524
+  TENCENTYUN_USERNAME: 472158246
+  TENCENTYUN_NAMESPACE: mcr_newbe36524
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        image: 
+          - mcr.microsoft.com/java/jre:13-zulu-centos,jre:13-zulu-centos
+          - mcr.microsoft.com/java/jre:13-zulu-debian10,jre:13-zulu-debian10
+          - mcr.microsoft.com/java/jre:13-zulu-debian8,jre:13-zulu-debian8
+          - mcr.microsoft.com/java/jre:13-zulu-debian9,jre:13-zulu-debian9
+          - mcr.microsoft.com/java/jre:13-zulu-ubuntu,jre:13-zulu-ubuntu
+          - mcr.microsoft.com/java/jre:13-zulu-ubuntu-18.04,jre:13-zulu-ubuntu-18.04
+          - mcr.microsoft.com/java/jre:13-zulu-ubuntu-19.10,jre:13-zulu-ubuntu-19.10
+          - mcr.microsoft.com/java/jre:13u1-zulu-alpine,jre:13u1-zulu-alpine
+          - mcr.microsoft.com/java/jre:13u1-zulu-centos,jre:13u1-zulu-centos
+          - mcr.microsoft.com/java/jre:13u1-zulu-debian8,jre:13u1-zulu-debian8
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+    - name: pull and sync
+      run: |
+        cd src/GithubActionGeneration
+        pip install pipenv
+        pipenv install
+        pipenv run inv pull-image --data "${{ matrix.image }}"
+        echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u $DOCKERHUB_USERNAME --password-stdin
+        pipenv run inv docker-sync-dockerhub --data "${{ matrix.image }}"

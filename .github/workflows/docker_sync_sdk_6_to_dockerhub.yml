@@ -19,12 +19,12 @@ jobs:
     strategy:
       matrix:
         image: 
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-arm32v7,sdk:5.0.201-buster-slim-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim-arm64v8,sdk:5.0.201-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-focal,sdk:5.0.201-focal
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-focal-amd64,sdk:5.0.201-focal-amd64
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-focal-arm32v7,sdk:5.0.201-focal-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-focal-arm64v8,sdk:5.0.201-focal-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-buster-slim-arm32v7,sdk:5.0.300-buster-slim-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-buster-slim-arm64v8,sdk:5.0.300-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-focal,sdk:5.0.300-focal
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-focal-amd64,sdk:5.0.300-focal-amd64
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-focal-arm32v7,sdk:5.0.300-focal-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-focal-arm64v8,sdk:5.0.300-focal-arm64v8
           - mcr.microsoft.com/dotnet/sdk:latest,sdk:latest
     steps:
     - uses: actions/checkout@v2

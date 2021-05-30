@@ -19,14 +19,14 @@ jobs:
     strategy:
       matrix:
         image: 
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-alpine3.12,runtime-deps:2.1.26-alpine3.12
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-alpine3.13,runtime-deps:2.1.26-alpine3.13
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-bionic,runtime-deps:2.1.26-bionic
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-bionic-arm32v7,runtime-deps:2.1.26-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-focal,runtime-deps:2.1.26-focal
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-focal-arm32v7,runtime-deps:2.1.26-focal-arm32v7
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-stretch-slim,runtime-deps:2.1.26-stretch-slim
-          - mcr.microsoft.com/dotnet/runtime-deps:2.1.26-stretch-slim-arm32v7,runtime-deps:2.1.26-stretch-slim-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-alpine3.12,runtime-deps:2.1.28-alpine3.12
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-alpine3.13,runtime-deps:2.1.28-alpine3.13
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-bionic,runtime-deps:2.1.28-bionic
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-bionic-arm32v7,runtime-deps:2.1.28-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-focal,runtime-deps:2.1.28-focal
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-focal-arm32v7,runtime-deps:2.1.28-focal-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-stretch-slim,runtime-deps:2.1.28-stretch-slim
+          - mcr.microsoft.com/dotnet/runtime-deps:2.1.28-stretch-slim-arm32v7,runtime-deps:2.1.28-stretch-slim-arm32v7
           - mcr.microsoft.com/dotnet/runtime-deps:3.1,runtime-deps:3.1
           - mcr.microsoft.com/dotnet/runtime-deps:3.1-alpine,runtime-deps:3.1-alpine
     steps:

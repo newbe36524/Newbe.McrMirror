@@ -19,11 +19,11 @@ jobs:
     strategy:
       matrix:
         image: 
-          - mcr.microsoft.com/dotnet/runtime:5.0.4-buster-slim-arm64v8,runtime:5.0.4-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/runtime:5.0.4-focal,runtime:5.0.4-focal
-          - mcr.microsoft.com/dotnet/runtime:5.0.4-focal-amd64,runtime:5.0.4-focal-amd64
-          - mcr.microsoft.com/dotnet/runtime:5.0.4-focal-arm32v7,runtime:5.0.4-focal-arm32v7
-          - mcr.microsoft.com/dotnet/runtime:5.0.4-focal-arm64v8,runtime:5.0.4-focal-arm64v8
+          - mcr.microsoft.com/dotnet/runtime:5.0.6-buster-slim-arm64v8,runtime:5.0.6-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/runtime:5.0.6-focal,runtime:5.0.6-focal
+          - mcr.microsoft.com/dotnet/runtime:5.0.6-focal-amd64,runtime:5.0.6-focal-amd64
+          - mcr.microsoft.com/dotnet/runtime:5.0.6-focal-arm32v7,runtime:5.0.6-focal-arm32v7
+          - mcr.microsoft.com/dotnet/runtime:5.0.6-focal-arm64v8,runtime:5.0.6-focal-arm64v8
           - mcr.microsoft.com/dotnet/runtime:latest,runtime:latest
     steps:
     - uses: actions/checkout@v2

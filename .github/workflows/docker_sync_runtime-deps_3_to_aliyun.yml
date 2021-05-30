@@ -21,14 +21,14 @@ jobs:
         image: 
           - mcr.microsoft.com/dotnet/runtime-deps:3.1-focal-arm32v7,runtime-deps:3.1-focal-arm32v7
           - mcr.microsoft.com/dotnet/runtime-deps:3.1-focal-arm64v8,runtime-deps:3.1-focal-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13,runtime-deps:3.1.13
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.12,runtime-deps:3.1.13-alpine3.12
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.12-arm64v8,runtime-deps:3.1.13-alpine3.12-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.13,runtime-deps:3.1.13-alpine3.13
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-alpine3.13-arm64v8,runtime-deps:3.1.13-alpine3.13-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic,runtime-deps:3.1.13-bionic
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic-arm32v7,runtime-deps:3.1.13-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-bionic-arm64v8,runtime-deps:3.1.13-bionic-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15,runtime-deps:3.1.15
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-alpine3.12,runtime-deps:3.1.15-alpine3.12
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-alpine3.12-arm64v8,runtime-deps:3.1.15-alpine3.12-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-alpine3.13,runtime-deps:3.1.15-alpine3.13
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-alpine3.13-arm64v8,runtime-deps:3.1.15-alpine3.13-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-bionic,runtime-deps:3.1.15-bionic
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-bionic-arm32v7,runtime-deps:3.1.15-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-bionic-arm64v8,runtime-deps:3.1.15-bionic-arm64v8
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
