@@ -23,12 +23,12 @@ jobs:
           - mcr.microsoft.com/mssql/server:2017-CU20-ubuntu-16.04,server:2017-CU20-ubuntu-16.04
           - mcr.microsoft.com/mssql/server:2017-CU21-ubuntu-16.04,server:2017-CU21-ubuntu-16.04
           - mcr.microsoft.com/mssql/server:2017-CU22-ubuntu-16.04,server:2017-CU22-ubuntu-16.04
+          - mcr.microsoft.com/mssql/server:2017-CU23-ubuntu-16.04,server:2017-CU23-ubuntu-16.04
+          - mcr.microsoft.com/mssql/server:2017-CU24-ubuntu-16.04,server:2017-CU24-ubuntu-16.04
           - mcr.microsoft.com/mssql/server:2017-CU3-ubuntu,server:2017-CU3-ubuntu
           - mcr.microsoft.com/mssql/server:2017-CU4-ubuntu,server:2017-CU4-ubuntu
           - mcr.microsoft.com/mssql/server:2017-CU5-ubuntu,server:2017-CU5-ubuntu
           - mcr.microsoft.com/mssql/server:2017-CU6-ubuntu,server:2017-CU6-ubuntu
-          - mcr.microsoft.com/mssql/server:2017-CU7-ubuntu,server:2017-CU7-ubuntu
-          - mcr.microsoft.com/mssql/server:2017-CU8-ubuntu,server:2017-CU8-ubuntu
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8

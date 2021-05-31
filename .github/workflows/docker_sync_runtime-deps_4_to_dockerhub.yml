@@ -19,11 +19,11 @@ jobs:
     strategy:
       matrix:
         image: 
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim-arm32v7,runtime-deps:3.1.13-buster-slim-arm32v7
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-buster-slim-arm64v8,runtime-deps:3.1.13-buster-slim-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal,runtime-deps:3.1.13-focal
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal-arm32v7,runtime-deps:3.1.13-focal-arm32v7
-          - mcr.microsoft.com/dotnet/runtime-deps:3.1.13-focal-arm64v8,runtime-deps:3.1.13-focal-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-buster-slim-arm32v7,runtime-deps:3.1.15-buster-slim-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-buster-slim-arm64v8,runtime-deps:3.1.15-buster-slim-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-focal,runtime-deps:3.1.15-focal
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-focal-arm32v7,runtime-deps:3.1.15-focal-arm32v7
+          - mcr.microsoft.com/dotnet/runtime-deps:3.1.15-focal-arm64v8,runtime-deps:3.1.15-focal-arm64v8
           - mcr.microsoft.com/dotnet/runtime-deps:5.0,runtime-deps:5.0
           - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine,runtime-deps:5.0-alpine
           - mcr.microsoft.com/dotnet/runtime-deps:5.0-alpine-amd64,runtime-deps:5.0-alpine-amd64

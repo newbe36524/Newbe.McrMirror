@@ -20,15 +20,15 @@ jobs:
       matrix:
         image: 
           - mcr.microsoft.com/dotnet/runtime-deps:5.0-focal-arm64v8,runtime-deps:5.0-focal-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4,runtime-deps:5.0.4
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12,runtime-deps:5.0.4-alpine3.12
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12-amd64,runtime-deps:5.0.4-alpine3.12-amd64
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.12-arm64v8,runtime-deps:5.0.4-alpine3.12-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13,runtime-deps:5.0.4-alpine3.13
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13-amd64,runtime-deps:5.0.4-alpine3.13-amd64
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-alpine3.13-arm64v8,runtime-deps:5.0.4-alpine3.13-arm64v8
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim,runtime-deps:5.0.4-buster-slim
-          - mcr.microsoft.com/dotnet/runtime-deps:5.0.4-buster-slim-amd64,runtime-deps:5.0.4-buster-slim-amd64
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6,runtime-deps:5.0.6
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-alpine3.12,runtime-deps:5.0.6-alpine3.12
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-alpine3.12-amd64,runtime-deps:5.0.6-alpine3.12-amd64
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-alpine3.12-arm64v8,runtime-deps:5.0.6-alpine3.12-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-alpine3.13,runtime-deps:5.0.6-alpine3.13
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-alpine3.13-amd64,runtime-deps:5.0.6-alpine3.13-amd64
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-alpine3.13-arm64v8,runtime-deps:5.0.6-alpine3.13-arm64v8
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-buster-slim,runtime-deps:5.0.6-buster-slim
+          - mcr.microsoft.com/dotnet/runtime-deps:5.0.6-buster-slim-amd64,runtime-deps:5.0.6-buster-slim-amd64
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8

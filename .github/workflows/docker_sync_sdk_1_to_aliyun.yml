@@ -19,14 +19,14 @@ jobs:
     strategy:
       matrix:
         image: 
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-alpine3.12,sdk:2.1.814-alpine3.12
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-alpine3.13,sdk:2.1.814-alpine3.13
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-bionic,sdk:2.1.814-bionic
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-bionic-arm32v7,sdk:2.1.814-bionic-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-focal,sdk:2.1.814-focal
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-focal-arm32v7,sdk:2.1.814-focal-arm32v7
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-stretch,sdk:2.1.814-stretch
-          - mcr.microsoft.com/dotnet/sdk:2.1.814-stretch-arm32v7,sdk:2.1.814-stretch-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-alpine3.12,sdk:2.1.816-alpine3.12
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-alpine3.13,sdk:2.1.816-alpine3.13
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-bionic,sdk:2.1.816-bionic
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-bionic-arm32v7,sdk:2.1.816-bionic-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-focal,sdk:2.1.816-focal
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-focal-arm32v7,sdk:2.1.816-focal-arm32v7
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-stretch,sdk:2.1.816-stretch
+          - mcr.microsoft.com/dotnet/sdk:2.1.816-stretch-arm32v7,sdk:2.1.816-stretch-arm32v7
           - mcr.microsoft.com/dotnet/sdk:3.1,sdk:3.1
           - mcr.microsoft.com/dotnet/sdk:3.1-alpine,sdk:3.1-alpine
     steps:

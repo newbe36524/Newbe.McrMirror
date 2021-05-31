@@ -100,6 +100,8 @@ function CreateImages {
         (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-runtime" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Nano Server, version 20H2 amd64 Tags" -imageName "runtime" -namespace "dotnet"),
         (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-dotnet-aspnet" -tagsFromMark "## Linux amd64 Tags" -tagsEndMark "## Nano Server, version 20H2 amd64 Tags" -imageName "aspnet" -namespace "dotnet"),
         (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-mssql-server" -tagsFromMark "Linux Images" -tagsEndMark "You can retrieve a list of all available tags for mssql/server" -imageName "server" -namespace "mssql"),
+        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-java-jdk" -tagsFromMark "Linux Images" -tagsEndMark "You can retrieve a list of all available tags for java/jdk" -imageName "jdk" -namespace "java"),
+        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-java-jre" -tagsFromMark "Linux Images" -tagsEndMark "You can retrieve a list of all available tags for java/jre" -imageName "jre" -namespace "java"),
         (VsCodeImages)
         (VsCodeImages2)
     )

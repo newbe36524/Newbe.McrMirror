@@ -23,12 +23,12 @@ jobs:
           - mcr.microsoft.com/dotnet/sdk:5.0-focal-amd64,sdk:5.0-focal-amd64
           - mcr.microsoft.com/dotnet/sdk:5.0-focal-arm32v7,sdk:5.0-focal-arm32v7
           - mcr.microsoft.com/dotnet/sdk:5.0-focal-arm64v8,sdk:5.0-focal-arm64v8
-          - mcr.microsoft.com/dotnet/sdk:5.0.201,sdk:5.0.201
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.12,sdk:5.0.201-alpine3.12
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.12-amd64,sdk:5.0.201-alpine3.12-amd64
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.13,sdk:5.0.201-alpine3.13
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-alpine3.13-amd64,sdk:5.0.201-alpine3.13-amd64
-          - mcr.microsoft.com/dotnet/sdk:5.0.201-buster-slim,sdk:5.0.201-buster-slim
+          - mcr.microsoft.com/dotnet/sdk:5.0.300,sdk:5.0.300
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-alpine3.12,sdk:5.0.300-alpine3.12
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-alpine3.12-amd64,sdk:5.0.300-alpine3.12-amd64
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-alpine3.13,sdk:5.0.300-alpine3.13
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-alpine3.13-amd64,sdk:5.0.300-alpine3.13-amd64
+          - mcr.microsoft.com/dotnet/sdk:5.0.300-buster-slim,sdk:5.0.300-buster-slim
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
