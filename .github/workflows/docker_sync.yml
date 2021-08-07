@@ -21,9 +21,9 @@ jobs:
         run: |
           cd src/GithubActionGeneration
           sed -i "s#DOCKERHUB_USERNAME#${DOCKERHUB_USERNAME}#g" auth.json
-          sed -i "s#DOCKERHUB_TOKEN#${DOCKERHUB_TOKEN}#g" auth.json
+          sed -i "s#DOCKERHUB_TOKEN#${{ secrets.DOCKERHUB_TOKEN }}#g" auth.json
           sed -i "s#ALIYUN_USERNAME#${ALIYUN_USERNAME}#g" auth.json
-          sed -i "s#ALIYUN_TOKEN#${ALIYUN_TOKEN}#g" auth.json
+          sed -i "s#ALIYUN_TOKEN#${{ secrets.ALIYUN_TOKEN }}#g" auth.json
       - name: pull and sync
         run: |
           cd src/GithubActionGeneration
