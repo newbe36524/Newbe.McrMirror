@@ -53,13 +53,17 @@ def create_yml_v2(c):
             "registry.hub.docker.com", config['dockerhub_namespace']
         ),
     }
+    registry_jsons = {
+        "aliyun": [],
+        "dockerhub": [],
+    }
     out_dir = "../../.github/workflows"
     image_out_dir = "./image_config"
     shutil.rmtree(image_out_dir)
     os.mkdir(image_out_dir)
-    image_json_filenames = []
     for server in registries:
         registry, namespace = registries[server]
+        image_json_filenames = []
         for image in images:
             filename = f"sync_{image['name']}_to_{server}"
             image_json_filename = f"{filename}.json"
@@ -67,24 +71,17 @@ def create_yml_v2(c):
             with open(os.path.join(image_out_dir, image_json_filename), "w") as image_json_file:
                 image_json = convert_image_group_to_image_json(image['images'], registry, namespace)
                 image_json_file.write(image_json)
-            # content = template_content \
-            #     .replace("[FILE_NAME]", filename) \
-            #     .replace("[DOCKERHUB_USERNAME]", config['dockerhub_name']) \
-            #     .replace("[DOCKERHUB_NAMESPACE]", config['dockerhub_namespace']) \
-            #     .replace("[ALIYUN_USERNAME]", config['aliyun_name']) \
-            #     .replace("[ALIYUN_NAMESPACE]", config['aliyun_namespace']) \
-            #     .replace("[TENCENTYUN_USERNAME]", config['tencentyun_name']) \
-            #     .replace("[TENCENTYUN_NAMESPACE]", config['tencentyun_namespace']) \
-            #     .replace("[ALL_IMAGE]", image['images'])
-            # with open(f"{out_dir}/docker_{filename}.yml", 'w') as result_file:
-            #     result_file.write(content)
+        registry_jsons[server] = image_json_filenames
     with open("templace_docker_sync.yml", "r") as template_file:
         template_content = template_file.read()
-        all_image_str = str.join("\n", [f"          - {name}" for name in image_json_filenames])
-        content = template_content \
-            .replace("[ALL_IMAGE]", all_image_str)
-        with open(f"{out_dir}/docker_sync.yml", 'w') as result_file:
-            result_file.write(content)
+        for server in registry_jsons:
+            image_json_filenames = registry_jsons[server]
+            all_image_str = str.join("\n", [f"          - {name}" for name in image_json_filenames])
+            content = template_content \
+                .replace("[ALL_IMAGE]", all_image_str) \
+                .replace("[SERVER]", server)
+            with open(f"{out_dir}/docker_sync_{server}.yml", 'w') as result_file:
+                result_file.write(content)
 
 
 @task

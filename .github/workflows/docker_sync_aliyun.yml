@@ -1,0 +1,149 @@
+name: push image and push to aliyun
+
+on:
+  push:
+    branches:
+      - publish
+
+env:
+  DOCKERHUB_USERNAME: newbe36524
+  DOCKERHUB_NAMESPACE: newbe36524
+  ALIYUN_USERNAME: pianzide1117
+  ALIYUN_NAMESPACE: newbe36524
+  TENCENTYUN_USERNAME: 472158246
+  TENCENTYUN_NAMESPACE: mcr_newbe36524
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        image: 
+          - sync_sdk_0_to_aliyun.json
+          - sync_sdk_1_to_aliyun.json
+          - sync_sdk_2_to_aliyun.json
+          - sync_sdk_3_to_aliyun.json
+          - sync_sdk_4_to_aliyun.json
+          - sync_sdk_5_to_aliyun.json
+          - sync_runtime-deps_0_to_aliyun.json
+          - sync_runtime-deps_1_to_aliyun.json
+          - sync_runtime-deps_2_to_aliyun.json
+          - sync_runtime-deps_3_to_aliyun.json
+          - sync_runtime-deps_4_to_aliyun.json
+          - sync_runtime-deps_5_to_aliyun.json
+          - sync_runtime-deps_6_to_aliyun.json
+          - sync_runtime_0_to_aliyun.json
+          - sync_runtime_1_to_aliyun.json
+          - sync_runtime_2_to_aliyun.json
+          - sync_runtime_3_to_aliyun.json
+          - sync_runtime_4_to_aliyun.json
+          - sync_runtime_5_to_aliyun.json
+          - sync_runtime_6_to_aliyun.json
+          - sync_aspnet_0_to_aliyun.json
+          - sync_aspnet_1_to_aliyun.json
+          - sync_aspnet_2_to_aliyun.json
+          - sync_aspnet_3_to_aliyun.json
+          - sync_aspnet_4_to_aliyun.json
+          - sync_aspnet_5_to_aliyun.json
+          - sync_aspnet_6_to_aliyun.json
+          - sync_server_0_to_aliyun.json
+          - sync_server_1_to_aliyun.json
+          - sync_server_2_to_aliyun.json
+          - sync_server_3_to_aliyun.json
+          - sync_server_4_to_aliyun.json
+          - sync_jdk_0_to_aliyun.json
+          - sync_jdk_1_to_aliyun.json
+          - sync_jdk_2_to_aliyun.json
+          - sync_jdk_3_to_aliyun.json
+          - sync_jdk_4_to_aliyun.json
+          - sync_jdk_5_to_aliyun.json
+          - sync_jdk_6_to_aliyun.json
+          - sync_jdk_7_to_aliyun.json
+          - sync_jdk_8_to_aliyun.json
+          - sync_jdk_9_to_aliyun.json
+          - sync_jdk_10_to_aliyun.json
+          - sync_jdk_11_to_aliyun.json
+          - sync_jdk_12_to_aliyun.json
+          - sync_jdk_13_to_aliyun.json
+          - sync_jdk_14_to_aliyun.json
+          - sync_jdk_15_to_aliyun.json
+          - sync_jdk_16_to_aliyun.json
+          - sync_jdk_17_to_aliyun.json
+          - sync_jdk_18_to_aliyun.json
+          - sync_jdk_19_to_aliyun.json
+          - sync_jdk_20_to_aliyun.json
+          - sync_jdk_21_to_aliyun.json
+          - sync_jdk_22_to_aliyun.json
+          - sync_jdk_23_to_aliyun.json
+          - sync_jdk_24_to_aliyun.json
+          - sync_jdk_25_to_aliyun.json
+          - sync_jdk_26_to_aliyun.json
+          - sync_jdk_27_to_aliyun.json
+          - sync_jdk_28_to_aliyun.json
+          - sync_jdk_29_to_aliyun.json
+          - sync_jdk_30_to_aliyun.json
+          - sync_jdk_31_to_aliyun.json
+          - sync_jdk_32_to_aliyun.json
+          - sync_jre_0_to_aliyun.json
+          - sync_jre_1_to_aliyun.json
+          - sync_jre_2_to_aliyun.json
+          - sync_jre_3_to_aliyun.json
+          - sync_jre_4_to_aliyun.json
+          - sync_jre_5_to_aliyun.json
+          - sync_jre_6_to_aliyun.json
+          - sync_jre_7_to_aliyun.json
+          - sync_jre_8_to_aliyun.json
+          - sync_jre_9_to_aliyun.json
+          - sync_jre_10_to_aliyun.json
+          - sync_jre_11_to_aliyun.json
+          - sync_jre_12_to_aliyun.json
+          - sync_jre_13_to_aliyun.json
+          - sync_jre_14_to_aliyun.json
+          - sync_jre_15_to_aliyun.json
+          - sync_jre_16_to_aliyun.json
+          - sync_jre_17_to_aliyun.json
+          - sync_jre_18_to_aliyun.json
+          - sync_jre_19_to_aliyun.json
+          - sync_jre_20_to_aliyun.json
+          - sync_jre_21_to_aliyun.json
+          - sync_jre_22_to_aliyun.json
+          - sync_jre_23_to_aliyun.json
+          - sync_jre_24_to_aliyun.json
+          - sync_jre_25_to_aliyun.json
+          - sync_jre_26_to_aliyun.json
+          - sync_jre_27_to_aliyun.json
+          - sync_jre_28_to_aliyun.json
+          - sync_jre_29_to_aliyun.json
+          - sync_jre_30_to_aliyun.json
+          - sync_jre_31_to_aliyun.json
+          - sync_jre_32_to_aliyun.json
+          - sync_windows_0_to_aliyun.json
+          - sync_windows_1_to_aliyun.json
+          - sync_windows_2_to_aliyun.json
+          - sync_vscode_base_0_to_aliyun.json
+          - sync_vscode_base_1_to_aliyun.json
+          - sync_vscode_cpp_0_to_aliyun.json
+          - sync_vscode_dotnetcore_0_to_aliyun.json
+          - sync_vscode_go_0_to_aliyun.json
+          - sync_vscode_java_0_to_aliyun.json
+          - sync_vscode_javascript_node_0_to_aliyun.json
+          - sync_vscode_php_0_to_aliyun.json
+          - sync_vscode_python_0_to_aliyun.json
+          - sync_vscode_ruby_0_to_aliyun.json
+          - sync_vscode_typescript_node_0_to_aliyun.json
+          - sync_vscode_universal_0_to_aliyun.json
+          - sync_vscode_rust_0_to_aliyun.json
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update auth.json
+        run: |
+          cd src/GithubActionGeneration
+          sed -i "s#DOCKERHUB_USERNAME#${DOCKERHUB_USERNAME}#g" auth.json
+          sed -i "s#DOCKERHUB_TOKEN#${{ secrets.DOCKERHUB_TOKEN }}#g" auth.json
+          sed -i "s#ALIYUN_USERNAME#${ALIYUN_USERNAME}#g" auth.json
+          sed -i "s#ALIYUN_TOKEN#${{ secrets.ALIYUN_TOKEN }}#g" auth.json
+      - name: pull and sync
+        run: |
+          cd src/GithubActionGeneration
+          chmod a+x ./image-syncer
+          ./image-syncer --auth=./auth.json --images=./image_config/${{ matrix.image }}

@@ -1,0 +1,1 @@
+{"mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-20.04": "registry.hub.docker.com/newbe36524/vscode_base:0-ubuntu-20.04", "mcr.microsoft.com/vscode/devcontainers/base:0-bionic": "registry.hub.docker.com/newbe36524/vscode_base:0-bionic", "mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-18.04": "registry.hub.docker.com/newbe36524/vscode_base:0-ubuntu-18.04"}

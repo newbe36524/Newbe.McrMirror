@@ -1,9 +1,9 @@
-name: push image and push to aliyun
+name: push image and push to [SERVER]
 
 on:
   push:
     branches:
-      - feature/AliyunContainerService
+      - publish
 
 env:
   DOCKERHUB_USERNAME: newbe36524

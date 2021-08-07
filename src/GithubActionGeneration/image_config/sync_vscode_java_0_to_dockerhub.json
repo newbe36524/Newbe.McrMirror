@@ -1,0 +1,1 @@
+{"mcr.microsoft.com/vscode/devcontainers/java:0-8": "registry.hub.docker.com/newbe36524/vscode_java:0-8", "mcr.microsoft.com/vscode/devcontainers/java:0-11": "registry.hub.docker.com/newbe36524/vscode_java:0-11", "mcr.microsoft.com/vscode/devcontainers/java:0-14": "registry.hub.docker.com/newbe36524/vscode_java:0-14"}
