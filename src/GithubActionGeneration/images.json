@@ -1,3 +1,4 @@
 {
-  "mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm64v8,5.0.6": "registry.cn-hangzhou.aliyuncs.com/newbe36524/aspnet"
+  // "mcr.microsoft.com/dotnet/aspnet:5.0-focal-arm64v8,5.0.6": "registry.cn-hangzhou.aliyuncs.com/newbe36524/aspnet",
+  "mcr.microsoft.com/windows:1903": "registry.cn-hangzhou.aliyuncs.com/newbe36524/windows:1903"
 }
