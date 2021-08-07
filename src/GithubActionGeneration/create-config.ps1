@@ -30,11 +30,21 @@ function CreateImagesFromDockerhub {
     $domain = "mcr.microsoft.com"
 
     return $tags | ForEach-Object {
-        @{
-            "source" = "$domain/$namespace/$imageName`:$_"
-            "tag"    = "$imageName`:$_"
-            "group"  = "$imageName"
+        if ($namespace) {
+            @{
+                "source" = "$domain/$namespace/$imageName`:$_"
+                "tag"    = "$imageName`:$_"
+                "group"  = "$imageName"
+            }
         }
+        else {
+            @{
+                "source" = "$domain/$imageName`:$_"
+                "tag"    = "$imageName`:$_"
+                "group"  = "$imageName"
+            }
+        }
+        
     }
 }
 function VsCodeImages {
@@ -102,6 +112,7 @@ function CreateImages {
         (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-mssql-server" -tagsFromMark "Linux Images" -tagsEndMark "You can retrieve a list of all available tags for mssql/server" -imageName "server" -namespace "mssql"),
         (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-java-jdk" -tagsFromMark "Linux Images" -tagsEndMark "You can retrieve a list of all available tags for java/jdk" -imageName "jdk" -namespace "java"),
         (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-java-jre" -tagsFromMark "Linux Images" -tagsEndMark "You can retrieve a list of all available tags for java/jre" -imageName "jre" -namespace "java"),
+        (CreateImagesFromDockerhub -url "https://hub.docker.com/api/content/v1/products/images/microsoft-windows" -tagsFromMark "Windows Images" -tagsEndMark "Multi-arch Images" -imageName "windows" -namespace ""),
         (VsCodeImages)
         (VsCodeImages2)
     )
