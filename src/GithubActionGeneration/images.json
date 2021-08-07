@@ -1,3 +1,3 @@
 {
-  "mcr.microsoft.com/dotnet/sdk": "registry.cn-hangzhou.aliyuncs.com/newbe36524/sdk"
+  "mcr.microsoft.com/dotnet/sdk:5": "registry.cn-hangzhou.aliyuncs.com/newbe36524/sdk"
 }
