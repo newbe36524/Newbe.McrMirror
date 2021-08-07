@@ -17,13 +17,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Update auth.config
+      - name: Update auth.json
         run: |
           cd src/GithubActionGeneration
-          sed -i "s#DOCKERHUB_USERNAME#${DOCKERHUB_USERNAME}#g" config.json
-          sed -i "s#DOCKERHUB_TOKEN#${DOCKERHUB_TOKEN}#g" config.json
-          sed -i "s#ALIYUN_USERNAME#${ALIYUN_USERNAME}#g" config.json
-          sed -i "s#ALIYUN_TOKEN#${ALIYUN_TOKEN}#g" config.json
+          sed -i "s#DOCKERHUB_USERNAME#${DOCKERHUB_USERNAME}#g" auth.json
+          sed -i "s#DOCKERHUB_TOKEN#${DOCKERHUB_TOKEN}#g" auth.json
+          sed -i "s#ALIYUN_USERNAME#${ALIYUN_USERNAME}#g" auth.json
+          sed -i "s#ALIYUN_TOKEN#${ALIYUN_TOKEN}#g" auth.json
       - name: pull and sync
         run: |
           cd src/GithubActionGeneration
