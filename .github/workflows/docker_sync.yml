@@ -37,4 +37,5 @@ jobs:
       - name: pull and sync
         run: |
           cd src/GithubActionGeneration
+          chmod a+x ./image-syncer
           ./image-syncer
