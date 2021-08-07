@@ -1,4 +1,4 @@
-name: push image and push to aliyun
+name: push image and push to dockerhub
 
 on:
   push:
@@ -19,12 +19,12 @@ jobs:
       fail-fast: false
       matrix:
         image: 
-          - sync_sdk_0_to_aliyun.json
-          - sync_sdk_1_to_aliyun.json
-          - sync_sdk_2_to_aliyun.json
-          - sync_sdk_3_to_aliyun.json
-          - sync_sdk_4_to_aliyun.json
-          - sync_sdk_5_to_aliyun.json
+          - sync_sdk_0_to_dockerhub.json
+          - sync_sdk_1_to_dockerhub.json
+          - sync_sdk_2_to_dockerhub.json
+          - sync_sdk_3_to_dockerhub.json
+          - sync_sdk_4_to_dockerhub.json
+          - sync_sdk_5_to_dockerhub.json
     steps:
       - uses: actions/checkout@v2
       - name: Update auth.json
