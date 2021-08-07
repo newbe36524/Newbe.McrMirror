@@ -1,9 +1,7 @@
 # Newbe.McrMirror
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 MCR(Miscrosoft Container Registry) 加速器，助你在中国大陆急速下载 netcore 相关的 docker 镜像。
@@ -125,6 +123,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/hongliuyi"><img src="https://avatars0.githubusercontent.com/u/33167076?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hongliuyi</b></sub></a><br /><a href="https://github.com/newbe36524/Newbe.McrMirror/issues?q=author%3Ahongliuyi" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/zengzhengrong"><img src="https://avatars0.githubusercontent.com/u/23110784?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zzr</b></sub></a><br /><a href="#ideas-zengzhengrong" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://www.minicraft.top"><img src="https://avatars.githubusercontent.com/u/39231698?v=4?s=100" width="100px;" alt=""/><br /><sub><b>TONY_All</b></sub></a><br /><a href="#ideas-TONY-All" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://ddddddddd.top"><img src="https://avatars.githubusercontent.com/u/43628016?v=4?s=100" width="100px;" alt=""/><br /><sub><b>FangPengbo</b></sub></a><br /><a href="#ideas-FangPengbo" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
