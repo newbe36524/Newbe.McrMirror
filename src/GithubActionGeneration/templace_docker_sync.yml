@@ -1,0 +1,36 @@
+name: push image and push to [SERVER]
+
+on:
+  push:
+    branches:
+      - publish
+
+env:
+  DOCKERHUB_USERNAME: newbe36524
+  DOCKERHUB_NAMESPACE: newbe36524
+  ALIYUN_USERNAME: pianzide1117
+  ALIYUN_NAMESPACE: newbe36524
+  TENCENTYUN_USERNAME: 472158246
+  TENCENTYUN_NAMESPACE: mcr_newbe36524
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        image: 
+[ALL_IMAGE]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update auth.json
+        run: |
+          cd src/GithubActionGeneration
+          sed -i "s#DOCKERHUB_USERNAME#${DOCKERHUB_USERNAME}#g" auth.json
+          sed -i "s#DOCKERHUB_TOKEN#${{ secrets.DOCKERHUB_TOKEN }}#g" auth.json
+          sed -i "s#ALIYUN_USERNAME#${ALIYUN_USERNAME}#g" auth.json
+          sed -i "s#ALIYUN_TOKEN#${{ secrets.ALIYUN_TOKEN }}#g" auth.json
+      - name: pull and sync
+        run: |
+          cd src/GithubActionGeneration
+          chmod a+x ./image-syncer
+          ./image-syncer --auth=./auth.json --images=./image_config/${{ matrix.image }}
