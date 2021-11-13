@@ -25,6 +25,10 @@ jobs:
           - sync_sdk_3_to_dockerhub.json
           - sync_sdk_4_to_dockerhub.json
           - sync_sdk_5_to_dockerhub.json
+          - sync_sdk_6_to_dockerhub.json
+          - sync_sdk_7_to_dockerhub.json
+          - sync_sdk_8_to_dockerhub.json
+          - sync_sdk_9_to_dockerhub.json
           - sync_runtime-deps_0_to_dockerhub.json
           - sync_runtime-deps_1_to_dockerhub.json
           - sync_runtime-deps_2_to_dockerhub.json
@@ -32,6 +36,10 @@ jobs:
           - sync_runtime-deps_4_to_dockerhub.json
           - sync_runtime-deps_5_to_dockerhub.json
           - sync_runtime-deps_6_to_dockerhub.json
+          - sync_runtime-deps_7_to_dockerhub.json
+          - sync_runtime-deps_8_to_dockerhub.json
+          - sync_runtime-deps_9_to_dockerhub.json
+          - sync_runtime-deps_10_to_dockerhub.json
           - sync_runtime_0_to_dockerhub.json
           - sync_runtime_1_to_dockerhub.json
           - sync_runtime_2_to_dockerhub.json
@@ -39,6 +47,10 @@ jobs:
           - sync_runtime_4_to_dockerhub.json
           - sync_runtime_5_to_dockerhub.json
           - sync_runtime_6_to_dockerhub.json
+          - sync_runtime_7_to_dockerhub.json
+          - sync_runtime_8_to_dockerhub.json
+          - sync_runtime_9_to_dockerhub.json
+          - sync_runtime_10_to_dockerhub.json
           - sync_aspnet_0_to_dockerhub.json
           - sync_aspnet_1_to_dockerhub.json
           - sync_aspnet_2_to_dockerhub.json
@@ -46,11 +58,16 @@ jobs:
           - sync_aspnet_4_to_dockerhub.json
           - sync_aspnet_5_to_dockerhub.json
           - sync_aspnet_6_to_dockerhub.json
+          - sync_aspnet_7_to_dockerhub.json
+          - sync_aspnet_8_to_dockerhub.json
+          - sync_aspnet_9_to_dockerhub.json
+          - sync_aspnet_10_to_dockerhub.json
           - sync_server_0_to_dockerhub.json
           - sync_server_1_to_dockerhub.json
           - sync_server_2_to_dockerhub.json
           - sync_server_3_to_dockerhub.json
           - sync_server_4_to_dockerhub.json
+          - sync_server_5_to_dockerhub.json
           - sync_jdk_0_to_dockerhub.json
           - sync_jdk_1_to_dockerhub.json
           - sync_jdk_2_to_dockerhub.json
@@ -84,6 +101,14 @@ jobs:
           - sync_jdk_30_to_dockerhub.json
           - sync_jdk_31_to_dockerhub.json
           - sync_jdk_32_to_dockerhub.json
+          - sync_jdk_33_to_dockerhub.json
+          - sync_jdk_34_to_dockerhub.json
+          - sync_jdk_35_to_dockerhub.json
+          - sync_jdk_36_to_dockerhub.json
+          - sync_jdk_37_to_dockerhub.json
+          - sync_jdk_38_to_dockerhub.json
+          - sync_jdk_39_to_dockerhub.json
+          - sync_jdk_40_to_dockerhub.json
           - sync_jre_0_to_dockerhub.json
           - sync_jre_1_to_dockerhub.json
           - sync_jre_2_to_dockerhub.json
@@ -117,6 +142,14 @@ jobs:
           - sync_jre_30_to_dockerhub.json
           - sync_jre_31_to_dockerhub.json
           - sync_jre_32_to_dockerhub.json
+          - sync_jre_33_to_dockerhub.json
+          - sync_jre_34_to_dockerhub.json
+          - sync_jre_35_to_dockerhub.json
+          - sync_jre_36_to_dockerhub.json
+          - sync_jre_37_to_dockerhub.json
+          - sync_jre_38_to_dockerhub.json
+          - sync_jre_39_to_dockerhub.json
+          - sync_jre_40_to_dockerhub.json
           - sync_windows_0_to_dockerhub.json
           - sync_windows_1_to_dockerhub.json
           - sync_windows_2_to_dockerhub.json
