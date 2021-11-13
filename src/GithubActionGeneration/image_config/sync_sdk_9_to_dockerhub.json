@@ -1,0 +1,1 @@
+{"mcr.microsoft.com/dotnet/sdk:6.0.100-focal-arm64v8": "registry.hub.docker.com/newbe36524/sdk:6.0.100-focal-arm64v8", "mcr.microsoft.com/dotnet/sdk:6.0.100-windowsservercore-ltsc2022": "registry.hub.docker.com/newbe36524/sdk:6.0.100-windowsservercore-ltsc2022", "mcr.microsoft.com/dotnet/sdk:latest": "registry.hub.docker.com/newbe36524/sdk:latest"}
