@@ -1658,8 +1658,10 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ### vscode_universal
 
+- mcr.microsoft.com/vscode/devcontainers/universal:1
 - mcr.microsoft.com/vscode/devcontainers/universal:0
 
 ### vscode_rust
 
+- mcr.microsoft.com/vscode/devcontainers/rust:1
 - mcr.microsoft.com/vscode/devcontainers/rust:0
