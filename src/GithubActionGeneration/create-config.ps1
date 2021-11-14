@@ -87,7 +87,7 @@ function VsCodeImages2 {
         @{"source" = "mcr.microsoft.com/vscode/devcontainers/universal"; "group" = "vscode_universal"; }
         @{"source" = "mcr.microsoft.com/vscode/devcontainers/rust"; "group" = "vscode_rust"; }
     )
-    $vsVersions = @("0")
+    $vsVersions = @("1", "0")
     $config | ForEach-Object {
         $source = $_.source
         $group = $_.group

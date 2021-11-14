@@ -1,1 +1,1 @@
-{"mcr.microsoft.com/vscode/devcontainers/rust:0": "registry.hub.docker.com/newbe36524/vscode_rust:0"}
+{"mcr.microsoft.com/vscode/devcontainers/rust:1": "registry.hub.docker.com/newbe36524/vscode_rust:1", "mcr.microsoft.com/vscode/devcontainers/rust:0": "registry.hub.docker.com/newbe36524/vscode_rust:0"}
