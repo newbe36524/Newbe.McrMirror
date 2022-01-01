@@ -1,3 +1,3 @@
-./create-config.ps1
-inv create-yml-v2
-inv create-md
+pwsh .\create-config.ps1
+pipenv run inv create-yml-v2
+pipenv run inv create-md

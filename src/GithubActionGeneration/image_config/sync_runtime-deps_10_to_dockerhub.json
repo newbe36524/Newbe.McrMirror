@@ -1,1 +1,0 @@
-{"mcr.microsoft.com/dotnet/runtime-deps:6.0.0-focal-arm32v7": "registry.hub.docker.com/newbe36524/runtime-deps:6.0.0-focal-arm32v7", "mcr.microsoft.com/dotnet/runtime-deps:6.0.0-focal-arm64v8": "registry.hub.docker.com/newbe36524/runtime-deps:6.0.0-focal-arm64v8", "mcr.microsoft.com/dotnet/runtime-deps:latest": "registry.hub.docker.com/newbe36524/runtime-deps:latest"}

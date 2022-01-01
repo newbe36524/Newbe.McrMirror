@@ -28,7 +28,6 @@ jobs:
           - sync_sdk_6_to_dockerhub.json
           - sync_sdk_7_to_dockerhub.json
           - sync_sdk_8_to_dockerhub.json
-          - sync_sdk_9_to_dockerhub.json
           - sync_runtime-deps_0_to_dockerhub.json
           - sync_runtime-deps_1_to_dockerhub.json
           - sync_runtime-deps_2_to_dockerhub.json
@@ -39,7 +38,6 @@ jobs:
           - sync_runtime-deps_7_to_dockerhub.json
           - sync_runtime-deps_8_to_dockerhub.json
           - sync_runtime-deps_9_to_dockerhub.json
-          - sync_runtime-deps_10_to_dockerhub.json
           - sync_runtime_0_to_dockerhub.json
           - sync_runtime_1_to_dockerhub.json
           - sync_runtime_2_to_dockerhub.json
@@ -50,7 +48,6 @@ jobs:
           - sync_runtime_7_to_dockerhub.json
           - sync_runtime_8_to_dockerhub.json
           - sync_runtime_9_to_dockerhub.json
-          - sync_runtime_10_to_dockerhub.json
           - sync_aspnet_0_to_dockerhub.json
           - sync_aspnet_1_to_dockerhub.json
           - sync_aspnet_2_to_dockerhub.json
@@ -61,7 +58,6 @@ jobs:
           - sync_aspnet_7_to_dockerhub.json
           - sync_aspnet_8_to_dockerhub.json
           - sync_aspnet_9_to_dockerhub.json
-          - sync_aspnet_10_to_dockerhub.json
           - sync_server_0_to_dockerhub.json
           - sync_server_1_to_dockerhub.json
           - sync_server_2_to_dockerhub.json
