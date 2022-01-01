@@ -1,1 +1,1 @@
-{"mcr.microsoft.com/mssql/server:latest": "registry.hub.docker.com/newbe36524/server:latest"}
+{"mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04": "registry.hub.docker.com/newbe36524/server:2019-GA-ubuntu-16.04", "mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04": "registry.hub.docker.com/newbe36524/server:2019-GDR1-ubuntu-16.04", "mcr.microsoft.com/mssql/server:2019-latest": "registry.hub.docker.com/newbe36524/server:2019-latest", "mcr.microsoft.com/mssql/server:latest": "registry.hub.docker.com/newbe36524/server:latest"}
