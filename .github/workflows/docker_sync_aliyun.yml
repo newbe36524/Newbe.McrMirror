@@ -163,7 +163,7 @@ jobs:
           - sync_vscode_universal_0_to_aliyun.json
           - sync_vscode_rust_0_to_aliyun.json
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Update auth.json
         run: |
           cd src/GithubActionGeneration
