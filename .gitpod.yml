@@ -12,6 +12,7 @@ tasks:
       sudo apt-get update
       # Install PowerShell
       sudo apt-get install -y powershell
+      rm packages-microsoft-prod.deb
    
       cd src/GithubActionGeneration
       pipenv install
