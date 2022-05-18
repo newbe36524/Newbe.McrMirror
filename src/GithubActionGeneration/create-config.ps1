@@ -48,9 +48,10 @@ function CreateImagesFromDockerhub {
     }
 }
 function VsCodeImages {
+    
     $config = @(
         @{"source" = "mcr.microsoft.com/vscode/devcontainers/base"; "group" = "vscode_base"; "tags" = @("alpine", "alpine-3.10", "alpine-3.11", "alpine-3.12", "debian", "buster", "debian-10", "stretch", "debian-9", "ubuntu", "focal", "ubuntu-20.04", "bionic", "ubuntu-18.04") },
-        @{"source" = "mcr.microsoft.com/vscode/devcontainers/cpp"; "group" = "vscode_cpp"; "tags" = @("buster", "debian-10", "stretch", "debian-9") },
+        @{"source" = "mcr.microsoft.com/vscode/devcontainers/cpp"; "group" = "vscode_cpp"; "tags" = @("bullseye", "debian-11", "buster", "debian-10", "stretch", "debian-9", "hirsute", "ubuntu-21.04", "focal", "ubuntu-20.04", "bionic", "ubuntu-18.04") },
         @{"source" = "mcr.microsoft.com/vscode/devcontainers/dotnetcore"; "group" = "vscode_dotnetcore"; "tags" = @("3.1", "2.1") },
         @{"source" = "mcr.microsoft.com/vscode/devcontainers/go"; "group" = "vscode_go"; "tags" = @("1", "1.15", "1.14") },
         @{"source" = "mcr.microsoft.com/vscode/devcontainers/java"; "group" = "vscode_java"; "tags" = @("8", "11", "14" ) },
