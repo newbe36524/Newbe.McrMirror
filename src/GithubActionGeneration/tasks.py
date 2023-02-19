@@ -159,6 +159,9 @@ def create_md(c):
     with open("md.md", "w") as md_file:
         md_file.write(md_content)
 
+    # copy to /tags.md
+    shutil.copy("md.md", "../../tags.md")
+
 
 @task
 def info(c):
