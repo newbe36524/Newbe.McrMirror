@@ -159,7 +159,7 @@ jobs:
           - sync_vscode_universal_0_to_dockerhub.json
           - sync_vscode_rust_0_to_dockerhub.json
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Update auth.json
         run: |
           cd src/GithubActionGeneration
