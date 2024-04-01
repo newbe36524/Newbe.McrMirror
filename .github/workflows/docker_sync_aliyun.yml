@@ -27,6 +27,13 @@ jobs:
           - sync_sdk_5_to_aliyun.json
           - sync_sdk_6_to_aliyun.json
           - sync_sdk_7_to_aliyun.json
+          - sync_sdk_8_to_aliyun.json
+          - sync_sdk_9_to_aliyun.json
+          - sync_sdk_10_to_aliyun.json
+          - sync_sdk_11_to_aliyun.json
+          - sync_sdk_12_to_aliyun.json
+          - sync_sdk_13_to_aliyun.json
+          - sync_sdk_14_to_aliyun.json
           - sync_runtime-deps_0_to_aliyun.json
           - sync_runtime-deps_1_to_aliyun.json
           - sync_runtime-deps_2_to_aliyun.json
@@ -35,6 +42,23 @@ jobs:
           - sync_runtime-deps_5_to_aliyun.json
           - sync_runtime-deps_6_to_aliyun.json
           - sync_runtime-deps_7_to_aliyun.json
+          - sync_runtime-deps_8_to_aliyun.json
+          - sync_runtime-deps_9_to_aliyun.json
+          - sync_runtime-deps_10_to_aliyun.json
+          - sync_runtime-deps_11_to_aliyun.json
+          - sync_runtime-deps_12_to_aliyun.json
+          - sync_runtime-deps_13_to_aliyun.json
+          - sync_runtime-deps_14_to_aliyun.json
+          - sync_runtime-deps_15_to_aliyun.json
+          - sync_runtime-deps_16_to_aliyun.json
+          - sync_runtime-deps_17_to_aliyun.json
+          - sync_runtime-deps_18_to_aliyun.json
+          - sync_runtime-deps_19_to_aliyun.json
+          - sync_runtime-deps_20_to_aliyun.json
+          - sync_runtime-deps_21_to_aliyun.json
+          - sync_runtime-deps_22_to_aliyun.json
+          - sync_runtime-deps_23_to_aliyun.json
+          - sync_runtime-deps_24_to_aliyun.json
           - sync_runtime_0_to_aliyun.json
           - sync_runtime_1_to_aliyun.json
           - sync_runtime_2_to_aliyun.json
@@ -43,6 +67,20 @@ jobs:
           - sync_runtime_5_to_aliyun.json
           - sync_runtime_6_to_aliyun.json
           - sync_runtime_7_to_aliyun.json
+          - sync_runtime_8_to_aliyun.json
+          - sync_runtime_9_to_aliyun.json
+          - sync_runtime_10_to_aliyun.json
+          - sync_runtime_11_to_aliyun.json
+          - sync_runtime_12_to_aliyun.json
+          - sync_runtime_13_to_aliyun.json
+          - sync_runtime_14_to_aliyun.json
+          - sync_runtime_15_to_aliyun.json
+          - sync_runtime_16_to_aliyun.json
+          - sync_runtime_17_to_aliyun.json
+          - sync_runtime_18_to_aliyun.json
+          - sync_runtime_19_to_aliyun.json
+          - sync_runtime_20_to_aliyun.json
+          - sync_runtime_21_to_aliyun.json
           - sync_aspnet_0_to_aliyun.json
           - sync_aspnet_1_to_aliyun.json
           - sync_aspnet_2_to_aliyun.json
@@ -51,6 +89,24 @@ jobs:
           - sync_aspnet_5_to_aliyun.json
           - sync_aspnet_6_to_aliyun.json
           - sync_aspnet_7_to_aliyun.json
+          - sync_aspnet_8_to_aliyun.json
+          - sync_aspnet_9_to_aliyun.json
+          - sync_aspnet_10_to_aliyun.json
+          - sync_aspnet_11_to_aliyun.json
+          - sync_aspnet_12_to_aliyun.json
+          - sync_aspnet_13_to_aliyun.json
+          - sync_aspnet_14_to_aliyun.json
+          - sync_aspnet_15_to_aliyun.json
+          - sync_aspnet_16_to_aliyun.json
+          - sync_aspnet_17_to_aliyun.json
+          - sync_aspnet_18_to_aliyun.json
+          - sync_aspnet_19_to_aliyun.json
+          - sync_aspnet_20_to_aliyun.json
+          - sync_aspnet_21_to_aliyun.json
+          - sync_aspnet_22_to_aliyun.json
+          - sync_aspnet_23_to_aliyun.json
+          - sync_aspnet_24_to_aliyun.json
+          - sync_aspnet_25_to_aliyun.json
           - sync_server_0_to_aliyun.json
           - sync_server_1_to_aliyun.json
           - sync_server_2_to_aliyun.json
@@ -59,6 +115,9 @@ jobs:
           - sync_server_5_to_aliyun.json
           - sync_server_6_to_aliyun.json
           - sync_server_7_to_aliyun.json
+          - sync_server_8_to_aliyun.json
+          - sync_server_9_to_aliyun.json
+          - sync_server_10_to_aliyun.json
           - sync_jdk_0_to_aliyun.json
           - sync_jdk_1_to_aliyun.json
           - sync_jdk_2_to_aliyun.json
@@ -159,7 +218,7 @@ jobs:
           - sync_vscode_universal_0_to_aliyun.json
           - sync_vscode_rust_0_to_aliyun.json
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
       - name: Update auth.json
         run: |
           cd src/GithubActionGeneration
