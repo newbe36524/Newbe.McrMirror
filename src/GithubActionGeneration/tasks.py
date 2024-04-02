@@ -3,6 +3,7 @@ import os
 import json
 import itertools
 import shutil
+import time
 
 
 @task
@@ -138,6 +139,57 @@ def create_yml(c):
                 .replace("[ALL_IMAGE]", image['images'])
             with open(f"{out_dir}/docker_{filename}.yml", 'w') as result_file:
                 result_file.write(content)
+
+@task
+def sync_aliyun(c):
+    # load config
+    with open("config-v2.json", "r") as json_file:
+        content = json_file.read()
+    config = json.loads(content)
+
+    # create process if not exists
+    if not os.path.exists("process.json"):
+        with open("process.json", "w") as process_file:
+            process_file.write("{}")
+
+    # load process
+    with open("process.json", "r") as process_file:
+        process = json.loads(process_file.read())
+    
+    processed_count = len(process)
+    process_percent = processed_count / len(config['images'])
+    # sync
+    for image in config['images']:
+        source_image = image['source']
+        # skip windows image
+        if "windows" in source_image:
+            continue
+        else:
+            target_image = f"registry.cn-hangzhou.aliyuncs.com/{config['aliyun_namespace']}/{image['tag']}"
+            if source_image in process:
+                if process[source_image] == target_image:
+                    print(f"Skip {source_image} -> {target_image}")
+                    continue
+            print(f"Sync {source_image} -> {target_image}")
+            # try to pull, if error retry after 30 seconds and retry 10 times
+            try_count = 0
+            while try_count < 10:
+                try:
+                    c.run(f"docker pull {source_image} ")
+                    break
+                except:
+                    try_count = try_count + 1
+                    print(f"Retry {try_count} times")
+                    time.sleep(30)
+            c.run(f"docker tag {source_image} {target_image}")      
+            c.run(f"docker push {target_image}")
+        process[source_image] = target_image
+        processed_count = processed_count + 1
+        process_percent = processed_count / len(config['images'])
+        print(f"Progress: {process_percent}")
+        # save process
+        with open("process.json", "w") as process_file:
+            process_file.write(json.dumps(process))
 
 
 @task
