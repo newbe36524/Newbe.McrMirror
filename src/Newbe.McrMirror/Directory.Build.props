@@ -17,7 +17,7 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup Condition=" '$(IsPackable)' != 'false' ">
-        <PackageReference Include="Fody" Version="6.1.1">
+        <PackageReference Include="Fody" Version="6.8.2">
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
         <PackageReference Include="Visualize.Fody" Version="1.2.0">
